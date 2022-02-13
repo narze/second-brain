@@ -1,0 +1,16 @@
+name: Update Digital Garden
+on: [push]
+
+jobs:
+  update-dg:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Invoke workflow_dispatch on dg repo
+        uses: benc-uk/workflow-dispatch@v1
+        with:
+          workflow: "deploy"
+          repo: narze/dg
+          ref: refs/heads/hugo
+          token: ${{ secrets.GH_TOKEN }}
