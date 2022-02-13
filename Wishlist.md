@@ -3,7 +3,7 @@ title: "Wishlist"
 ---
 
 # Wishlist
-- Things to buy, it'll be moved to [Uses](Uses.md)
+- Things to buy, it'll be moved to [Uses](Uses.md) if I bought it or [someone bought me](https://ko-fi.com/narze).
 
 ## Coffee
 - Manual Espresso Machine

@@ -12,3 +12,4 @@ I tried to post things separately, since I wants to try everything new to cope w
 - https://twitter.com/narze : Rants in Thai language.
 - https://facebook.com/narze : Personal Stuff.
 - https://linkedin.com/in/manassarn : Hire me I want to write Ruby.
+- https://narze.medium.com : Thai Blogs
