@@ -13,4 +13,4 @@ On what I would do here
 	- Rewrite plans using SvelteKit & Tailwind
 	- Add to webring 
 - Learn In Public
-- Fix []
+- Fix image links
