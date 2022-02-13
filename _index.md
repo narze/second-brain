@@ -2,4 +2,6 @@
 title: Digital Garden (Again?)
 ---
 
-Under Reconstruction
+# Start Here
+- [[Second Brain]]
+- [[Wishlist]]
