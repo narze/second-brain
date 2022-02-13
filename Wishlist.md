@@ -3,6 +3,8 @@ title: "Wishlist"
 ---
 
 # Wishlist
+- Things to buy, it'll be moved to [Uses](Uses.md)
+
 ## Coffee
 - Manual Espresso Machine
 	- [Cafelat Robot](http://www.cafelat.com/robot.html)
