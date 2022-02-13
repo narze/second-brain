@@ -8,5 +8,8 @@ On what I would do here
 - Blog entry about setting this site up, maybe should be on [Medium](Outlets.md)?
 - TILs
 - PARA Structure
-- Meta page about this site & rewrite plans using SvelteKit & Tailwind
+- Meta page about this site 
+	- Obsidian
+	- Rewrite plans using SvelteKit & Tailwind
+	- Add to webring 
 - Learn In Public

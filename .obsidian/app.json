@@ -5,6 +5,6 @@
   "alwaysUpdateLinks": true,
   "newLinkFormat": "absolute",
   "useMarkdownLinks": true,
-  "tabSize": 2,
+  "tabSize": 4,
   "useTab": true
 }
