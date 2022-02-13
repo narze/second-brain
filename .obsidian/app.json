@@ -3,6 +3,8 @@
   "livePreview": true,
   "promptDelete": false,
   "alwaysUpdateLinks": true,
-  "newLinkFormat": "relative",
-  "useMarkdownLinks": true
+  "newLinkFormat": "absolute",
+  "useMarkdownLinks": true,
+  "tabSize": 2,
+  "useTab": true
 }

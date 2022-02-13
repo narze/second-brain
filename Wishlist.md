@@ -1,3 +1,7 @@
+---
+title: "Wishlist"
+---
+
 # Wishlist
 ## Coffee
 - Manual Espresso Machine
@@ -23,3 +27,7 @@
 		- Cafelat Robot Mods
 		- Digital Scale
 		- Kettle
+
+## Tech
+- 144hz 4K Monitor
+- Better microphone with handle for streaming & video calls

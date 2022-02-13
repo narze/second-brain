@@ -1,3 +1,7 @@
+---
+title: "Second Brain"
+---
+
 # Second Brain
 ## Links
 - https://aseemthakar.com/how-to-build-a-second-brain-as-a-software-developer/
