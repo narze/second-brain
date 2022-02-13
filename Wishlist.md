@@ -17,7 +17,7 @@ title: "Wishlist"
 		- My [Delonghi KG79](https://www.delonghi.com/en-int/products/coffee/coffee-makers/grinders/kg79-0177111028) is not that good & hard to clean, I used it for Cold Brew.
 		- Hand grinder
 			- Kingrinder K2 (Grinds faster than C2 [ref](https://www.youtube.com/watch?v=0qBVp__SWwQ))
-				- Kingrinder models ![](Images/KINGrinder.png)
+				- Kingrinder models  ![](../Images/KINGrinder.png)
 			- Timemore C2
 			- Comandante
 		- Electric Grinder
