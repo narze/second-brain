@@ -1,5 +1,7 @@
 name: Update Digital Garden
-on: [push]
+on:
+  push:
+  workflow_dispatch:
 
 jobs:
   update-dg:
