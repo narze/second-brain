@@ -4,7 +4,7 @@ title: "Outlets"
 
 I tried to post things separately, since I wants to try everything new to cope with my FOMO, maybe?
 
-- https://dg.narze.live : This site, the name can be change once I'm satisfied with this current setup.
+- https://garden.narze.live : This site, the name can be change once I'm satisfied with this current setup.
 - https://gitter.im/thai-devs/community : Tech/dev related links, a small community with my Thai internet friends & coworkers combined.
 - https://github.com/narze : All my open-source projects lives (and dies) here. Most of them are built with my [Svelte one-page site template](https://github.com/narze/single-page-svelte).
 - https://monosor.com (Inactive) : I tried to blog in English, but it's not fun to use Gatsby, I'm gonna try moving it or merge with this [Second Brain](Second%20Brain.md).
