@@ -70,7 +70,8 @@ Everything I use. Migrated from https://monosor.com/uses
 - iPad with Apple Pencil
 - Full-size headphones with noise cancelling, I have [Sony MDR-1000X](https://www.sony.co.th/en/electronics/headband-headphones/mdr-1000x) & [Sony WH-1000XM4](https://www.sony.co.th/en/electronics/headband-headphones/wh-1000xm4)
 - [TicWatch Pro 4G/LTE](https://www.mobvoi.com/us/pages/ticwatchpro4g)
-- Twitch Magnetic USB Adapter ![](/Images/Twitch_usb_adapter.png)
+- Twitch Magnetic USB Adapter 
+	- ![Twitch|200](/Images/Twitch_usb_adapter.png)
 - [Tigernu Backpacks](https://www.tigernustore.com). Good price & quality. I bought new models every 2-3 years.
 - [Boox Android eBook reader](https://www.amazon.com/BOOX-Nova-Pro-Reader-Android/dp/B07L95KPFM/ref=sr_1_2?keywords=boox+nova&qid=1569171355&s=electronics&sr=1-2)
 - [Flents Ear Plugs](https://www.amazon.com/Flents-Quiet-Contour-Plugs-Pair/dp/B00IZCHYH2)
