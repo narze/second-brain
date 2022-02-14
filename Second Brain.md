@@ -3,7 +3,7 @@ title: "Second Brain"
 ---
 
 # Second Brain
-A term coined by [Tiago Forte](https://fortelabs.co). It's about capturing everything in a system to reduce information overload.
+A term coined by [Tiago Forte](https://fortelabs.co). It's about capturing everything in a system to reduce information overload. He also created [PARA Method](/PARA%20Method.md).
 
 ## Notable Second Brains
 - https://github.com/sw-yx/brain
