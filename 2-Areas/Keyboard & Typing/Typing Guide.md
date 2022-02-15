@@ -1,3 +1,7 @@
+---
+title: "Typing Guide"
+---
+
 https://docs.google.com/document/d/1L-P68VDSGlpLM5A9tfRvWFohaR2NzPbkUT0ok34rsFU/edit
 - Practice regularly, take breaks
 - Have good posture
