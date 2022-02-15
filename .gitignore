@@ -1,2 +1,4 @@
 .obsidian/workspace
 /private
+*.priv/
+*.priv.md
