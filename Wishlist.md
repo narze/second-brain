@@ -13,6 +13,10 @@ title: "Wishlist"
 			- No Pre-heating required for Robot
 			- Comparison review (vs Flair 58)
 				- https://www.youtube.com/watch?v=iX4Ra5H5eUU
+	- Wacaco Nanopresso
+		- ![](/Images/Wacaco%20Nanopresso.png)
+	- Cafflano Kompresso
+		- ![](/Images/Cafflano%20Kompresso.png)
 	- Coffee Grinder
 		- My [Delonghi KG79](https://www.delonghi.com/en-int/products/coffee/coffee-makers/grinders/kg79-0177111028) is not that good & hard to clean, I used it for Cold Brew.
 		- Hand grinder
