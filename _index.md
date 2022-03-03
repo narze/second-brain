@@ -22,11 +22,4 @@ This will be the one of my [Outlets](/Outlets.md)
 
 ## Webring
 
-This website is a part of the "วงแหวนเว็บ" (Thai Webring) <a href="https://webring.wonderful.software#garden.narze.live" title="วงแหวนเว็บ">
-  <img
-    alt="วงแหวนเว็บ"
-    width="32"
-    height="32"
-    src="https://webring.wonderful.software/webring.white.svg"
-  />
-</a>
+This website is a part of the ["วงแหวนเว็บ" (Thai Webring)](https://webring.wonderful.software#garden.narze.live)
