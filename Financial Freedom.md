@@ -5,7 +5,7 @@ title: "Financial Freedom"
 Ideas:
 - Create sustainable & scaleable products
 	- SaaS
-	- 
+- Open sourced projects funding
 - Online courses
 	- Udemy
 	- Self-hosted
