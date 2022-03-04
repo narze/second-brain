@@ -5,5 +5,17 @@ title: "Financial Freedom"
 Ideas:
 - Create sustainable & scaleable products
 	- SaaS
+	- 
+- Online courses
+	- Udemy
+	- Self-hosted
 - Write books
-- Online Courses
+- Indie Games
+- AdSense
+- Consultant
+- Part-time job
+- Investment
+
+Resources:
+- https://www.indiehackers.com
+- https://producthunt.com
