@@ -64,3 +64,33 @@ TBA
 - Nesting data can be retrieved with "Information Path"
 - Feature fields : Separate "type" of record (e.g. `isAdmin`, `isVIP`) as boolean
 	- Simpler to having `type` field as Enum
+
+## Chapter 4
+- DOP Principle #3 - Data is immutable
+	- But the state reference is mutable (like Git HEAD commit)
+- Mutation
+	- An operation that changes the state of the system
+	- Calculation phase + Commit phase
+	- Data manipulation via native hash map is forbidden, must use immutable functions
+		- Use Immutable.js to enforce Immutable data structure
+- Structural sharing
+	- Sharing the parts that don't need to change
+	- Use shallow clone
+- `_.set` is mutable function by default, use "Lodash FP" for immutable version
+	```
+	_ = fp.convert({
+	    "cap": false,
+	    "curry": false,
+	    "fixed": false,
+	    "immutable": true,
+	    "rearg": false
+	})
+	```
+- Commit phase is stateful (OOP-like)
+	- Validate inside commit phase (e.g. Git commit hook)
+
+## Chapter 5
+- Use Optimistic Concurrency Control (OCC) without locking mechanism
+	- Locks hit performance & cause deadlocks
+	- Elasticsearch uses OCC
+	- "Let mutations ask forgiveness instead of permission"
