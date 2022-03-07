@@ -93,4 +93,22 @@ TBA
 - Use Optimistic Concurrency Control (OCC) without locking mechanism
 	- Locks hit performance & cause deadlocks
 	- Elasticsearch uses OCC
-	- "Let mutations ask forgiveness instead of permission"
+	- "Let mutations (commit phase) ask forgiveness instead of permission"
+	- We assume that conflicts don't occur to often, hence the name "optimistic "
+- 3-way merge like Git, when conflict occurs
+- Structural Diff
+	- Uses `_.reduce`
+	- Conflict occurs wheh the diff share the same information path (`_.intersection`)
+- Implement SystemComsistency.reconcile & SystemValidity.validate in commit phase
+
+## Chapter 6
+- In DOP, usually mocking functions is not needed
+- Test f(dataIn) == expectedDataOut
+	- Use `_.isEqual` to compare data recursively
+- Data validity depends on the context
+	- e.g. Can strip some unused data, just for unit testing
+- Tree of function calls
+	- Test the tree leaves first (Unit test)
+	- Low data complexity : More test cases
+	- Higher data complixite : Less test cases
+	- Assume that the functions down the tree work as expected (when writing unit tests from the leaves up to the root)
