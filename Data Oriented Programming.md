@@ -8,6 +8,7 @@ tags:
 # Summary
 TBA
 
+# Part 1
 ## Chapter 1
 - Complexity of OOP
 	- Code and data is mixed
@@ -112,3 +113,5 @@ TBA
 	- Low data complexity : More test cases
 	- Higher data complixite : Less test cases
 	- Assume that the functions down the tree work as expected (when writing unit tests from the leaves up to the root)
+
+# Part 2
