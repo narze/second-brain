@@ -115,4 +115,58 @@ TBA
 	- Assume that the functions down the tree work as expected (when writing unit tests from the leaves up to the root)
 
 # Part 2
-(wip)
+## Chapter 7
+- DOP Principle #4: Separate data schema and data representation.
+- Data validation
+	- Validate data that crosses the system boundaries (for production safety) > validate data inside the system (for ease of development)
+- Use [JSON Schema](https://json-schema.org)
+	- [ajv](https://github.com/ajv-validator/ajv)
+		- ajv catches only the first validation failure by default
+- Be strict on data you send, be flexible on data you receive
+	- Robustness principle: "Be conservative in what you send, be liberal in what you accept" (https://en.wikipedia.org/wiki/Robustness_principle).
+	- "Client is always right"
+- JSON schema cheatsheet
+	- Schema
+		```json
+		{
+		  "type": "array", ❶
+		  "items": {
+		    "type": "object", ❷
+		    "properties": { ❸
+		      "myNumber": {"type": "number"}, ❹
+		      "myString": {"type": "string"}, ❺
+		      "myEnum": {"enum": ["myVal", "yourVal"]}, ❻
+		      "myBool": {"type": "boolean"} ❼
+		    },
+		    "required": ["myNumber", "myString"], ❽
+		    "additionalProperties": false ❾
+		  }
+		}
+         ```
+	- Valid Data
+	```json
+		[
+		  { ❶
+		    "myNumber": 42,
+		    "myString": "Hello",
+		    "myEnum": "myVal",
+		    "myBool": true
+		  },
+		  { ❷
+		    "myNumber": 54,
+		    "myString": "Happy"
+		  }
+		]
+	```
+
+## Chapter 8 - Advanced Concurrency Control
+- Deadlocks never happen with Atoms.
+- Atom consists of `get`, `set`, and `swap`
+- `swap`: Compute next value of the Atom, then check if value has not changed during the computation (OCC), them commit using `set`
+	- e.g. `counter.swap(x => x+1)`
+	- If data is changed during the computation, retry
+	- Check if value is not change using [Compare and Swap (CAS)](https://en.wikipedia.org/wiki/Compare-and-swap) operation
+	- In theory, doing this could create Starvation, but in practice the threads would do some real work e.g. db access, then other threads  can swap the atom by that time
+
+## Chapter 9 - Persistent Data Structures
+- When data is immutable, it is safe to share it e.g. Adding a node to the head of existing linked-list
