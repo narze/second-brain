@@ -1,0 +1,35 @@
+## Outlines
+- What is Svelte
+	- Compiler
+	- Creator - Rich Harris
+- Pre reqs
+	- Nodejs
+		- Installer
+		- Version manager
+			- Nvm
+			- Asdf
+	- Editor
+		- VSCode
+			- Extensions
+	- Git
+- Bootstrapping project
+	- Degit (rollup)
+	- Vite (recommended)
+- Basic HTML in .svelte files
+- Syntaxes
+	- If, else
+	- Each
+	- Etc.
+- Variables
+- Reactivity
+- Styling
+	- Plain CSS
+	- Tailwind
+- Testing
+	- Unit
+	- E2E
+- Projects
+	- Homepage
+	- Wordle
+- Deployment
+- SvelteKit
