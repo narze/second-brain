@@ -16,6 +16,7 @@
 	- Degit (rollup)
 	- Vite (recommended)
 - Basic HTML in .svelte files
+- Svelte Repl
 - Syntaxes
 	- If, else
 	- Each
