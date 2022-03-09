@@ -169,4 +169,52 @@ TBA
 	- In theory, doing this could create Starvation, but in practice the threads would do some real work e.g. db access, then other threads  can swap the atom by that time
 
 ## Chapter 9 - Persistent Data Structures
+- When collection is big, naive structural sharing has performance issues e.g. diff-ing
+- And also it doesn't prevent direct mutation
+- [Persistent Data Structure](https://en.wikipedia.org/wiki/Persistent_data_structure) preserves previous version of itself when modified
 - When data is immutable, it is safe to share it e.g. Adding a node to the head of existing linked-list
+- Persistent lists can be manipulated in near constant time, using linked list with tree.
+- Immutable.js supports PDS
+	- `Immutable.fromJS({...})`
+- [Mudash](https://github.com/brianneisler/mudash) ports Lodash to Immutable
+	- Or port it yourself
+	```javascript
+		Immutable.map = function(coll, f) {
+		  return coll.map(f);
+		};
+		
+		Immutable.filter = function(coll, f) {
+		  if(Immutable.isMap(coll)) {
+		    return coll.valueSeq().filter(f);
+		  }
+		  return coll.filter(f);
+		};
+		
+		Immutable.isEqual = Immutable.is;
+
+		Immutable.reduce = function(coll, reducer, initialReduction) {
+		  return coll.reduce(reducer, initialReduction);
+		};
+		
+		Immutable.isEmpty = function(coll) {
+		  return coll.isEmpty();
+		};
+		
+		Immutable.keys = function(coll) {
+		  return coll.keySeq();
+		};
+		
+		Immutable.isObject = function(coll) {
+		  return Immutable.Map.isMap(coll);
+		};
+		
+		Immutable.isArray = Immutable.isIndexed;
+		
+		Immutable.union = function() {
+		  return Immutable.Set.union(arguments);
+		};
+    ```
+	- Then replace all `_.` with `Immutable.`
+
+## Chapter 10 - Database Operations
+- DOP represent data from database with generic data collections, and manipulate it with generic functions
