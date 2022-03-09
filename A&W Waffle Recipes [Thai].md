@@ -2,7 +2,7 @@
 title: "A&W Waffle Recipes [Thai]"
 ---
 
-Ref: https://pantip.com/topic/33477768
+Ref: 
 
 **_วาฟเฟิลแบบของA&W เป็นวาฟเฟิลที่กรอบแต่นุ่น ส่วนผสม_**  
 แป้งสาลีเอนกประสงค์ 2 ถ.  

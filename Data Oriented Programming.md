@@ -224,3 +224,9 @@ TBA
 - Aggregate field from SQL queries with JOINs
 
 ## Chapter 11 - Web Services
+- DOP: Build the system insides like building the outsides
+- Combine data from database & external APIs with generic functions
+- Transform array into map with `_.keyBy`
+
+# Part 3 - Maintainability
+## Chapter 12 - Advanced Data Validation
