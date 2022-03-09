@@ -220,3 +220,7 @@ TBA
 - DOP represent data from database with generic data collections, and manipulate it with generic functions
 - Validate query from database with JSON Schema (ajv)
 - Use `_.at` to slice values using keys
+- Rename SQL result keys with map, filter, reduce (e.g. convert snake_case from database to camelCase in JSON)
+- Aggregate field from SQL queries with JOINs
+
+## Chapter 11 - Web Services
