@@ -256,6 +256,36 @@ TBA
 
 ## Chapter 14 - Advanced Data Manipulation
 - Generic update function
-	- `update(data, path, fun)` e.g. `update(book, "authors", _.uniq`
+	- `update(data, path, fun)` e.g. `update(book, "authors", _.uniq` or `update(book, "lentCount", x => x+1)`
 	- Lodash has `_.update`
 - `_.flatMap` = `_.map` then `_.flatten`
+- Pick the least generic utility function that solves the problem
+	- e.g. Use screwdriver to turn screws instead of Swiss army knife
+	- Use `reduce` instead of `forEach`, if possible
+	- Refactor to function with proper name to hide low-level data manipulation e.g. `countByBoolField(books, "isLent", "lent", "notLent")` 
+- MongoDB's `$unwind` implemented in js
+```
+function unwind(map, field) {
+    var arr = _.get(map, field);
+    return _.map(arr, function(elem) {
+        return _.set(map, field, elem);
+    });
+}
+```
+- 4 Steps of custom data manipulation design
+	- 1. Discover the function signature (name, parameters, return value) by using it before implement
+	- 2. Write unit test (TDD)
+	- 3. Formulate behavior in plain English
+	- 4. Implement
+
+## Chapter 15 - Debugging
+- Determinism of function 
+	- The same arguments always lead to same return values
+	- "Functional Programming"
+- Avoid state to cause "Side effects" as much as possible
+	- Have only SystemState module deals with state (e.g. database)
+- REPL
+	- Copy object or data to run in repl for debugging
+- "Context Capturing"
+	- Add `console.log(arguments)` in the first line of function
+	- Wrap with JSON.stringify to add surrounding quotes e.g. `console.log(JSON.stringify(sentence));`
