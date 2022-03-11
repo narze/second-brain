@@ -17,4 +17,4 @@ title: "Vampire Survivors"
 -   **Santa Water + Attractorb** – La Borra
 -   **Peachone + Ebony Wings** – Vandalier (you can upgrade this once you get it)
 -   **Lightning Ring + Duplicator** – Thunder Loop
--   **Song of Mana + Skull O’Maniac** – Mannajja
+-   **Song of Mana + Skull O’Maniac** – Mannajja_
