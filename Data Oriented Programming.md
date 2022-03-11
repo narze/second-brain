@@ -8,14 +8,14 @@ tags:
 # Summary
 TBA
 
-# Part 1
-## Chapter 1
+# Part 1 - Flexibility
+## Chapter 1 - Complexity of Object-Oriented Programming
 - Complexity of OOP
 	- Code and data is mixed
 	- Data is locked in objects
 	- Code is locked in classes
 
-## Chapter 2
+## Chapter 2 - Separation between code and data
 - Data Oriented Programming (DOP)
 	- Used in Clojure
 	- DOP Principle #1 : Separate Code from Data
@@ -39,7 +39,7 @@ TBA
 		- So that DOP is easier to understand because system is split into 2 parts
 		- Easier to adapt to changing requirements
 	- Supports polymorphism (See chapter 13)
-## Chapter 3
+## Chapter 3 - Basic data manipulation
 - DOP Principle #2 : Represent data entities with generic data structures
 - Data Representation
 	- Record
@@ -66,7 +66,7 @@ TBA
 - Feature fields : Separate "type" of record (e.g. `isAdmin`, `isVIP`) as boolean
 	- Simpler to having `type` field as Enum
 
-## Chapter 4
+## Chapter 4 - State management
 - DOP Principle #3 - Data is immutable
 	- But the state reference is mutable (like Git HEAD commit)
 - Mutation
@@ -90,7 +90,7 @@ TBA
 - Commit phase is stateful (OOP-like)
 	- Validate inside commit phase (e.g. Git commit hook)
 
-## Chapter 5
+## Chapter 5 - Basic concurrency control
 - Use Optimistic Concurrency Control (OCC) without locking mechanism
 	- Locks hit performance & cause deadlocks
 	- Elasticsearch uses OCC
@@ -102,7 +102,7 @@ TBA
 	- Conflict occurs wheh the diff share the same information path (`_.intersection`)
 - Implement SystemComsistency.reconcile & SystemValidity.validate in commit phase
 
-## Chapter 6
+## Chapter 6 - Unit tests
 - In DOP, usually mocking functions is not needed
 - Test f(dataIn) == expectedDataOut
 	- Use `_.isEqual` to compare data recursively
@@ -114,8 +114,8 @@ TBA
 	- Higher data complixite : Less test cases
 	- Assume that the functions down the tree work as expected (when writing unit tests from the leaves up to the root)
 
-# Part 2
-## Chapter 7
+# Part 2 - Scalibility
+## Chapter 7 - Basic data validation
 - DOP Principle #4: Separate data schema and data representation.
 - Data validation
 	- Validate data that crosses the system boundaries (for production safety) > validate data inside the system (for ease of development)
@@ -244,3 +244,18 @@ TBA
 
 ## Chapter 13 - Polymorphism
 - Polymorphism = polus + morphe = many + form
+- Main benefit of polymorphism is extensibility
+- Represent `"type"` in JSON data (the field name can be anything)
+- Use Multimethod to achieve polymorphism in DOP
+	- Js library : https://github.com/caderek/arrows/tree/master/packages/multimethod
+	- Create `dispatch` function and returns type of data in JSON
+	- Create `method` for each type
+	- Combine in `multi`
+	- Supports tuple `"type"` e.g. `[animal, language]` as [Multimethod with multiple dispatch](https://en.wikipedia.org/wiki/Multiple_dispatch)
+	- Multimethod with dynamic dispatch e.g. animal which name is longer than 5 chars
+
+## Chapter 14 - Advanced Data Manipulation
+- Generic update function
+	- `update(data, path, fun)` e.g. `update(book, "authors", _.uniq`
+	- Lodash has `_.update`
+- `_.flatMap` = `_.map` then `_.flatten`
