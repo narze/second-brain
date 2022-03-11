@@ -230,3 +230,17 @@ TBA
 
 # Part 3 - Maintainability
 ## Chapter 12 - Advanced Data Validation
+- All functions receive and return generic data, so that it's hard to know the expected shape of data in & out during development
+	- Write in&out schema validation which runs only in dev & test environment
+- JSON Schema
+	- Use `additionalProperties: {"type": "number"} for number maps`
+	- Use `prefixItems` to define schema for tuples
+	- Can also validate with Regex patterns, number ranges, date, etc.
+	- Use https://navneethg.github.io/jsonschemaviewer to visualize schema
+	- Use https://github.com/metosin/malli to generate PlantUML diagram, then visualize with https://www.planttext.com/
+	- Generate fake data from JSON Schema with https://github.com/json-schema-faker/json-schema-faker
+		- Useful for unit testing
+- Data validation inside the system should be disabled in production as it'll impact performance
+
+## Chapter 13 - Polymorphism
+- Polymorphism = polus + morphe = many + form
