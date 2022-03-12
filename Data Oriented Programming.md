@@ -285,7 +285,33 @@ function unwind(map, field) {
 - Avoid state to cause "Side effects" as much as possible
 	- Have only SystemState module deals with state (e.g. database)
 - REPL
+  - `node` in CLI, browser dev console
 	- Copy object or data to run in repl for debugging
+	- Faster feedback loop
+		- When done with debugging and fixing in REPL, test the system once from end to end.
 - "Context Capturing"
+  - `copy(string)` copy data from browser dev console
 	- Add `console.log(arguments)` in the first line of function
 	- Wrap with JSON.stringify to add surrounding quotes e.g. `console.log(JSON.stringify(sentence));`
+	```javascript
+	  function contextCapturer(fun) {
+	    return (...args) => {
+		    args.forEach((arg) => console.log(JSON.stringify(arg)))
+		    return fun(...args)
+		  }
+		}
+
+    function test(a,b,c) {
+	    return a+b*c
+		}
+
+		testA = contextCapturer(test)
+		testA(1,2,3)
+		1
+		2
+		3
+
+		=> 7
+	```
+- `JSON.stringify(data, null, 2)` specify the number of characters to use for indentation
+- #regex \b : word boundary, use to perform prefix matching (i.e. `^` but locally)
