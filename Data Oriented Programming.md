@@ -5,8 +5,14 @@ tags:
 - #Book
 ---
 
+![](/Images/Data%20Oriented%20Programming.png)
+
 # Summary
-TBA
+A story about adopting Data-Oriented Programming paradigm and it's principles which reduce complexity compared to Object-Oriented Programming (OOP). However DOP is language agnostic and can be applied on OOP, and also FP (Functional Programming).
+
+The core idea is to use generic data structure like JSON to represent data, then separate the code (behavior) from the data. In OOP-ish languages you can use Static Class Method.
+
+However, adopting DOP comes with a price, such as slight performance impact (which can be fixed by using libraries like Lodash or Immutable.js), also developers must understand FP enough to work with data manipulation as well.
 
 # Part 1 - Flexibility
 ## Chapter 1 - Complexity of Object-Oriented Programming
@@ -315,3 +321,37 @@ function unwind(map, field) {
 	```
 - `JSON.stringify(data, null, 2)` specify the number of characters to use for indentation
 - #regex \b : word boundary, use to perform prefix matching (i.e. `^` but locally)
+
+## Appendix A
+- DOP Mind map
+  - Data
+    - Representation
+      - Generic
+        - Mutable
+        - ~~Immutable
+      - ~~Specific~~
+    - Schema
+  - Code
+    - Functional Programming
+    - Object-Oriented Programming
+- Data Entities has Association & Composition relations
+- Code Entities (Modules) has Dependency & Inheritance relations
+- Price of using DOP
+  - Principle #1 - Separate Code From Data
+    - No control on what code can acccess what data
+    - No packaging
+    - More entities to build
+  - Principle #2 - Represent Data With Generic Data Structures
+    - Slight performance hit
+    - No data schema
+    - No compile time data type checks
+    - Type casting may be needed for some statically-typed languages
+  - Principle #3 - Data Is Immutable
+    - Performance hit
+    - Need library for Persistent Data Structure
+  - Principle #4 - Separate Data Schema from Data Representation
+    - Weak connection between data and its schema
+    - Slight performance hit
+
+## Appendix C
+- Data Oriented Programming != Data Oriented Design != Data Driven Programming
