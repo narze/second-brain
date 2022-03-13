@@ -8,7 +8,7 @@ tags:
 ![](/Images/Data%20Oriented%20Programming.png)
 
 # Summary
-A story about adopting Data-Oriented Programming paradigm and it's principles which reduce complexity compared to Object-Oriented Programming (OOP). However DOP is language agnostic and can be applied on OOP, and also FP (Functional Programming).
+A story about adopting Data-Oriented Programming paradigm and it's 4 principles which reduce complexity compared to Object-Oriented Programming (OOP). However DOP is language agnostic and can be applied on OOP, and also FP (Functional Programming).
 
 The core idea is to use generic data structure like JSON to represent data, then separate the code (behavior) from the data. In OOP-ish languages you can use Static Class Method.
 
@@ -84,14 +84,14 @@ However, adopting DOP comes with a price, such as slight performance impact (whi
 	- Sharing the parts that don't need to change
 	- Use shallow clone
 - `_.set` is mutable function by default, use "Lodash FP" for immutable version
-	```
-	_ = fp.convert({
-	    "cap": false,
-	    "curry": false,
-	    "fixed": false,
-	    "immutable": true,
-	    "rearg": false
-	})
+	```javascript
+_ = fp.convert({
+    "cap": false,
+    "curry": false,
+    "fixed": false,
+    "immutable": true,
+    "rearg": false
+})
 	```
 - Commit phase is stateful (OOP-like)
 	- Validate inside commit phase (e.g. Git commit hook)
@@ -134,35 +134,35 @@ However, adopting DOP comes with a price, such as slight performance impact (whi
 - JSON schema cheatsheet
 	- Schema
 		```json
-		{
-		  "type": "array", ❶
-		  "items": {
-		    "type": "object", ❷
-		    "properties": { ❸
-		      "myNumber": {"type": "number"}, ❹
-		      "myString": {"type": "string"}, ❺
-		      "myEnum": {"enum": ["myVal", "yourVal"]}, ❻
-		      "myBool": {"type": "boolean"} ❼
-		    },
-		    "required": ["myNumber", "myString"], ❽
-		    "additionalProperties": false ❾
-		  }
-		}
+{
+  "type": "array", ❶
+  "items": {
+    "type": "object", ❷
+    "properties": { ❸
+      "myNumber": {"type": "number"}, ❹
+      "myString": {"type": "string"}, ❺
+      "myEnum": {"enum": ["myVal", "yourVal"]}, ❻
+      "myBool": {"type": "boolean"} ❼
+    },
+    "required": ["myNumber", "myString"], ❽
+    "additionalProperties": false ❾
+  }
+}
          ```
 	- Valid Data
 	```json
-		[
-		  { ❶
-		    "myNumber": 42,
-		    "myString": "Hello",
-		    "myEnum": "myVal",
-		    "myBool": true
-		  },
-		  { ❷
-		    "myNumber": 54,
-		    "myString": "Happy"
-		  }
-		]
+[
+  { ❶
+    "myNumber": 42,
+    "myString": "Hello",
+    "myEnum": "myVal",
+    "myBool": true
+  },
+  { ❷
+    "myNumber": 54,
+    "myString": "Happy"
+  }
+]
 	```
 
 ## Chapter 8 - Advanced Concurrency Control
@@ -185,40 +185,40 @@ However, adopting DOP comes with a price, such as slight performance impact (whi
 - [Mudash](https://github.com/brianneisler/mudash) ports Lodash to Immutable
 	- Or port it yourself
 	```javascript
-		Immutable.map = function(coll, f) {
-		  return coll.map(f);
-		};
-		
-		Immutable.filter = function(coll, f) {
-		  if(Immutable.isMap(coll)) {
-		    return coll.valueSeq().filter(f);
-		  }
-		  return coll.filter(f);
-		};
-		
-		Immutable.isEqual = Immutable.is;
+Immutable.map = function(coll, f) {
+  return coll.map(f);
+};
 
-		Immutable.reduce = function(coll, reducer, initialReduction) {
-		  return coll.reduce(reducer, initialReduction);
-		};
-		
-		Immutable.isEmpty = function(coll) {
-		  return coll.isEmpty();
-		};
-		
-		Immutable.keys = function(coll) {
-		  return coll.keySeq();
-		};
-		
-		Immutable.isObject = function(coll) {
-		  return Immutable.Map.isMap(coll);
-		};
-		
-		Immutable.isArray = Immutable.isIndexed;
-		
-		Immutable.union = function() {
-		  return Immutable.Set.union(arguments);
-		};
+Immutable.filter = function(coll, f) {
+  if(Immutable.isMap(coll)) {
+    return coll.valueSeq().filter(f);
+  }
+  return coll.filter(f);
+};
+
+Immutable.isEqual = Immutable.is;
+
+Immutable.reduce = function(coll, reducer, initialReduction) {
+  return coll.reduce(reducer, initialReduction);
+};
+
+Immutable.isEmpty = function(coll) {
+  return coll.isEmpty();
+};
+
+Immutable.keys = function(coll) {
+  return coll.keySeq();
+};
+
+Immutable.isObject = function(coll) {
+  return Immutable.Map.isMap(coll);
+};
+
+Immutable.isArray = Immutable.isIndexed;
+
+Immutable.union = function() {
+  return Immutable.Set.union(arguments);
+};
     ```
 	- Then replace all `_.` with `Immutable.`
 
@@ -270,14 +270,14 @@ However, adopting DOP comes with a price, such as slight performance impact (whi
 	- Use `reduce` instead of `forEach`, if possible
 	- Refactor to function with proper name to hide low-level data manipulation e.g. `countByBoolField(books, "isLent", "lent", "notLent")` 
 - MongoDB's `$unwind` implemented in js
-```
+  ```javascript
 function unwind(map, field) {
-    var arr = _.get(map, field);
-    return _.map(arr, function(elem) {
-        return _.set(map, field, elem);
-    });
+  var arr = _.get(map, field);
+  return _.map(arr, function(elem) {
+      return _.set(map, field, elem);
+  });
 }
-```
+  ```
 - 4 Steps of custom data manipulation design
 	- 1. Discover the function signature (name, parameters, return value) by using it before implement
 	- 2. Write unit test (TDD)
@@ -299,26 +299,26 @@ function unwind(map, field) {
   - `copy(string)` copy data from browser dev console
 	- Add `console.log(arguments)` in the first line of function
 	- Wrap with JSON.stringify to add surrounding quotes e.g. `console.log(JSON.stringify(sentence));`
-	```javascript
-	  function contextCapturer(fun) {
-	    return (...args) => {
-		    args.forEach((arg) => console.log(JSON.stringify(arg)))
-		    return fun(...args)
-		  }
-		}
+    ```javascript
+function contextCapturer(fun) {
+  return (...args) => {
+    args.forEach((arg) => console.log(JSON.stringify(arg)))
+    return fun(...args)
+  }
+}
 
-    function test(a,b,c) {
-	    return a+b*c
-		}
+function test(a,b,c) {
+  return a+b*c
+}
 
-		testA = contextCapturer(test)
-		testA(1,2,3)
-		1
-		2
-		3
+testA = contextCapturer(test)
+testA(1,2,3)
+1
+2
+3
 
-		=> 7
-	```
+=> 7
+    ```
 - `JSON.stringify(data, null, 2)` specify the number of characters to use for indentation
 - #regex \b : word boundary, use to perform prefix matching (i.e. `^` but locally)
 
@@ -328,7 +328,7 @@ function unwind(map, field) {
     - Representation
       - Generic
         - Mutable
-        - ~~Immutable
+        - ~~Immutable~~
       - ~~Specific~~
     - Schema
   - Code
