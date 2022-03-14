@@ -184,7 +184,7 @@ _ = fp.convert({
 	- `Immutable.fromJS({...})`
 - [Mudash](https://github.com/brianneisler/mudash) ports Lodash to Immutable
 	- Or port it yourself
-	```javascript
+	  ```javascript
 Immutable.map = function(coll, f) {
   return coll.map(f);
 };
@@ -270,14 +270,14 @@ Immutable.union = function() {
 	- Use `reduce` instead of `forEach`, if possible
 	- Refactor to function with proper name to hide low-level data manipulation e.g. `countByBoolField(books, "isLent", "lent", "notLent")` 
 - MongoDB's `$unwind` implemented in js
-  ```javascript
+    ```javascript
 function unwind(map, field) {
   var arr = _.get(map, field);
   return _.map(arr, function(elem) {
       return _.set(map, field, elem);
   });
 }
-  ```
+    ```
 - 4 Steps of custom data manipulation design
 	- 1. Discover the function signature (name, parameters, return value) by using it before implement
 	- 2. Write unit test (TDD)
