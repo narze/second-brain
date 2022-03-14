@@ -84,15 +84,15 @@ However, adopting DOP comes with a price, such as slight performance impact (whi
 	- Sharing the parts that don't need to change
 	- Use shallow clone
 - `_.set` is mutable function by default, use "Lodash FP" for immutable version
-	```javascript
+```javascript
 _ = fp.convert({
-    "cap": false,
-    "curry": false,
-    "fixed": false,
-    "immutable": true,
-    "rearg": false
+  "cap": false,
+  "curry": false,
+  "fixed": false,
+  "immutable": true,
+  "rearg": false
 })
-	```
+```
 - Commit phase is stateful (OOP-like)
 	- Validate inside commit phase (e.g. Git commit hook)
 
@@ -133,7 +133,7 @@ _ = fp.convert({
 	- "Client is always right"
 - JSON schema cheatsheet
 	- Schema
-		```json
+```json
 {
   "type": "array", ❶
   "items": {
@@ -148,9 +148,9 @@ _ = fp.convert({
     "additionalProperties": false ❾
   }
 }
-    ```
-	- Valid Data
-	```json
+```
+  - Valid Data
+```json
 [
   { ❶
     "myNumber": 42,
@@ -163,7 +163,7 @@ _ = fp.convert({
     "myString": "Happy"
   }
 ]
-	```
+```
 
 ## Chapter 8 - Advanced Concurrency Control
 - Deadlocks never happen with Atoms.
@@ -184,7 +184,7 @@ _ = fp.convert({
 	- `Immutable.fromJS({...})`
 - [Mudash](https://github.com/brianneisler/mudash) ports Lodash to Immutable
 	- Or port it yourself
-	  ```javascript
+```javascript
 Immutable.map = function(coll, f) {
   return coll.map(f);
 };
@@ -219,8 +219,8 @@ Immutable.isArray = Immutable.isIndexed;
 Immutable.union = function() {
   return Immutable.Set.union(arguments);
 };
-    ```
-	- Then replace all `_.` with `Immutable.`
+```
+  - Then replace all `_.` with `Immutable.`
 
 ## Chapter 10 - Database Operations
 - DOP represent data from database with generic data collections, and manipulate it with generic functions
@@ -270,14 +270,14 @@ Immutable.union = function() {
 	- Use `reduce` instead of `forEach`, if possible
 	- Refactor to function with proper name to hide low-level data manipulation e.g. `countByBoolField(books, "isLent", "lent", "notLent")` 
 - MongoDB's `$unwind` implemented in js
-    ```javascript
+```javascript
 function unwind(map, field) {
   var arr = _.get(map, field);
   return _.map(arr, function(elem) {
       return _.set(map, field, elem);
   });
 }
-    ```
+```
 - 4 Steps of custom data manipulation design
 	- 1. Discover the function signature (name, parameters, return value) by using it before implement
 	- 2. Write unit test (TDD)
@@ -299,7 +299,7 @@ function unwind(map, field) {
   - `copy(string)` copy data from browser dev console
 	- Add `console.log(arguments)` in the first line of function
 	- Wrap with JSON.stringify to add surrounding quotes e.g. `console.log(JSON.stringify(sentence));`
-    ```javascript
+```javascript
 function contextCapturer(fun) {
   return (...args) => {
     args.forEach((arg) => console.log(JSON.stringify(arg)))
@@ -318,7 +318,7 @@ testA(1,2,3)
 3
 
 => 7
-    ```
+```
 - `JSON.stringify(data, null, 2)` specify the number of characters to use for indentation
 - #regex \b : word boundary, use to perform prefix matching (i.e. `^` but locally)
 
