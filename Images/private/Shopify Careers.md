@@ -12,7 +12,7 @@ https://www.shopify.com/careers/how-we-hire
 - Reviews
   - [Glassdoor - Shopify](https://www.glassdoor.com/Overview/Working-at-Shopify-EI_IE675933.11,18.htm), [Reviews](https://www.glassdoor.com/Reviews/Shopify-Reviews-E675933.htm)
 - Salaries 
-    - SG ![](Images/private/Pasted%20image%2020220313211654.png)
+    - SG ![](Images/private/Shopify%20Senior%20Software%20Engineer%20Salaries.png)
 - Interviews
   - https://prepfully.com/practice-interviews
   - Experiences
