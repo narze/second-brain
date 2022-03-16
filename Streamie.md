@@ -8,7 +8,7 @@ title: "Streamie"
 - Discord bot
 - OBS overlay (SvelteKit)
 - User & Coin system
-  - Account binding (twitch, youtube, discord)
+  - Account binding (twitch, youtube, discord) using SvelteKit
   - Getting points
   - Redeem points
 - Interactive chat
