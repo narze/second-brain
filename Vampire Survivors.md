@@ -18,3 +18,4 @@ title: "Vampire Survivors"
 -   **Peachone + Ebony Wings** – Vandalier (you can upgrade this once you get it)
 -   **Lightning Ring + Duplicator** – Thunder Loop
 -   **Song of Mana + Skull O’Maniac** – Mannajja
+- Pentagram + Crown
