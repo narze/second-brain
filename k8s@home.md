@@ -18,3 +18,9 @@ title: "k8s@home"
 
 ## How to develop Node.js apps on local & preview on pi k8s
 
+
+## ArgoCD Autopilot
+- brew install argocd-autopilot
+- export GIT_REPO=https://github.com/narze/home-cluster
+- export GIT_TOKEN=ghp_PcZ...IP0 (Your Github PAT with repo scope)
+- argocd-autopilot repo bootstrap
