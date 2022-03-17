@@ -24,3 +24,10 @@ title: "k8s@home"
 - export GIT_REPO=https://github.com/narze/home-cluster
 - export GIT_TOKEN=ghp_PcZ...IP0 (Your Github PAT with repo scope)
 - argocd-autopilot repo bootstrap
+
+
+## RPi self update
+- sudo -i
+- rpi-update
+
+## Change RPi to arm 64 bit instead of arm7l
