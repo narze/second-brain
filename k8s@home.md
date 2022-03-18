@@ -5,6 +5,7 @@ title: "k8s@home"
 # Setting up from scratch
 - Raspberry Pi 4 + Ubuntu
   - Install Ubuntu 20.04 64bit instead of raspbian (32bit)
+    - [Changing Raspbian to 64 bit mode won't work](https://blog.differentpla.net/blog/2021/12/20/upgrading-raspios-to-arm64)
   - Configure Wifi (Use Raspi Imager)
   - Find pi's ip with `arp -na`
   - Configure SSH
@@ -52,4 +53,7 @@ kubectx home-cluster-pi
 
 ## Change RPi to arm 64 bit instead of arm7l
 - Install Ubuntu 20.04 64bit instead of raspbian...
--
+
+
+# References
+- https://rpi4cluster.com
