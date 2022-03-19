@@ -21,5 +21,9 @@ Keywords
 - WasmEdge
 - MediaPipe
 - SIMD
-- Blog.avareum.finance
-- 
+- https://blog.avareum.finance
+- [xDS](https://github.com/getsentry/xds)
+  - https://www.npmjs.com/package/@grpc/grpc-js-xds9
+- https://speakerdeck.com/whs/a-date-with-grpc
+- Agile = Iterative + Incremental
+- [Software Craftsmanship](http://manifesto.softwarecraftsmanship.org)
