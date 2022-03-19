@@ -9,9 +9,3 @@ Keywords
   - Style Dictionary https://amzn.github.io/style-dictionary
   - TestRail
 - eBPF & Cilium https://cilium.io
-- dbt
-  - github.com/zkan/hello-dbt
-- AirByte
-- dataengineercafe.io
-- Declarative Programming "อรรถาธิบาย"
-- Esolang
