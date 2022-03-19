@@ -3,6 +3,7 @@ title: "Data Oriented Programming"
 author: "Yehonathan Sharvit"
 tags:
 - #Book
+date: 2022-03-14
 ---
 
 ![](/Images/Data%20Oriented%20Programming.png)

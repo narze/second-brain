@@ -1,5 +1,6 @@
 ---
 title: "Dev Mountain Tech Fest Notes"
+date: 2022-03-19
 ---
 
 - Matter + Energy + Information
