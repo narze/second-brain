@@ -27,3 +27,4 @@ Keywords
 - https://speakerdeck.com/whs/a-date-with-grpc
 - Agile = Iterative + Incremental
 - [Software Craftsmanship](http://manifesto.softwarecraftsmanship.org)
+- https://drive.google.com/file/d/1ljzhUoylCVOdpjc3iYD_KZIfrfAvq5N7/view?usp=drivesdk
