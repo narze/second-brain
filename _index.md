@@ -1,8 +1,6 @@
 ---
-title: "Digital Garden, again"
+title: "Digital Garden"
 ---
-
-So [monosor.com](https://monosor.com) failed to make me update it.
 
 ## What's this?
 
