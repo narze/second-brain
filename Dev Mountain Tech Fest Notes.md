@@ -15,3 +15,9 @@ Keywords
 - dataengineercafe.io
 - Declarative Programming "อรรถาธิบาย"
 - Esolang
+- https://coggle.it/diagram/YgSRKkMks4i53-Ps/t/webassembly-icon-wasm-webassembly
+- https://shiny.rstudio.com/gallery/india-blood-banks.html
+- https://rstudio.cloud
+- WasmEdge
+- MediaPipe
+- SIMD
