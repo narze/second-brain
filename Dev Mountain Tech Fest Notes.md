@@ -21,3 +21,5 @@ Keywords
 - WasmEdge
 - MediaPipe
 - SIMD
+- Blog.avareum.finance
+- 
