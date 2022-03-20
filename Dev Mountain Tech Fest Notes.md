@@ -33,3 +33,12 @@ Keywords
   - Grokking Algorithms
   - System Design Interview (Alex Xu)
 - Interviewing is a skill
+- Google Cloud Run 
+  - https://nuuneoi.com/blog/blog.php?read_id=973
+- Google cloud iot core
+- TP Link kasa smart plug
+- Python-broadlink
+- Azure Cosmos DB
+- "Improvised Coding"
+- xkcd/1319
+- https://form.new
