@@ -28,3 +28,8 @@ Keywords
 - Agile = Iterative + Incremental
 - [Software Craftsmanship](http://manifesto.softwarecraftsmanship.org)
 - https://drive.google.com/file/d/1ljzhUoylCVOdpjc3iYD_KZIfrfAvq5N7/view?usp=drivesdk
+- Books
+  - Cracking the Coding Interview
+  - Grokking Algorithms
+  - System Design Interview (Alex Xu)
+- Interviewing is a skill
