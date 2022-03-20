@@ -4,6 +4,9 @@ title: "Home Cluster using Raspberry Pi & k3s"
 
 https://github.com/narze/home-cluster
 
+https://excalidraw.com/#json=eXF2jbv8OrgyJQrg_Ymb3,Geu3XCWt52SBzpS2TMClXw
+
+![](Images/Home%20Cluster%20Architecture.png)
 # Setting up from scratch
 - Raspberry Pi 4 + Ubuntu
   - Install Ubuntu 20.04 64bit instead of raspbian (32bit)
