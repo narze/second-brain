@@ -42,3 +42,5 @@ Keywords
 - "Improvised Coding"
 - xkcd/1319
 - https://form.new
+- Infrastructure as Software 
+  - Marketing term : Developer-First Infra as Code
