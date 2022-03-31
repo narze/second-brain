@@ -59,6 +59,9 @@ kubectx home-cluster-pi
 ## Change RPi to arm 64 bit instead of arm7l
 - Install Ubuntu 20.04 64bit instead of raspbian...
 
+## Networking with Tailscale
+Links
+- https://blog.dsb.dev/posts/accessing-my-k3s-cluster-from-anywhere-with-tailscale/
 
 # References
 - https://rpi4cluster.com
