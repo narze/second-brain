@@ -66,3 +66,16 @@ Links
 # References
 - https://rpi4cluster.com
 - https://blog.differentpla.net/blog/2020/02/06/k3s-raspi-intro/
+
+
+## Keywords
+- k8s@home
+- k3s
+  - k3sup
+ - Helm chart
+ - sops & age
+ - [kubernetes](https://github.com/topics/kubernetes "Topic: kubernetes") [helm](https://github.com/topics/helm "Topic: helm") [sops](https://github.com/topics/sops "Topic: sops") [gitops](https://github.com/topics/gitops "Topic: gitops") [active-project](https://github.com/topics/active-project "Topic: active-project") [argocd](https://github.com/topics/argocd "Topic: argocd") [k3s](https://github.com/topics/k3s "Topic: k3s") [helm-secrets](https://github.com/topics/helm-secrets "Topic: helm-secrets") [k8s-at-home](https://github.com/topics/k8s-at-home "Topic: k8s-at-home") [home-cluster](https://github.com/topics/home-cluster "Topic: home-cluster")
+ - What's next
+   - Telegram bot
+   - Deploy Rails website
+   - 
