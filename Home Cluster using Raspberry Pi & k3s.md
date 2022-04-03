@@ -60,8 +60,10 @@ kubectx home-cluster-pi
 - Install Ubuntu 20.04 64bit instead of raspbian...
 
 ## Networking with Tailscale
+Installing Tailscale on Ubuntu https://tailscale.com/kb/1039/install-ubuntu-2004/
 Links
 - https://blog.dsb.dev/posts/accessing-my-k3s-cluster-from-anywhere-with-tailscale/
+
 
 # References
 - https://rpi4cluster.com
