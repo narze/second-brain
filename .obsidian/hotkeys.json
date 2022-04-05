@@ -14,5 +14,13 @@
       ],
       "key": "Enter"
     }
+  ],
+  "insert-current-date": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "D"
+    }
   ]
 }
