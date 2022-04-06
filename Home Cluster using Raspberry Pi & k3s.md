@@ -62,7 +62,7 @@ kubectx home-cluster-pi
 ## Networking with Tailscale
 - Installing Tailscale on Ubuntu https://tailscale.com/kb/1039/install-ubuntu-2004/
 Links
-- https://blog.dsb.dev/posts/accessing-my-k3s-cluster-from-anywhere-with-tailscale/
+- https://blog.dsb.dev/posts/accessing-my-k3s-cluster-from-anyøwhere-with-tailscale/
 
 ## Exposing services with Cloudflare Tunnel
 https://developers.cloudflare.com/cloudflare-one/tutorials/many-cfd-one-tunnel/

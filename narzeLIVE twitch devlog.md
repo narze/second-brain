@@ -13,7 +13,8 @@ title: "narzeLIVE twitch devlog"
 
 ## 2022-04-06
 - `!airdrop [n]`
-- Deploy feed overlay (web)
+- Deploy feed overlay & angalung page (web)
+- Build docker image with `make build`
 - TODO
   - Queue !say
   - Build on Github Actions
