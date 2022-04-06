@@ -9,7 +9,8 @@ title: "narzeLIVE twitch devlog"
   - Change Dockerfile `node:16-alpine` to `node:16-slim` and it works 🤯
 
 ## 2022-04-05
-- Setup feed for `!gacha` & `!airdrope`
+- Setup feed for `!gacha` & `!airdrop`
 
 ## 2022-04-06
-- 
+- `!airdrop [n]`
+- Deploy feed overlay (web)
