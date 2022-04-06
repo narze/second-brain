@@ -2,6 +2,18 @@
 title: "narzeLIVE twitch devlog"
 ---
 
+## Ideas / Todo
+ - [x] Queue !say
+ - [ ] Build on Github Actions
+ - [ ] SSL support for streamie-feed.narze.live
+ - [ ] !coin to get coin every 5min
+ - [ ] argo.home-cluster.narze.live
+ - [ ] Youtube mediashare
+ - [ ] 20 marbles
+ - [ ] Inactive burn rate
+ - [ ] Resound redux
+ - [ ] !wordlefa
+  
 ## 2022-04-04
 - Deploy new streamie version to home-cluster
 - Prisma is broken since can't run `prisma migrate` on arm64 arch
@@ -15,13 +27,3 @@ title: "narzeLIVE twitch devlog"
 - `!airdrop [n]`
 - Deploy feed overlay & angalung page (web)
 - Build docker image with `make build`
-- TODO
-  - Queue !say
-  - Build on Github Actions
-  - SSL support for streamie-feed.narze.live
-  - !coin to get coin every 5min
-  - argo.home-cluster.narze.live
-  - Youtube mediashare
-  - 20 marbles
-  - Inactive burn rate
-  - Resound redux
