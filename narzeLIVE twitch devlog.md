@@ -21,3 +21,7 @@ title: "narzeLIVE twitch devlog"
   - SSL support for streamie-feed.narze.live
   - !coin to get coin every 5min
   - argo.home-cluster.narze.live
+  - Youtube mediashare
+  - 20 marbles
+  - Inactive burn rate
+  - Resound redux
