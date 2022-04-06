@@ -17,3 +17,4 @@ title: "narzeLIVE twitch devlog"
 - TODO
   - Queue !say
   - Build on Github Actions
+  - SSL support for streamie-feed.narze.live
