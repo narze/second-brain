@@ -8,3 +8,4 @@ title: "narzeLIVE"
   - Can be built with Rust, but freaking slow
   - Change Dockerfile `node:16-alpine` to `node:16-slim` and it works 🤯
 ## 2022-04-05
+- `!`
