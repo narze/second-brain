@@ -19,3 +19,5 @@ title: "narzeLIVE twitch devlog"
   - Queue !say
   - Build on Github Actions
   - SSL support for streamie-feed.narze.live
+  - !coin to get coin every 5min
+  - argo.home-cluster.narze.live
