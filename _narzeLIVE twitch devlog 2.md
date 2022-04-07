@@ -7,7 +7,7 @@ title: "narzeLIVE twitch devlog"
  - [ ] Build streamie docker on Github Actions
  - [ ] SSL support for streamie-feed.narze.live & other domains
  - [ ] !devmode bot to skip commands on production and use dev instead
- - [ ] !farm to get coin every 5min
+ - [ ] !coin to get coin every 5min
    - [ ] Get more when live
    - [ ] Subbers get more
  - [ ] !give to give coin to other with 30% fee
@@ -35,8 +35,3 @@ title: "narzeLIVE twitch devlog"
 - `!airdrop [n]`
 - Deploy feed overlay & angalung page (web)
 - Build docker image with `make build`
-
-## 2022-04-07
-- !give 
-- !devmode
-- !farm
