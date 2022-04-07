@@ -12,7 +12,8 @@ title: "narzeLIVE twitch devlog"
  - [ ] 20 marbles
  - [ ] Inactive burn rate
  - [ ] Resound redux
- - [ ] !wordlefa
+ - [ ] !wordle
+ - [ ] Lumken : amඞgus mඞde
   
 ## 2022-04-04
 - Deploy new streamie version to home-cluster
