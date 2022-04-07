@@ -6,6 +6,7 @@ title: "narzeLIVE twitch devlog"
  - [x] Queue !say
  - [ ] Build streamie docker on Github Actions
  - [ ] SSL support for streamie-feed.narze.live & other domains
+ - [ ] !devmode bot to skip commands on production and use dev instead
  - [ ] !coin to get coin every 5min
    - [ ] Get more when live
    - [ ] Subbers get more
@@ -19,6 +20,7 @@ title: "narzeLIVE twitch devlog"
  - [ ] Lumken : amඞgus mඞde
  - [ ] Show market cap in Twitch
  - [ ] Emotes
+ - [ ] Telegram bot
   
 ## 2022-04-04
 - Deploy new streamie version to home-cluster
