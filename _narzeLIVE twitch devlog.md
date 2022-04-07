@@ -7,10 +7,11 @@ title: "narzeLIVE twitch devlog"
  - [ ] Build streamie docker on Github Actions
  - [ ] SSL support for streamie-feed.narze.live & other domains
  - [ ] !devmode bot to skip commands on production and use dev instead
- - [ ] !farm to get coin every 5min
+   - [x] !pause & !unpause (quick solution)
+ - [x] !farm to get coin every 5min
    - [ ] Get more when live
    - [ ] Subbers get more
- - [ ] !give to give coin to other with 30% fee
+ - [x] !give to give coin to other with 30% fee
  - [ ] argo.home-cluster.narze.live
  - [ ] Youtube mediashare
  - [ ] 20 marbles game
@@ -38,5 +39,5 @@ title: "narzeLIVE twitch devlog"
 
 ## 2022-04-07
 - !give 
-- !devmode
+- !devmode -> !pause & !unpause (quick solution)
 - !farm
