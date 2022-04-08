@@ -29,8 +29,10 @@ title: "narzeLIVE twitch devlog"
    - [ ] !farm when on live gets more than not live
    - [ ] Bit -> redeem $oulong
    - [ ] Store twitch user id
-   - [ ] !rename <oldusername>
- - [ ] Discord
+   - [ ] !rename oldusername
+- [ ] Discord
+  - [ ] Connect with twitch id
+- [ ] Keyboard cam
   
 ## 2022-04-04
 - Deploy new streamie version to home-cluster
