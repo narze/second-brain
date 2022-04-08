@@ -25,11 +25,13 @@ title: "narzeLIVE twitch devlog"
  - [ ] Twitch bot
    - [ ] !say support replies
    - [ ] Command rate limit (5-10 seconds per command) use redis
+     - [ ] Rate limit by command
    - [ ] vitest
    - [ ] !farm when on live gets more than not live
    - [ ] Bit -> redeem $oulong
    - [ ] Store twitch user id
    - [ ] !rename oldusername
+   - [ ] !marketcap
 - [ ] Discord
   - [ ] Connect with twitch id
 - [ ] Keyboard cam
