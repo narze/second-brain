@@ -25,6 +25,7 @@ title: "narzeLIVE twitch devlog"
  - [ ] Twitch bot
    - [ ] Command rate limit (5-10 seconds per command) use redis
    - [ ] vitest
+   - [ ] !farm when on live gets more than not live
   
 ## 2022-04-04
 - Deploy new streamie version to home-cluster
