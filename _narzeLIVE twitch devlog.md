@@ -22,6 +22,9 @@ title: "narzeLIVE twitch devlog"
  - [ ] Show market cap in Twitch
  - [ ] Emotes
  - [ ] Telegram bot
+ - [ ] Twitch bot
+   - [ ] Command rate limit (5-10 seconds per command) use redis
+   - [ ] vitest
   
 ## 2022-04-04
 - Deploy new streamie version to home-cluster
