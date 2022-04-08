@@ -59,4 +59,4 @@ title: "narzeLIVE twitch devlog"
 ## 2022-04-08
 - Fix inconsistent !say connection
 - Add testing
-- !gacha range
+- !gacha with range
