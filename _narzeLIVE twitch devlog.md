@@ -23,6 +23,7 @@ title: "narzeLIVE twitch devlog"
  - [ ] Emotes
  - [ ] Telegram bot
  - [ ] Twitch bot
+   - [ ] Fix socket io not responding to !say
    - [ ] !say support replies
    - [ ] Command rate limit (5-10 seconds per command) use redis
      - [ ] Rate limit by command
@@ -36,6 +37,7 @@ title: "narzeLIVE twitch devlog"
 - [ ] Discord
   - [ ] Connect with twitch id
 - [ ] Keyboard cam
+- [ ] argocd-image-updater.readthedocs.io/en/stable
   
 ## 2022-04-04
 - Deploy new streamie version to home-cluster
