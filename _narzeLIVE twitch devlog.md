@@ -32,6 +32,7 @@ title: "narzeLIVE twitch devlog"
    - [ ] Store twitch user id
    - [ ] !rename oldusername
    - [ ] !marketcap
+   - [ ] !place x y hex
 - [ ] Discord
   - [ ] Connect with twitch id
 - [ ] Keyboard cam
@@ -54,3 +55,8 @@ title: "narzeLIVE twitch devlog"
 - !give 
 - !devmode -> !pause & !unpause (quick solution)
 - !farm
+
+## 2022-04-08
+- Fix inconsistent !say connection
+- Add testing
+- !gacha range
