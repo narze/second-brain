@@ -23,10 +23,14 @@ title: "narzeLIVE twitch devlog"
  - [ ] Emotes
  - [ ] Telegram bot
  - [ ] Twitch bot
+   - [ ] !say support replies
    - [ ] Command rate limit (5-10 seconds per command) use redis
    - [ ] vitest
    - [ ] !farm when on live gets more than not live
    - [ ] Bit -> redeem $oulong
+   - [ ] Store twitch user id
+   - [ ] !rename <oldusername>
+ - [ ] Discord
   
 ## 2022-04-04
 - Deploy new streamie version to home-cluster
