@@ -28,7 +28,7 @@ title: "narzeLIVE twitch devlog"
    - [ ] Command rate limit (5-10 seconds per command) use redis
      - [ ] Rate limit by command
    - [ ] vitest
-   - [ ] !farm when on live gets more than not live
+   - [x] !farm when on live gets more than not live
    - [ ] Bit -> 3$ / bit
    - [ ] Sub -> 100$ + airdrop
    - [ ] Gift -> 100$ + airdrop
