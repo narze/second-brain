@@ -4,12 +4,12 @@ title: "narzeLIVE twitch devlog"
 
 ## Ideas / Todo
  - [x] Queue !say
- - [ ] Build streamie docker on Github Actions
+ - [x] Build streamie docker on Github Actions
  - [ ] SSL support for streamie-feed.narze.live & other domains
  - [ ] !devmode bot to skip commands on production and use dev instead
    - [x] !pause & !unpause (quick solution)
  - [x] !farm to get coin every 5min
-   - [ ] Get more when live
+   - [x] Get more when live
    - [ ] Subbers get more
  - [x] !give to give coin to other with 30% fee
  - [ ] argo.home-cluster.narze.live
@@ -66,3 +66,8 @@ title: "narzeLIVE twitch devlog"
 - Fix inconsistent !say connection
 - Add testing
 - !gacha with range -> rename to !invest
+
+## 2022-04-10
+- Run socket.io server separately
+- Github Actions (build & push to ghcr.io)
+- Twitch Plays Patrick's Parabox (,w ,a ,s ,d)
