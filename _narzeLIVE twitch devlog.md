@@ -29,7 +29,9 @@ title: "narzeLIVE twitch devlog"
      - [ ] Rate limit by command
    - [ ] vitest
    - [ ] !farm when on live gets more than not live
-   - [ ] Bit -> redeem $oulong
+   - [ ] Bit -> 3$ / bit
+   - [ ] Sub -> 100$ + airdrop
+   - [ ] Gift -> 100$ + airdrop
    - [ ] Store twitch user id
    - [ ] !rename oldusername
    - [ ] !marketcap
