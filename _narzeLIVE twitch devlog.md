@@ -76,6 +76,7 @@ title: "narzeLIVE twitch devlog"
    - [ ] !place x y hex
    - [ ] !olf
    - [ ] Twitch plays ...
+   - [ ] !github
 - [ ] Discord
   - [ ] Connect with twitch id
 - [ ] Keyboard cam
