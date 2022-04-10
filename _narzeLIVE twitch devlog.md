@@ -2,6 +2,44 @@
 title: "narzeLIVE twitch devlog"
 ---
 
+## 2022-04-04
+- Deploy new streamie version to home-cluster
+- Prisma is broken since can't run `prisma migrate` on arm64 arch
+  - Can be built with Rust, but freaking slow
+  - Change Dockerfile `node:16-alpine` to `node:16-slim` and it works 🤯
+
+## 2022-04-05
+- Setup feed for `!gacha` & `!airdrop`
+
+## 2022-04-06
+- `!airdrop [n]`
+- Deploy feed overlay & angalung page (web)
+- Build docker image with `make build`
+
+## 2022-04-07
+- !give 
+- !devmode -> !pause & !unpause (quick solution)
+- !farm
+
+## 2022-04-08
+- Fix inconsistent !say connection
+- Add testing
+- !gacha with range -> rename to !invest
+
+## 2022-04-09
+- Run socket.io server separately
+- Github Actions (build & push to ghcr.io)
+- Twitch Plays Patrick's Parabox (,w ,a ,s ,d)
+
+## 2022-04-10
+- Redis helm chart
+  - Bitnami's not working, use arm64v8/redis instead
+ - Add `redis` package to Streamie
+ - Replace `isPaused` with Redis key `streamie-dev-mode`
+ - Dev Streamie to update `streamie-dev-mode` to `"true"`, then Production Streamie will stop responding to !commands, until quitting Dev Streamie will update to `"false"`
+
+---
+
 ## Ideas / Todo
  - [x] Queue !say
  - [x] Build streamie docker on Github Actions
@@ -43,31 +81,3 @@ title: "narzeLIVE twitch devlog"
 - [ ] Keyboard cam
 - [ ] argocd-image-updater.readthedocs.io/en/stable
   
-## 2022-04-04
-- Deploy new streamie version to home-cluster
-- Prisma is broken since can't run `prisma migrate` on arm64 arch
-  - Can be built with Rust, but freaking slow
-  - Change Dockerfile `node:16-alpine` to `node:16-slim` and it works 🤯
-
-## 2022-04-05
-- Setup feed for `!gacha` & `!airdrop`
-
-## 2022-04-06
-- `!airdrop [n]`
-- Deploy feed overlay & angalung page (web)
-- Build docker image with `make build`
-
-## 2022-04-07
-- !give 
-- !devmode -> !pause & !unpause (quick solution)
-- !farm
-
-## 2022-04-08
-- Fix inconsistent !say connection
-- Add testing
-- !gacha with range -> rename to !invest
-
-## 2022-04-10
-- Run socket.io server separately
-- Github Actions (build & push to ghcr.io)
-- Twitch Plays Patrick's Parabox (,w ,a ,s ,d)
