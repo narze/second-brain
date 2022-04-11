@@ -40,7 +40,8 @@ title: "narzeLIVE twitch devlog"
 
 ## 2022-04-11
 - Setup vitest
-- Bits & Subs -> $OULONG
+  - Found issues when mocking Prisma, use `vitest-mock-extended`
+- ~~Bits & Subs -> $OULONG~~
 
 ---
 
