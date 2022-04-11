@@ -38,6 +38,10 @@ title: "narzeLIVE twitch devlog"
  - Replace `isPaused` with Redis key `streamie-dev-mode`
  - Dev Streamie to update `streamie-dev-mode` to `"true"`, then Production Streamie will stop responding to !commands, until quitting Dev Streamie will update to `"false"`
 
+## 2022-04-11
+- Setup vitest
+- Bits & Subs -> $OULONG
+
 ---
 
 ## Ideas / Todo
@@ -81,4 +85,5 @@ title: "narzeLIVE twitch devlog"
   - [ ] Connect with twitch id
 - [ ] Keyboard cam
 - [ ] argocd-image-updater.readthedocs.io/en/stable
+- [ ] Angalung layer for streamlabs (no click required)
   
