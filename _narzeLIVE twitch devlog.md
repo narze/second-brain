@@ -45,7 +45,12 @@ title: "narzeLIVE twitch devlog"
 
 ## 2022-04-15
 - Paperang x Streamie
-  - webusb, 
+  - webusb
+  - `streamie/printer` package
+
+## 2022-04-17
+- Add print queue to printer
+- Add synced text page to  `streamie/web` to replace Stickies
 
 ---
 
