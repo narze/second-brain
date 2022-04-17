@@ -43,6 +43,10 @@ title: "narzeLIVE twitch devlog"
   - Found issues when mocking Prisma, use `vitest-mock-extended`
 - ~~Bits & Subs -> $OULONG~~
 
+## 2022-04-15
+- Paperang x Streamie
+  - webusb, 
+
 ---
 
 ## Ideas / Todo
