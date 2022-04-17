@@ -51,6 +51,7 @@ title: "narzeLIVE twitch devlog"
 ## 2022-04-17
 - Add print queue to printer
 - Add synced text page to  `streamie/web` to replace Stickies
+- Fix streamlarb (Error occurred randomly when opened VSCode before Streamlarb)
 
 ---
 
