@@ -1,3 +1,4 @@
+
 …---
 title: "narzeLIVE twitch devlog"
 ---
@@ -52,6 +53,14 @@ title: "narzeLIVE twitch devlog"
 - Add print queue to printer
 - Add synced text page to  `streamie/web` to replace Stickies
 - Fix streamlarb (Error occurred randomly when opened VSCode before Streamlarb)
+
+## 2022-04-20
+- SvelteKit + Discord OAuth
+  - Problem : Refresh token not working on Vercel (It caches the page, but refreshes the token in background and not returning the cookie to the browser, so that the next refresh will force user to log out since old refresh token does not work anymore)
+  - Possible solutions : 
+    - Client auth (Don't use hooks to set cookies)
+    - SWR
+    - Match the cache time with access token age
 
 ---
 
