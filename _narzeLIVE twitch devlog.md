@@ -65,7 +65,7 @@ title: "narzeLIVE twitch devlog"
    - [x] Get more when live
    - [ ] Subbers get more
  - [x] !give to give coin to other with 30% fee
- - [ ] argo.home-cluster.narze.live
+ - [x] argo.home-cluster.narze.live
  - [ ] Youtube mediashare
  - [ ] 20 marbles game
  - [ ] Inactive burn rate
@@ -96,5 +96,5 @@ title: "narzeLIVE twitch devlog"
   - [ ] Connect with twitch id
 - [ ] Keyboard cam
 - [ ] argocd-image-updater.readthedocs.io/en/stable
-- [ ] Angalung layer for streamlabs (no click required)
+- [x] Angalung layer for streamlabs (no click required)
   
