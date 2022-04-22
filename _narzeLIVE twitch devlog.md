@@ -68,6 +68,7 @@ title: "narzeLIVE twitch devlog"
  - [x] Queue !say
  - [x] Build streamie docker on Github Actions
  - [ ] SSL support for streamie-feed.narze.live & other domains
+ - [ ] Argocd deployment alert on Discord
  - [ ] !devmode bot to skip commands on production and use dev instead
    - [x] !pause & !unpause (quick solution)
  - [x] !farm to get coin every 5min
