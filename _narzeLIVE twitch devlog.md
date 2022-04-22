@@ -91,14 +91,14 @@ title: "narzeLIVE twitch devlog"
      - [ ] Rate limit by command
    - [ ] vitest
    - [x] !farm when on live gets more than not live
-   - [ ] Bit -> 3$ / bit
-   - [ ] Sub -> 100$ + airdrop
-   - [ ] Gift -> 100$ + airdrop
+   - [x] Bit -> 3$ / bit
+   - [x] Sub -> 100$ + airdrop
+   - [x] Gift -> 100$ + airdrop
    - [ ] Store twitch user id
    - [ ] !rename oldusername
    - [ ] !marketcap
    - [ ] !place x y hex
-   - [ ] !olf
+   - [x] !olf
    - [ ] Twitch plays ...
    - [ ] !github
 - [ ] Discord
