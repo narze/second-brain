@@ -62,6 +62,12 @@ title: "narzeLIVE twitch devlog"
     - SWR
     - Match the cache time with access token age
 
+## 2022-04-22
+- Discord - Twitch integration (Update user's twitchId & discordId)
+- Vite build time ENVs
+  - Took streamie docker image private
+  - Add dockerpulljson secret to cluster https://kubernetes.io/docs/tasks/configure-pod-container/pull-image-private-registry/
+
 ---
 
 ## Ideas / Todo
