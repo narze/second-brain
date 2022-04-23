@@ -68,6 +68,9 @@ title: "narzeLIVE twitch devlog"
   - Took streamie docker image private
   - Add dockerpulljson secret to cluster https://kubernetes.io/docs/tasks/configure-pod-container/pull-image-private-registry/
 
+## 2022-04-23
+
+
 ---
 
 ## Ideas / Todo
@@ -113,4 +116,4 @@ title: "narzeLIVE twitch devlog"
 - [ ] Keyboard cam
 - [ ] argocd-image-updater.readthedocs.io/en/stable
 - [x] Angalung layer for streamlabs (no click required)
-  
+- [ ] !ask (GPT-3)
