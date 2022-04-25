@@ -68,7 +68,10 @@ title: "narzeLIVE twitch devlog"
   - Took streamie docker image private
   - Add dockerpulljson secret to cluster https://kubernetes.io/docs/tasks/configure-pod-container/pull-image-private-registry/
 
-## 2022-04-23
+## 2022-04-25
+- Make !place page public @ https://streamie-public.narze.live/pub/place
+  - Setup Tailwind JIT mode `mode: "jit"`
+  - #til JIT class does not work with number variables `h-[${height}px]` ❌
 
 
 ---
@@ -78,7 +81,7 @@ title: "narzeLIVE twitch devlog"
  - [x] Build streamie docker on Github Actions
  - [ ] SSL support for streamie-feed.narze.live & other domains
  - [ ] Argocd deployment alert on Discord
- - [ ] !devmode bot to skip commands on production and use dev instead
+ - [x] !devmode bot to skip commands on production and use dev instead
    - [x] !pause & !unpause (quick solution)
  - [x] !farm to get coin every 5min
    - [x] Get more when live
@@ -99,7 +102,7 @@ title: "narzeLIVE twitch devlog"
    - [ ] !say support replies
    - [ ] Command rate limit (5-10 seconds per command) use redis
      - [ ] Rate limit by command
-   - [ ] vitest
+   - [x] vitest
    - [x] !farm when on live gets more than not live
    - [x] Bit -> 3$ / bit
    - [x] Sub -> 100$ + airdrop
@@ -107,7 +110,7 @@ title: "narzeLIVE twitch devlog"
    - [ ] Store twitch user id
    - [ ] !rename oldusername
    - [ ] !marketcap
-   - [ ] !place x y hex
+   - [x] !place x y hex
    - [x] !olf
    - [ ] Twitch plays ...
    - [ ] !github
