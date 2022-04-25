@@ -114,6 +114,8 @@ title: "narzeLIVE twitch devlog"
 - [ ] Discord
   - [ ] Connect with twitch id
 - [ ] Keyboard cam
+  - [ ] Bit to change kb with roulette
 - [ ] argocd-image-updater.readthedocs.io/en/stable
 - [x] Angalung layer for streamlabs (no click required)
 - [ ] !ask (GPT-3)
+- [ ] Try remotion
