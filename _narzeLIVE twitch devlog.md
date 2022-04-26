@@ -114,6 +114,7 @@ title: "narzeLIVE twitch devlog"
    - [x] !olf
    - [ ] Twitch plays ...
    - [ ] !github
+   - [ ] Custom ! commands (like streamelements)
 - [ ] Discord
   - [ ] Connect with twitch id
 - [ ] Keyboard cam
