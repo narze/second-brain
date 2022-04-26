@@ -8,5 +8,5 @@ PoC with github.com/tinyprinter/python-paperang
   - _May have to change 11.1.0_4_
 - ghq get -l -p https://github.com/tinyprinter/python-paperang
 - pip3 install -r requirements.txt
-- Stuck on `lightblue`
+- Stuck on `lightblue` ... (No luck on Mac M1)
   - ![](Pasted%20image%2020220426091500.png)
