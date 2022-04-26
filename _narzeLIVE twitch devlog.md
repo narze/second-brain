@@ -123,3 +123,5 @@ title: "narzeLIVE twitch devlog"
 - [x] Angalung layer for streamlabs (no click required)
 - [ ] !ask (GPT-3)
 - [ ] Try remotion
+- [ ] RasPi Zero 2 W + Paperang
+  - [ ] Needs PoC on Pi4 first
