@@ -129,3 +129,4 @@ title: "narzeLIVE twitch devlog"
   - [ ] https://developers.raycast.com/basics/create-your-first-extension
   - [ ] Demo https://demo.navidrome.org/rest/ping.view?u=demo&v=1.16.1&c=myapp&p=demo&f=json
 - [ ] HabitsGarden clone with weighted score
+- [ ] showdown.space - Code in the wind viewer
