@@ -73,6 +73,12 @@ title: "narzeLIVE twitch devlog"
   - Setup Tailwind JIT mode `mode: "jit"`
   - #til JIT class does not work with number variables `h-[${height}px]` ❌
 
+## 2022-04-27
+- Raycast extension for Navidrome
+  - https://github.com/narze/raycast-navidrome
+  - Only "Now Playing feature is working"
+  - Cannot use MPRIS to control Sonixd yet since macOS does not have DBus supported natively
+
 
 ---
 
