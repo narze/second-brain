@@ -71,6 +71,7 @@ https://developers.cloudflare.com/cloudflare-one/tutorials/many-cfd-one-tunnel/
 # References
 - https://rpi4cluster.com
 - https://blog.differentpla.net/blog/2020/02/06/k3s-raspi-intro/
+- https://blog.alexellis.io/raspberry-pi-zero-2/ (OpenFaaS)
 
 
 ## Keywords
