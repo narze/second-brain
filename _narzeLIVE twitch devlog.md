@@ -128,3 +128,4 @@ title: "narzeLIVE twitch devlog"
 - [ ] Raycast + http://www.subsonic.org/pages/api.jsp#setRating (Mini player **MPRIS** + Star rating shortcut) 
   - [ ] https://developers.raycast.com/basics/create-your-first-extension
   - [ ] Demo https://demo.navidrome.org/rest/ping.view?u=demo&v=1.16.1&c=myapp&p=demo&f=json
+- [ ] HabitsGarden clone with weighted score
