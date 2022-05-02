@@ -79,6 +79,14 @@ title: "narzeLIVE twitch devlog"
   - Only "Now Playing feature is working"
   - Cannot use MPRIS to control Sonixd yet since macOS does not have DBus supported natively
 
+## 2022-04-29
+- Apply grid layout for "Code in the wind" observer page https://github.com/showdownspace/codeinthewind-live/pull/1
+
+## 2022-05-02
+- Code in the wind example challenge : [https://play.tailwindcss.com/pOr3W1rA40?size=504x720](https://play.tailwindcss.com/pOr3W1rA40?size=504x720 "https://play.tailwindcss.com/pOr3W1rA40?size=504x720")
+- Install HAOS
+  - Cannot reach via WiFi, must use LAN initially
+
 
 ---
 
