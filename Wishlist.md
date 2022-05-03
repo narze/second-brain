@@ -15,6 +15,8 @@ title: "Wishlist"
 				- https://www.youtube.com/watch?v=iX4Ra5H5eUU
 	- Wacaco Nanopresso
 		- ![](/Images/Wacaco%20Nanopresso.png)
+	- Wacaco Picopresso
+    - ![](Images/Wacaco%20Picopresso.png)
 	- Cafflano Kompresso
 		- ![](/Images/Cafflano%20Kompresso.png)
 	- Coffee Grinder
