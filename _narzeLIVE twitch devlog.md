@@ -161,3 +161,4 @@ title: "narzeLIVE twitch devlog"
   - [ ] Track Phone location as entity
   - [ ] Install Homebridge on home-cluster
   - [ ] Roborock integration
+  - [ ] QNAP https://www.home-assistant.io/integrations/qnap/
