@@ -87,6 +87,13 @@ title: "narzeLIVE twitch devlog"
 - Install HAOS
   - Cannot reach via WiFi, must use LAN initially
 
+## 2022-05-04
+- Install HAOS
+- Tips
+  - Enable `Advanced Mode ` in [Profile Page](http://homeassistant.local:8123/profile)
+  - Essential Add-ons (Except Letsencrypt)
+    - ![](Pasted%20image%2020220504231508.png)
+  - Backup before doing something risky 
 
 ---
 
