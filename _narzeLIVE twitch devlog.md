@@ -151,5 +151,13 @@ title: "narzeLIVE twitch devlog"
   - [ ] Demo https://demo.navidrome.org/rest/ping.view?u=demo&v=1.16.1&c=myapp&p=demo&f=json
 - [ ] HabitsGarden clone with weighted score
 - [x] showdown.space - Code in the wind viewer
-- [x] Smart home system - HomeAssistant
+- [ ] Smart home system - HomeAssistant
+  - [x] Initial setup
   - [ ] Setup Let's Encrypt / Cloudflare Tunnel
+    - https://github.com/PanJ/hassio-addons
+    - https://github.com/w35l3y/hassio-addons/tree/main/cloudflare_tunnel
+    - https://github.com/brenner-tobias/addon-cloudflared
+  - [ ] Setup Google Assistant https://www.home-assistant.io/integrations/google_assistant (Requires SSL)
+  - [ ] Track Phone location as entity
+  - [ ] Install Homebridge on home-cluster
+  - [ ] Roborock integration
