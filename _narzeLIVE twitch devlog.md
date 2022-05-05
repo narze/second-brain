@@ -163,3 +163,7 @@ title: "narzeLIVE twitch devlog"
   - [ ] Roborock integration
   - [ ] QNAP https://www.home-assistant.io/integrations/qnap/
 - [ ] Generate m3u, m3u8 from list of files
+- [ ] Enable HTTPS in Tailscale https://tailscale.com/kb/1153/enabling-https
+  - [ ] `*.risk-in.ts.net`
+- [ ] Portfolio website
+  - [ ] port.narze.live
