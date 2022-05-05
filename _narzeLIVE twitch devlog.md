@@ -162,3 +162,4 @@ title: "narzeLIVE twitch devlog"
   - [ ] Install Homebridge on home-cluster
   - [ ] Roborock integration
   - [ ] QNAP https://www.home-assistant.io/integrations/qnap/
+- [ ] Generate m3u, m3u8 from list of files
