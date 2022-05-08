@@ -170,3 +170,5 @@ title: "narzeLIVE twitch devlog"
   - [ ] `*.risk-in.ts.net`
 - [ ] Portfolio website
   - [ ] port.narze.live
+- [ ] Sidebar overlay
+  - [ ] width 320 , max height 1080
