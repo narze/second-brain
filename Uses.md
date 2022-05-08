@@ -81,6 +81,11 @@ Everything I use. Migrated from https://monosor.com/uses
 - Xiaomi gadgets eg. Cleaner robot, vacuum cleaner, air purifier, IP camera.
 - [Hydro Flask 64oz.](https://www.hydroflask.com/64-oz-wide-mouth) with [Wide Mouth Straw Lid](https://www.hydroflask.com/wide-mouth-straw-lid)
 
+## Coffee
+- [Wacaco Picopresso](https://www.wacaco.com/pages/picopresso)
+- [Kingrinder K3](https://www.kingrinder.com)
+- [Timemore Black Mirror Basic+](https://en.timemore.com/taimochanpin/heijingdianzicheng/heijingbasicdianzicheng)
+
 ## Previously used
 
 aka. Honorable mentions, and why I don't use them anymore

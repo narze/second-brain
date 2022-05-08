@@ -6,7 +6,7 @@ title: "Wishlist"
 - Things to buy, it'll be moved to [Uses](Uses.md) if I bought it or [someone bought me](https://ko-fi.com/narze).
 
 ## Coffee
-- Manual Espresso Machine
+- [x] Manual Espresso Machine
 	- [Cafelat Robot](http://www.cafelat.com/robot.html)
 		- [FB Page (Thailand)](https://www.facebook.com/Robot-Coffee-Maker-Thailand-637831223352912/)
 		- Easier 2-presses workflow than Flair 58 (maybe)
@@ -19,7 +19,7 @@ title: "Wishlist"
     - ![](Images/Wacaco%20Picopresso.png)
 	- Cafflano Kompresso
 		- ![](/Images/Cafflano%20Kompresso.png)
-	- Coffee Grinder
+	- [x] Coffee Grinder
 		- My [Delonghi KG79](https://www.delonghi.com/en-int/products/coffee/coffee-makers/grinders/kg79-0177111028) is not that good & hard to clean, I used it for Cold Brew.
 		- Hand grinder
 			- Kingrinder K2 (Grinds faster than C2 [ref](https://www.youtube.com/watch?v=0qBVp__SWwQ))
