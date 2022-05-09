@@ -95,6 +95,10 @@ title: "narzeLIVE twitch devlog"
     - ![](Pasted%20image%2020220504231508.png)
   - Backup before doing something risky 
 
+## 2022-05-09
+- Code in the Wind - Example Challenge 2 https://citw01.pages.dev/example2
+  - https://play.tailwindcss.com/wSdPGj5xUk?size=540x720
+
 ---
 
 ## Ideas / Todo
