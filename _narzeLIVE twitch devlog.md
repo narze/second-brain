@@ -176,3 +176,4 @@ title: "narzeLIVE twitch devlog"
   - [ ] port.narze.live
 - [ ] Sidebar overlay
   - [ ] width 320 , max height 1080
+- [ ] Delayed read
