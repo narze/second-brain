@@ -99,6 +99,12 @@ title: "narzeLIVE twitch devlog"
 - Code in the Wind - Example Challenge 2 https://citw01.pages.dev/example2
   - https://play.tailwindcss.com/wSdPGj5xUk?size=540x720
 
+## 2022-05-11
+- Thwordle training mode (unlimited) https://thwordle.vercel.app/#/training
+
+## 2022-05-12
+- https://ophtusify.narze.live
+
 ---
 
 ## Ideas / Todo
