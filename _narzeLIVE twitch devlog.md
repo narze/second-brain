@@ -183,3 +183,4 @@ title: "narzeLIVE twitch devlog"
 - [ ] Sidebar overlay
   - [ ] width 320 , max height 1080
 - [ ] Delayed read
+- [ ] Speech to text to speech (Speak -> !say)
