@@ -103,7 +103,10 @@ title: "narzeLIVE twitch devlog"
 - Thwordle training mode (unlimited) https://thwordle.vercel.app/#/training
 
 ## 2022-05-12
-- https://ophtusify.narze.live
+- [Ophtusify](https://ophtusify.narze.live)
+
+## 2022-05-17
+- [Kuro - Credit Roll Renderer](https://github.com/narze/kuro)
 
 ---
 
