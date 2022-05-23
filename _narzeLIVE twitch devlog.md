@@ -109,6 +109,15 @@ title: "narzeLIVE twitch devlog"
 - [Kuro - Credit Roll Renderer](https://github.com/narze/kuro)
   - [Remotion](https://www.remotion.dev)
 
+## 2022-05-24
+- Streamlabs API + Socket API
+- TipMe Donation -> Printer
+- #til install multiple versions of package
+- ```
+     "socket.io-client": "^4.4.1",
+     "socket.io-client-v2": "npm:socket.io-client@v2-latest"
+
+
 ---
 
 ## Ideas / Todo
