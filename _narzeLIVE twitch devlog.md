@@ -109,7 +109,7 @@ title: "narzeLIVE twitch devlog"
 - [Kuro - Credit Roll Renderer](https://github.com/narze/kuro)
   - [Remotion](https://www.remotion.dev)
 
-## 2022-05-24
+## 2022-05-23
 - Streamlabs API + Socket API
 - TipMe Donation -> Printer
 - #til install multiple versions of package
@@ -197,3 +197,4 @@ title: "narzeLIVE twitch devlog"
   - [ ] width 320 , max height 1080
 - [ ] Delayed read
 - [ ] Speech to text to speech (Speak -> !say)
+- [ ] Try meteor + svelte
