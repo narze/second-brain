@@ -117,6 +117,13 @@ title: "narzeLIVE twitch devlog"
      "socket.io-client": "^4.4.1",
      "socket.io-client-v2": "npm:socket.io-client@v2-latest"
 
+# 2022-05-30
+- Pomodoro Timer
+  - Start timer by clicking button 
+  - or `!pomodoro` 
+  - Timer runs for 25 minute
+    - Will be customizable later
+  - When timer ends, alert on overlay and starts 5 minute break
 
 ---
 
