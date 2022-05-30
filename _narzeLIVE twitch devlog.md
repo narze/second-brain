@@ -166,7 +166,7 @@ title: "narzeLIVE twitch devlog"
 - [ ] argocd-image-updater.readthedocs.io/en/stable
 - [x] Angalung layer for streamlabs (no click required)
 - [ ] !ask (GPT-3)
-- [ ] Try remotion
+- [x] Try remotion
 - [ ] RasPi Zero 2 W + Paperang
   - [ ] Needs PoC on Pi4 first
 - [ ] Raycast + http://www.subsonic.org/pages/api.jsp#setRating (Mini player **MPRIS** + Star rating shortcut) 
@@ -198,3 +198,4 @@ title: "narzeLIVE twitch devlog"
 - [ ] Delayed read
 - [ ] Speech to text to speech (Speak -> !say)
 - [ ] Try meteor + svelte
+- [ ] Pomodoro timer
