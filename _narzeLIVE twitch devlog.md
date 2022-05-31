@@ -114,11 +114,10 @@ title: "narzeLIVE twitch devlog"
 - Streamlabs API + Socket API
 - TipMe Donation -> Printer
 - #til install multiple versions of package
-- ```
-     "socket.io-client": "^4.4.1",
+  - "socket.io-client": "^4.4.1",
      "socket.io-client-v2": "npm:socket.io-client@v2-latest"
 
-# 2022-05-30
+## 2022-05-30
 - Pomodoro Timer
   - Start timer by clicking button 
   - or `!pomodoro` 
