@@ -181,7 +181,7 @@ title: "narzeLIVE twitch devlog"
    - [ ] Custom ! commands (like streamelements)
 - [ ] Discord
   - [ ] Connect with twitch id
-- [ ] Keyboard cam
+- [x] Keyboard cam
   - [ ] Bit to change kb with roulette
 - [ ] argocd-image-updater.readthedocs.io/en/stable
 - [x] Angalung layer for streamlabs (no click required)
