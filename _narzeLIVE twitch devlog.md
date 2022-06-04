@@ -219,3 +219,4 @@ title: "narzeLIVE twitch devlog"
 - [ ] Speech to text to speech (Speak -> !say)
 - [ ] Try meteor + svelte
 - [ ] Pomodoro timer
+- [ ] Keyboard keystroke sound simulator
