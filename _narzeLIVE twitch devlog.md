@@ -138,6 +138,12 @@ title: "narzeLIVE twitch devlog"
 2. [โปรดระบุวัตถุประสงค์การประมวลผลข้อมูล]
 ```
 
+## 2022-06-03
+- Pomodoro Overlay (cont.)
+
+## 2022-06-04
+- Try 25:5 pomodoro workflow on stream (Handcam)
+
 ---
 
 ## Ideas / Todo
@@ -219,4 +225,5 @@ title: "narzeLIVE twitch devlog"
 - [ ] Speech to text to speech (Speak -> !say)
 - [ ] Try meteor + svelte
 - [ ] Pomodoro timer
+  - [ ] Alert on macbook screen somehow (On screen / mac notification / etc.)
 - [ ] Keyboard keystroke sound simulator
