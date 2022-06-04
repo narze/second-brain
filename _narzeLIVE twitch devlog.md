@@ -227,3 +227,4 @@ title: "narzeLIVE twitch devlog"
 - [ ] Pomodoro timer
   - [ ] Alert on macbook screen somehow (On screen / mac notification / etc.)
 - [ ] Keyboard keystroke sound simulator
+- [ ] `brew install --cask manoonchai`
