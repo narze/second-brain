@@ -144,6 +144,9 @@ title: "narzeLIVE twitch devlog"
 ## 2022-06-04
 - Try 25:5 pomodoro workflow on stream (Handcam)
 
+## 2022-06-06
+- Golang HTTP service for invoking notification from other clients in VPN
+
 ---
 
 ## Ideas / Todo
