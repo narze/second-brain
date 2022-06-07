@@ -232,3 +232,4 @@ title: "narzeLIVE twitch devlog"
   - [ ] Alert on macbook screen somehow (On screen / mac notification / etc.)
 - [ ] Keyboard keystroke sound simulator
 - [ ] `brew install --cask manoonchai`
+- [ ] Bot reply on !pomodoro commands
