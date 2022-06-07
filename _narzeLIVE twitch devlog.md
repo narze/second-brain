@@ -233,3 +233,4 @@ title: "narzeLIVE twitch devlog"
 - [ ] Keyboard keystroke sound simulator
 - [ ] `brew install --cask manoonchai`
 - [ ] Bot reply on !pomodoro commands
+- [ ] Try Google Cloud Run
