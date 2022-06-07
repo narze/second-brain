@@ -235,3 +235,4 @@ title: "narzeLIVE twitch devlog"
 - [ ] Bot reply on !pomodoro commands
 - [ ] Try Google Cloud Run
 - [ ] `!doing` changes text on overlay
+- [ ] Mediashare with $OULONG
