@@ -234,3 +234,4 @@ title: "narzeLIVE twitch devlog"
 - [ ] `brew install --cask manoonchai`
 - [ ] Bot reply on !pomodoro commands
 - [ ] Try Google Cloud Run
+- [ ] `!doing` changes text on overlay
