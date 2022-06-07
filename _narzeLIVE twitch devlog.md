@@ -146,6 +146,7 @@ title: "narzeLIVE twitch devlog"
 
 ## 2022-06-06
 - ~~Golang~~ Keyboard Maestro HTTP service for invoking notification from other clients in VPN
+- Writes simple API to call macOS clients with Tailscale assigned URLs
 
 ---
 
