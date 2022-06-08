@@ -148,6 +148,11 @@ title: "narzeLIVE twitch devlog"
 - ~~Golang~~ Keyboard Maestro HTTP service for invoking notification from other clients in VPN
 - Writes simple API to call macOS clients with Tailscale assigned URLs
 
+## 2022-06-08
+- !pomodoro post status change on twitch chat
+- !doing [message]
+- Registered Twitter Developer Program 
+
 ---
 
 ## Ideas / Todo
@@ -237,3 +242,5 @@ title: "narzeLIVE twitch devlog"
 - [ ] `!doing` changes text on overlay
 - [ ] Mediashare with $OULONG
 - [ ] utilize vdo.ninja
+- [ ] `!project / !today`
+- [ ] Dotfiles on ubuntu
