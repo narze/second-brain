@@ -236,3 +236,4 @@ title: "narzeLIVE twitch devlog"
 - [ ] Try Google Cloud Run
 - [ ] `!doing` changes text on overlay
 - [ ] Mediashare with $OULONG
+- [ ] utilize vdo.ninja
