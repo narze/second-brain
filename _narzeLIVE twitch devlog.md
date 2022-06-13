@@ -153,6 +153,14 @@ title: "narzeLIVE twitch devlog"
 - !doing [message]
 - Registered Twitter Developer Program 
 
+## 2022-06-10 & 2022-06-12
+- Pokdeng overlay
+
+## 2022-06-13
+- Pokdeng overlay improvements
+  - Fix player cards overflow on screen
+  - Dealer's stat
+
 ---
 
 ## Ideas / Todo
