@@ -158,8 +158,12 @@ title: "narzeLIVE twitch devlog"
 
 ## 2022-06-13
 - Pokdeng overlay improvements
+  - Debug mode toggle with keyboard and/or querystring
+  - Dealer draw 3rd card with rate `Math.random() < (10 - score) / 10`
+  - Text/bg color
   - Fix player cards overflow on screen
   - Dealer's stat
+  - More chat messages (State change, more result)
 
 ---
 
