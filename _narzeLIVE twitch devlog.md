@@ -256,3 +256,5 @@ title: "narzeLIVE twitch devlog"
 - [ ] utilize vdo.ninja
 - [ ] `!project / !today`
 - [ ] Dotfiles on ubuntu
+- [ ] Re-structure yabai with rules
+  - Ref. https://github.com/peppy/dotfiles/blob/master/.yabairc
