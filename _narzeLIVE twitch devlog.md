@@ -167,6 +167,9 @@ title: "narzeLIVE twitch devlog"
   - [ ] Dealer's stat
   - [ ] More chat messages (State change, more result)
 
+## 2022-06-15
+
+
 ---
 
 ## Ideas / Todo
