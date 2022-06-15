@@ -168,8 +168,9 @@ title: "narzeLIVE twitch devlog"
   - [ ] More chat messages (State change, more result)
 
 ## 2022-06-15
-- Anya Shirt Tracker
+- [Anya Shirt Tracker](https://github.com/narze/anya-shirt-tracker)
   - Track [Uniqlo TH](https://www.uniqlo.com/th/en/products/E451868-000?colorCode=COL41) for changes
+  - Use 
 
 ---
 
