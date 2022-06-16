@@ -170,7 +170,7 @@ title: "narzeLIVE twitch devlog"
 ## 2022-06-15
 - [Anya Shirt Tracker](https://github.com/narze/anya-shirt-tracker)
   - Track [Uniqlo TH](https://www.uniqlo.com/th/en/products/E451868-000?colorCode=COL41) for changes
-  - Use 
+  - Use Playwright, node-cron-cli, Discord webhook
 
 ---
 
