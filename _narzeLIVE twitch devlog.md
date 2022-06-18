@@ -175,6 +175,7 @@ title: "narzeLIVE twitch devlog"
 ## 2022-06-18
 - Random things
   - Setup Remote SSH for Linux on DigitalOcean
+    - [ ] Fix Chezmoi gpg key does not work (key mismatched?)
 
 ---
 
