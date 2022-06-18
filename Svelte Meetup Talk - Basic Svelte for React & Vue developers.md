@@ -40,3 +40,4 @@ title: "Svelte Meetup Talk - Basic Svelte for React & Vue developers"
     - React: Context API, Redux, Mobx
     - Vue: Pinix, Vuex
     - Svelte: Context API, `svelte/store`
+- 
