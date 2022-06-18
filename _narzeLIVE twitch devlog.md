@@ -172,6 +172,10 @@ title: "narzeLIVE twitch devlog"
   - Track [Uniqlo TH](https://www.uniqlo.com/th/en/products/E451868-000?colorCode=COL41) for changes
   - Use Playwright, node-cron-cli, Discord webhook
 
+## 2022-06-18
+- Random things
+  - Setup Remote SSH for Linux on DigitalOcean
+
 ---
 
 ## Ideas / Todo
