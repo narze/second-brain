@@ -15,7 +15,28 @@ title: "Svelte Meetup Talk - Basic Svelte for React & Vue developers"
     - React: `useState`
     - Vue:  `ref` / `reactive`
     - Svelte: `let`
+  - Computed state
+    - (Squared Counter)
+    - React: `useMemo`
+    - Vue: `computed`
+    - Svelte: `$:` reactive statement
   - Lifecycle
     - React: `useEffect` & its return function(abused)
     - Vue: `onMounted` / `onUnmounted`
     - Svelte: `onMounted` / `onDestroy`
+  - 2-way binding
+    - React: ❌
+    - Vue: `v-model`
+    - Svelte: `bind:value`
+  - Conditional Rendering
+    - React: Ternary operator `condition ? true : false`
+    - Vue: `v-if`
+    - Svelte: `{#if ...} {:else} {/if}`
+  - Loop
+    - React: `.map()`
+    - Vue: `v-for`
+    - Svelte: `{#each arr as el, i} {/each}`
+  - Advanced state management
+    - React: Context API, Redux, Mobx
+    - Vue: Pinix, Vuex
+    - Svelte: Context API, `svelte/store`
