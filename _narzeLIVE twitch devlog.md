@@ -178,6 +178,8 @@ title: "narzeLIVE twitch devlog"
     - [ ] Fix Chezmoi gpg key does not work (key mismatched?)
   - Basic Svelte talk preparation
     - Web render
+    - https://gitpkg.vercel.app 
+      - `pnpm add https://gitpkg.now.sh/sveltejs/sites/package/repl`
 
 ---
 
