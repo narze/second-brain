@@ -40,4 +40,10 @@ title: "Svelte Meetup Talk - Basic Svelte for React & Vue developers"
     - React: Context API, Redux, Mobx
     - Vue: Pinix, Vuex
     - Svelte: Context API, `svelte/store`
-- 
+- Other interesting built-in features
+  - `svelte/motion`
+  - `svelte/transition`
+  - `{#await}` block (Request Loading)
+- Read more in Svelte.dev (It has tutorials, examples, repl)
+- Project showcases
+  - Thwordle
