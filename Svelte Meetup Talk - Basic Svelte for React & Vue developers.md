@@ -1,0 +1,21 @@
+---
+title: "Svelte Meetup Talk - Basic Svelte for React & Vue developers"
+---
+
+- Introduction
+- Comparisons
+  - Note: React will use Functional Component style & Vue will use Composition API style
+  - Component structure
+    - React : Functional Component + styled-components / etc.
+    - Vue: SFC (Single-File Component)
+      - `<script setup>` , `<style>`, `<template>`
+    - Svelte: `<script>`, `<style>`
+  - Basic state management + updating state + template syntax
+    - (Basic Counter)
+    - React: `useState`
+    - Vue:  `ref` / `reactive`
+    - Svelte: `let`
+  - Lifecycle
+    - React: `useEffect` & its return function(abused)
+    - Vue: `onMounted` / `onUnmounted`
+    - Svelte: `onMounted` / `onDestroy`
