@@ -178,6 +178,7 @@ title: "narzeLIVE twitch devlog"
     - [ ] Fix Chezmoi gpg key does not work (key mismatched?)
   - Basic Svelte talk preparation
     - Web render
+      - Compiling svelte code is not basic task, maybe use API to save file & use vite to re-render the iframe?
     - https://gitpkg.vercel.app 
       - `pnpm add https://gitpkg.now.sh/sveltejs/sites/package/repl`
 
