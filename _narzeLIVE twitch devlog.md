@@ -177,7 +177,7 @@ title: "narzeLIVE twitch devlog"
   - Setup Remote SSH for Linux on DigitalOcean
     - [ ] Fix Chezmoi gpg key does not work (key mismatched?)
   - Basic Svelte talk preparation
-    - 
+    - Web render
 
 ---
 
