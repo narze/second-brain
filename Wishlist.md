@@ -45,3 +45,4 @@ title: "Wishlist"
   - Oculus Quest 2 (Or newer one if released)
 - Pearl 40 https://pearlboards.net/collections/pearl-40/products/pearl-40?variant=40084713504900
 - [REAPER](https://www.reaper.fm)
+- Meebook P78 Pro - https://ereader.co.th
