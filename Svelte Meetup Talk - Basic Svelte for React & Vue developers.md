@@ -51,3 +51,6 @@ title: "Svelte Meetup Talk - Basic Svelte for React & Vue developers"
 - Astro pages
   - `/index.astro` -> Show all links
   - `/[component]/[react|vue|svelte].astro` -> Render component, with code preview
+- How to reduce code duplication?
+  - Create [layout](https://docs.astro.build/en/core-concepts/layouts)
+  - Codegen (Read components & create `.astro` filesstream)
