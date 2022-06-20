@@ -182,6 +182,9 @@ title: "narzeLIVE twitch devlog"
     - https://gitpkg.vercel.app 
       - `pnpm add https://gitpkg.now.sh/sveltejs/sites/package/repl`
 
+## 2022-06-20
+- Add tailwind to Astro `npx astro add tailwind`
+
 ---
 
 ## Ideas / Todo
