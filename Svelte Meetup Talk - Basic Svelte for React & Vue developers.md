@@ -47,3 +47,6 @@ title: "Svelte Meetup Talk - Basic Svelte for React & Vue developers"
 - Read more in Svelte.dev (It has tutorials, examples, repl)
 - Project showcases
   - Thwordle
+
+- Astro pages
+  - 
