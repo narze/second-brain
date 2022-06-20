@@ -49,4 +49,5 @@ title: "Svelte Meetup Talk - Basic Svelte for React & Vue developers"
   - Thwordle
 
 - Astro pages
-  - 
+  - `/index.astro` -> Show all links
+  - `/[component]/[react|vue|svelte].astro` -> Render component, with code preview
