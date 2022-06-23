@@ -185,6 +185,16 @@ title: "narzeLIVE twitch devlog"
 ## 2022-06-20
 - Add tailwind to Astro `npx astro add tailwind`
 
+## 2022-06-22
+- Update styles to codegen, start adding components to Svelte Presentation
+- Github token for packages is expired (got denied error on image pull)
+  - Create new PAT `PAT=ghp_xxxxxxxxxxxxxxxx` (with read:packages)
+    - Login with docker to test `echo $PAT | docker login ghcr.io --username narze --password-stdin`
+  - `export AUTH=$(echo -n narze:$PAT | base64)
+  - `export DOCKERCONFIGJSON=$(echo -n '{"auths":{"ghcr.io":{"auth":"'$AUTH'"}}}' | base64)`
+  - `echo $DOCKERCONFIGJSON | pbcopy`
+  - Update secret-values.enc.yaml (with sops)
+
 ---
 
 ## Ideas / Todo
