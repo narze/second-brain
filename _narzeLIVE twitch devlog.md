@@ -195,7 +195,13 @@ title: "narzeLIVE twitch devlog"
   - `echo $DOCKERCONFIGJSON | pbcopy`
   - Update secret-values.enc.yaml (with sops)
 
----
+## 2022-06-27
+- Try Meteor with Svelte
+  - `meteor mongo`: Runs mongo shell
+  - `$m:` reactive statement with Mongo https://github.com/zodern/melte#tracker-statements
+  - Mongo methods are not Promise based (all synchronous) :+1:
+  - Arrow function don't have `this` keyword
+ ---
 
 ## Ideas / Todo
  - [x] Queue !say
