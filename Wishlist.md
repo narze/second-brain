@@ -52,3 +52,4 @@ title: "Wishlist"
   - Korideer
   - 425 degree
     - https://www.425degree.com/catalogsearch/result/?q=TOMTOC+URBAN+SLING+BAG+WITH+8-INCH
+    - [https://425.ee/35gd7Ft](https://425.ee/35gd7Ft?fbclid=IwAR0Xp8wusy1zUWLqHWoYBdUGc6F7blW71pAl372vx_f_5yiFzzPPpcRUUS0)
