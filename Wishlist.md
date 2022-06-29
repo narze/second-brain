@@ -46,3 +46,9 @@ title: "Wishlist"
 - Pearl 40 https://pearlboards.net/collections/pearl-40/products/pearl-40?variant=40084713504900
 - [REAPER](https://www.reaper.fm)
 - Meebook P78 Pro - https://ereader.co.th
+
+## Misc
+- Sling bag
+  - Korideer
+  - 425 degree
+    - https://www.425degree.com/catalogsearch/result/?q=TOMTOC+URBAN+SLING+BAG+WITH+8-INCH
