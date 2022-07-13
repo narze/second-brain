@@ -272,8 +272,9 @@ title: "narzeLIVE twitch devlog"
   - https://itsfoss.com/create-m3u-playlist-linux/ 
   - `\ls -1v **/*.{flac,mp3,ogg,opus} > playlist.m3u`
   - `[/share/homes/admin/music/...] # find * -type f \( -iname '*.flac' -o -iname '*.mp3' -o -iname '*.ogg' -o -iname '*.opus' \) > playlist.m3u8`
-- [ ] Enable HTTPS in Tailscale https://tailscale.com/kb/1153/enabling-https
-  - [ ] `*.risk-in.ts.net`
+- [x] Enable HTTPS in Tailscale https://tailscale.com/kb/1153/enabling-https
+  - [ ] `*.risk-in.ts.net` 
+  - [ ] [[Adding Tailscale to Rails App]]
 - [ ] Portfolio website
   - [ ] port.narze.live
 - [ ] Sidebar overlay
