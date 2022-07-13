@@ -240,7 +240,7 @@ title: "narzeLIVE twitch devlog"
    - [x] !place x y hex
    - [x] !olf
    - [ ] Twitch plays ...
-   - [ ] !github
+   - [x] !github
    - [ ] Custom ! commands (like streamelements)
 - [ ] Discord
   - [ ] Connect with twitch id
