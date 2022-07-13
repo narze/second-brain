@@ -1,7 +1,7 @@
 ---
 title: "Home Cluster using Raspberry Pi & k3s"
 ---
-
+https://k3s.rocks
 https://github.com/narze/home-cluster
 
 https://excalidraw.com/#json=eXF2jbv8OrgyJQrg_Ymb3,Geu3XCWt52SBzpS2TMClXw
