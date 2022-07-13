@@ -201,6 +201,12 @@ title: "narzeLIVE twitch devlog"
   - `$m:` reactive statement with Mongo https://github.com/zodern/melte#tracker-statements
   - Mongo methods are not Promise based (all synchronous) :+1:
   - Arrow function don't have `this` keyword
+
+## 2022-07-13
+- Installing `cert-manager` in home-cluster
+  - Better click "+ New App" on argocd UI then copy yaml output
+    - ![](Pasted%20image%2020220713215148.png) Error will be seen in UI if something went wrong 
+  - Add namespace to destination in `argo-cd/values.yaml`
  ---
 
 ## Ideas / Todo
