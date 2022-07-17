@@ -67,6 +67,8 @@ Links
 ## Exposing services with Cloudflare Tunnel
 https://developers.cloudflare.com/cloudflare-one/tutorials/many-cfd-one-tunnel/
 
+# Cert-manager with Cloudflare DNS01 challenge
+- https://cert-manager.io/docs/configuration/acme/dns01/cloudflare
 
 # References
 - https://rpi4cluster.com
