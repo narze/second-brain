@@ -69,6 +69,7 @@ https://developers.cloudflare.com/cloudflare-one/tutorials/many-cfd-one-tunnel/
 
 # Cert-manager with Cloudflare DNS01 challenge
 - https://cert-manager.io/docs/configuration/acme/dns01/cloudflare
+- https://github.com/narze/home-cluster/compare/9ec8257a610da0f4c54e1d8fbfa2d642cdf73f75...70d31b1bd9dbec7f0833a4b478a40351eb898291
 
 # References
 - https://rpi4cluster.com
