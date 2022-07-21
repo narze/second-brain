@@ -46,6 +46,9 @@ title: "Wishlist"
 - Pearl 40 https://pearlboards.net/collections/pearl-40/products/pearl-40?variant=40084713504900
 - [REAPER](https://www.reaper.fm)
 - Meebook P78 Pro - https://ereader.co.th
+- A mech keyboard with ZMK firmware support
+  - nice!60 https://nicekeyboards.com/nice-60 (has BLE)
+  - Planck rev6 (again??)
 
 ## Misc
 - Sling bag
