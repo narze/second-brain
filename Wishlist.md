@@ -7,7 +7,10 @@ title: "Wishlist"
 
 ## Coffee
 - [x] Manual Espresso Machine
-	- [Cafelat Robot](http://www.cafelat.com/robot.html)
+	- [SuperKop](https://www.superkop.com)
+  	- Thailand Reseller https://www.facebook.com/SuperkopThailand
+  	- [Review](https://www.youtube.com/watch?v=4GavR71moBQ)
+  - [Cafelat Robot](http://www.cafelat.com/robot.html)
 		- [FB Page (Thailand)](https://www.facebook.com/Robot-Coffee-Maker-Thailand-637831223352912/)
 		- Easier 2-presses workflow than Flair 58 (maybe)
 			- No Pre-heating required for Robot
@@ -15,7 +18,7 @@ title: "Wishlist"
 				- https://www.youtube.com/watch?v=iX4Ra5H5eUU
 	- Wacaco Nanopresso
 		- ![](/Images/Wacaco%20Nanopresso.png)
-	- Wacaco Picopresso
+	- [[Wacaco Picopresso]]
     - ![](Images/Wacaco%20Picopresso.png)
 	- Cafflano Kompresso
 		- ![](/Images/Cafflano%20Kompresso.png)
