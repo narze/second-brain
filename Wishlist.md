@@ -22,7 +22,10 @@ title: "Wishlist"
     - ![](Images/Wacaco%20Picopresso.png)
 	- Cafflano Kompresso
 		- ![](/Images/Cafflano%20Kompresso.png)
-	- [x] Coffee Grinder
+	- AeroPress + Fellow Prismo
+  	- https://www.youtube.com/watch?v=yDsOQMdVzpg
+  	- [YuroPress (Chinese Knockoff)](https://shopee.co.th/YuroPress-Coffeepress-Maker-%E0%B9%80%E0%B8%84%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B3%E0%B8%81%E0%B8%B2%E0%B9%81%E0%B8%9F%E0%B9%81%E0%B8%9A%E0%B8%9A-AeroPress-Prismo-i.260610709.9705817071)
+  - [x] Coffee Grinder
 		- My [Delonghi KG79](https://www.delonghi.com/en-int/products/coffee/coffee-makers/grinders/kg79-0177111028) is not that good & hard to clean, I used it for Cold Brew.
 		- Hand grinder
 			- Kingrinder K2 (Grinds faster than C2 [ref](https://www.youtube.com/watch?v=0qBVp__SWwQ))
