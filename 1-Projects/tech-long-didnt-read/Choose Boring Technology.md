@@ -42,3 +42,6 @@ src: https://boringtechnology.club
 - ฉะนั้น ใช้ Tech ที่พิสูจน์ตัวเองมาแล้ว เลือกให้ดี ใช้ให้เชี่ยวชาญ
 - นึกถึงภาพรวมของ Product ให้มากกว่าแค่มาเลือกกันว่าใช้ Tech เช่น Database ตัวไหนดี
 - "Happiness comes from shipping meaningful work."
+
+## TLDR
+Prefer proven technology even if it is boring.
