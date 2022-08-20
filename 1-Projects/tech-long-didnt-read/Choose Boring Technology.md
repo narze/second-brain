@@ -2,6 +2,8 @@
 title: "Choose Boring Technology"
 date: 2022-08-20
 src: "https://boringtechnology.club"
+tags:
+- techlongdidntread
 ---
 
 src: https://boringtechnology.club
