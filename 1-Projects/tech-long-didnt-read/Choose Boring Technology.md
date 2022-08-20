@@ -3,7 +3,7 @@ title: "Choose Boring Technology"
 date: 2022-08-20
 src: "https://boringtechnology.club"
 tags:
-- techlongdidntread
+- tech-long-didnt-read
 ---
 
 src: https://boringtechnology.club

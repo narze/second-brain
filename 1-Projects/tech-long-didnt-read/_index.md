@@ -1,7 +1,7 @@
 ---
 title: "Tech Long; Didn't Read"
 tags:
-- techlongdidntread
+- tech-long-didnt-read
 ---
 
 ## Origin - My [fb post](https://www.facebook.com/narze/posts/pfbid0nakzVNduyoocPovaD3xcbAva7Stt8n3D5JuYmYqb555u7t6jbNeTjF6131mLQ8RAl)
