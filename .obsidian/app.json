@@ -7,5 +7,6 @@
   "useMarkdownLinks": true,
   "tabSize": 2,
   "useTab": false,
-  "showFrontmatter": true
+  "showFrontmatter": true,
+  "autoPairMarkdown": false
 }
