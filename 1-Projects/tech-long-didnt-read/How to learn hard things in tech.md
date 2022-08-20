@@ -26,3 +26,5 @@ Force yourself to do 1. and 2. first (Starting with 3. is easier but won't make 
 4. ทำ 1-3 ซ้ำไปเรื่อยๆ
 บังคับให้ตัวเองทำข้อ 1. และ 2. ก่อน (เริ่มจาก 3. ง่ายกว่าก็จริง แต่ก็ทำให้คุณเก่งขึ้นช้ากว่า)
 
+## TLDR
+Learn by building.
