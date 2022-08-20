@@ -3,6 +3,8 @@ title: "How to learn hard things in tech"
 src: "https://technicallychallenged.substack.com/p/how-to-learn-hard-things-in-tech"
 ---
 
+![](Images/Cover%20-%20How%20to%20learn%20hard%20things%20in%20tech.png)
+
 [Source](https://technicallychallenged.substack.com/p/how-to-learn-hard-things-in-tech)
 
 ## Summary
