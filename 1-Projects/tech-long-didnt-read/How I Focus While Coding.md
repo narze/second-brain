@@ -9,7 +9,7 @@ tags:
 
 [Source](https://www.youtube.com/watch?v=H68Iqm6c36U)
 
-- Many people recommend time boxing methods like Pomodoro Technique (25m work, 5m break.)
+- Many people recommend time boxing methods like Pomodoro Technique: 25m work followed by 5m break.
 - But it doesn't work well with coding (at least for him), where your train of thoughts or flow state will be lost every 25 minutes and you have to start all over again.
 - Just sit down and start coding 4hr, although it is not easy.
 - Remove all distractions: phone, notifications, email, Slack, additional monitors that often are used for leisure apps.
