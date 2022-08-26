@@ -18,3 +18,7 @@ tags:
 - Force yourself to start, and then go with the flow state.
 - No 1-size fit all solution, try if it works or not.
 - Be healthy: exercise, sleep well, drink water.
+
+Thoughts:
+
+ใช้ Pomodoro Technique มาหลายปี พบว่าเราไม่ต้อง และไม่ควรจำกัดอยู่แค่ 25/5 ลองหา alternative อื่นได้ เพราะแต่ละงานและสายอาชีพมันมี work process ที่ต่างกัน
