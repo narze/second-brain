@@ -1,5 +1,6 @@
 {
   "autorun": true,
   "template": "",
-  "folder": "Daily.priv"
+  "folder": "Daily.priv",
+  "format": "YYYY-MM/YYYY-MM-DD"
 }
