@@ -6,7 +6,7 @@
     "format": "",
     "template": "",
     "folder": "Daily.priv",
-    "enabled": true
+    "enabled": false
   },
   "weekly": {
     "format": "",
