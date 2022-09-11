@@ -9,7 +9,9 @@ Day 1: Introduction
   - Motivation: P x E x S3
 - Think/imagine about perfectly productive day
 
-Day 2: Learning Management
+LIMITLESS = Acronyms of Day 2-10
+
+Day 2: Learning Management 
 - "Sharpen The Saw"
 - Have to-learn list
 - Benjamin Franklin's 5 Hour Strategy
@@ -18,3 +20,41 @@ Day 2: Learning Management
   - Teaching makes you learn twice.
 - For every input hour (Read, Watch, Listen), take an hour outputting (Teach, Share, Write, Do)
 - Have goal, practice consistently, get a coach
+
+Day 3: Importance Management
+- "Keep most important thing as the most important thing"
+  - You don't have to be good at things that are not important for you
+  - Something should not be done, at all
+  - Fill in the big rocks in the jar first
+    - e.g. Family, Health, Relationship
+  - Sort tasks in Eisenhower Matrix
+    - Urgent / not urgent & important / not important
+    - Learn to say no
+    - Make a Not To-Do list
+
+Day 4: Mind Management
+- LIEs - Limited Ideas Entertained
+- 7 lies to learning (Limitless Book)
+- Don't do everything in todo list, pick 3
+- Find your chronotype
+- Multitasking is a myth. It's task-switching.
+  - It makes you lose Time, Accuracy, and Energy
+- You have more than 10hr of free time each day apart from sleep & work
+
+Day 5: Implementation Management
+- Bruce Lee - "If you spend too much time thinking about a thing, you'll never get it done"
+- Use Pareto Principle - Focus on 20% effort that yield 80% of the rewards.
+- Create habits
+- Win the first hour of the day
+- Morning routine examples (adapt & adjust, don't do everything)
+  - Identify the most important tasks for the day (on your bed)
+  - Remember your dreams
+  - Make the bed
+  - Get direct sunlight
+  - Get 3min exercise
+  - Hydrate
+  - Cold shower
+  - Brush teeth with opposite hand
+  - Brain Dump
+  - Evaluate the day
+- "Stop talking, start doing"
