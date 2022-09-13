@@ -78,3 +78,11 @@ Day 6: Time Management
 
 Day 7: Lens Management
 - Attention, Focus, Spotlight
+- Human can focus only 5-9 bits of information at a time (7±2)
+- (Dominant) Questions are magnets, it affects your performance
+  - "That's the best use of this moment?"
+  - "Who do I need to be?"
+  - "What if I have to hit 10-year goal within 6 months?"
+  - "How can I make this more effortless/easier?"
+  - "How do I have fun in the process?"
+- Have a Distraction Sheet, write it down to release it
