@@ -75,3 +75,6 @@ Day 6: Time Management
   - If it can be done in 2 minutes, do it
 - Find what's working best for you to maximize your time
 - List 3 non-negotiable time management tools
+
+Day 7: Lens Management
+- 
