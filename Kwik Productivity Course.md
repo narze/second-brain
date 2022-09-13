@@ -77,4 +77,4 @@ Day 6: Time Management
 - List 3 non-negotiable time management tools
 
 Day 7: Lens Management
-- 
+- Attention, Focus, Spotlight
