@@ -86,3 +86,13 @@ Day 7: Lens Management
   - "How can I make this more effortless/easier?"
   - "How do I have fun in the process?"
 - Have a Distraction Sheet, write it down to release it
+
+Day 8: Energy Management
+- Create & manage energy by doing things that energizes you
+- "Passion is energy." - Oprah Winfrey
+- Pomodoro Technique
+  - Work in short bursts
+  - Take breaks
+  - Know your sleep chronotype, know when you have most & least energy
+- Prevent decision fatigue, adhere to your process and use energy with something that matter
+- 
