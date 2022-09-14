@@ -90,9 +90,16 @@ Day 7: Lens Management
 Day 8: Energy Management
 - Create & manage energy by doing things that energizes you
 - "Passion is energy." - Oprah Winfrey
-- Pomodoro Technique
+- Pomodoro Technique (25:5)
   - Work in short bursts
   - Take breaks
   - Know your sleep chronotype, know when you have most & least energy
 - Prevent decision fatigue, adhere to your process and use energy with something that matter
-- 
+- Brain Break tips
+  - Move - Walk
+  - Breathe
+  - Hydrate - Drink
+    - 30% better reaction time
+  - Reduce visual fatigue
+    - Look of in far distance
+- Find how you create energy
