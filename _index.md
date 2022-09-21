@@ -4,7 +4,7 @@ title: "Digital Garden"
 
 ## What's this?
 
-A [Second Brain](/Second%20Brain.md) by me started in 2022. Using [Obsidian](https://obsidian.md/) & [Quartz](https://quartz.jzhao.xyz), all the notes are backup using iCloud Drive & [Github](https://github.com/narze/second-brain). I plan to create my own static site builder using SvelteKit, too.
+A [Second Brain](/Second%20Brain.md) by me started in 2022. Using [Obsidian](https://obsidian.md/) & [Quartz](https://quartz.jzhao.xyz), all the notes are backup using iCloud Drive & [Github](https://github.com/narze/second-brain).
 
 This will be the one of my [Outlets](/Outlets.md)
 
@@ -12,12 +12,12 @@ This will be the one of my [Outlets](/Outlets.md)
 - [Second Brain](Second%20Brain.md)
 - [Wishlist](Wishlist.md)
 - [Uses](Uses.md)
+- [Excalidraw](/Excalidraw/)
 - [PARA](PARA%20Method.md)
 	- [Projects](/1-projects/)
 	- [Areas](/2-areas/)
 	- [Resources](/3-resources/)
 	- [Archives](/4-archives/)
-- [Excalidraw](Excalidraw/_index.md)
 
 ## Webring
 
