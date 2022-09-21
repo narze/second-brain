@@ -1,5 +1,5 @@
 ---
-title: "The only 2 kills those matter"
+title: "The only 2 skills those matter"
 ---
 
 Master these 2 meta-skills which will lead to learning everything faster.
