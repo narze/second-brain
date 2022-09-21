@@ -17,7 +17,7 @@ This will be the one of my [Outlets](/Outlets.md)
 	- [Areas](/2-areas/)
 	- [Resources](/3-resources/)
 	- [Archives](/4-archives/)
-- [Excalidraw](/Excalidraw/)
+- [Excalidraw](Excalidraw/_index.md)
 
 ## Webring
 
