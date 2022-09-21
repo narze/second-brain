@@ -1,5 +1,5 @@
 ---
-title: "Excalidraw"
+title: "Excalidraw Test"
 ---
 
 Test embedding excalidraw on obsidian
