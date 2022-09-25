@@ -1,1 +1,0 @@
-Test link to upper level pages like [Ideas](../Ideas.md) or another folders like ![KINGrinder](/Images/KINGrinder.png)
