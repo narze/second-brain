@@ -12,5 +12,6 @@
   "markdown-importer",
   "word-count",
   "audio-recorder",
-  "file-recovery"
+  "file-recovery",
+  "sync"
 ]
