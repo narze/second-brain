@@ -1,0 +1,115 @@
+{
+  "main": {
+    "id": "4a091b6250ccf933",
+    "type": "split",
+    "children": [
+      {
+        "id": "a0798190b26b850d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0253f0681ab439ad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Daily.priv/2022-10/2022-10-19.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1ce03a04c877764d",
+    "type": "split",
+    "children": [
+      {
+        "id": "e113738edfd00d67",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6d4be2bcccf81bca",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "4439195e7c96871f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "redis",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 225.00556182861328
+  },
+  "right": {
+    "id": "c9338617ea4c4348",
+    "type": "split",
+    "children": [
+      {
+        "id": "0cb272b7e1b50029",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1e956b46a9ca1d05",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Daily.priv/2022-10/2022-10-19.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "ribbon": {
+    "mostRecentAction": ""
+  },
+  "active": "0253f0681ab439ad",
+  "lastOpenFiles": [
+    "Daily.priv/2022-10/2022-10-17.md",
+    "Daily.priv/2022-10/2022-10-07.md",
+    "Daily.priv/2022-10/2022-10-06.md",
+    "Daily.priv/Attachments/Pasted image 20221006221835.png",
+    "Daily.priv/2022-10/2022-10-05.md",
+    "Daily.priv/2022-10/2022-10-04.md",
+    "Daily.priv/Attachments/Pace payment.png",
+    "Daily.priv/2022-09/2022-09-30.md",
+    "Daily.priv/2022-10/2022-10-01.md",
+    "Daily.priv/2022-09/2022-09-29.md"
+  ]
+}
