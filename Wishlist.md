@@ -46,6 +46,7 @@ title: "Wishlist"
 ## Tech
 - 144hz 4K Monitor
 - Better microphone with handle for streaming & video calls
+ - `แนะนำ Behringer XM8500 (970.-) กับ Behringer UMC22 (2,790.-)ครับ อาจรูปร่างไม่สวยเท่าไหร่แต่เสียงดีแน่นอน (สำหรับราคานี้) https://youtu.be/zrKKjGXyHg4`
 - Ouraring https://ouraring.com
 	- Afflilated link from Snazzy Labs [https://ouraring.com?mct=LqjQ9l6P](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqa1pHZkpvQUFES3dUZTFZY2RqY0Rid3FaMWJvUXxBQ3Jtc0trczNmT2xUaS1Gb1Y3a0xKMGsxY1UxcXJqc2RVcktNODVLNER5TUZYeDRQd2JUTUR3SnVIai1ZZjJvNTc0NzR4MU1YQldNWjEtMF9oSm9BUVRMUWRlclNBVk5seHo1ejl0WGVMc2FWcE1KMEl3MGw0dw&q=https%3A%2F%2Fouraring.com%3Fmct%3DLqjQ9l6P&v=pQWGFKhBQwU) (Free 6-month membership)
 - VR Headset
