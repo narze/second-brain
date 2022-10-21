@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily.priv/2022-10/2022-10-20.md",
+                "file": "Daily.priv/2022-10/2022-10-21.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -62,7 +62,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 225.00556182861328
+    "width": 254.5110321044922
   },
   "right": {
     "id": "c9338617ea4c4348",
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily.priv/2022-10/2022-10-20.md",
+                "file": "Daily.priv/2022-10/2022-10-21.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,8 +101,8 @@
   },
   "active": "0253f0681ab439ad",
   "lastOpenFiles": [
-    "Daily.priv/2022-10/2022-10-19.md",
     "Daily.priv/2022-10/2022-10-20.md",
+    "Daily.priv/2022-10/2022-10-19.md",
     "Daily.priv/Attachments/URL Attacks.png",
     "Daily.priv/2022-10/2022-10-19 2.md",
     "Daily.priv/2022-10/2022-10-18.md",
