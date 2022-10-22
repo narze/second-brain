@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wishlist.md",
+                "file": "Daily.priv/2022-10/2022-10-23.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wishlist.md",
+                "file": "Daily.priv/2022-10/2022-10-23.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,6 +101,7 @@
   },
   "active": "0253f0681ab439ad",
   "lastOpenFiles": [
+    "Wishlist.md",
     "Untitled.md",
     "Daily.priv/2022-10/2022-10-21.md",
     "Daily.priv/2022-10/2022-10-20.md",
@@ -109,7 +110,6 @@
     "Daily.priv/2022-10/2022-10-19 2.md",
     "Daily.priv/2022-10/2022-10-18.md",
     "Daily.priv/2022-10/2022-10-17.md",
-    "Daily.priv/2022-08-02.md",
-    "Daily.priv/Attachments/Pasted image 20221019125904.png"
+    "Daily.priv/2022-08-02.md"
   ]
 }
