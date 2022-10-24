@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "a0798190b26b850d",
+        "id": "43fe4cbde4f8094f",
         "type": "tabs",
         "children": [
           {
-            "id": "0253f0681ab439ad",
+            "id": "b6c91b999a98c204",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily.priv/2022-10/2022-10-23.md",
+                "file": "Daily.priv/2022-10/2022-10-24.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily.priv/2022-10/2022-10-23.md",
+                "file": "Daily.priv/2022-10/2022-10-24.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,17 +99,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "0253f0681ab439ad",
+  "active": "b6c91b999a98c204",
   "lastOpenFiles": [
-    "Wishlist.md",
     "Untitled.md",
+    "Daily.priv/2022-10/2022-10-23.md",
+    "Wishlist.md",
     "Daily.priv/2022-10/2022-10-21.md",
     "Daily.priv/2022-10/2022-10-20.md",
     "Daily.priv/2022-10/2022-10-19.md",
     "Daily.priv/Attachments/URL Attacks.png",
     "Daily.priv/2022-10/2022-10-19 2.md",
     "Daily.priv/2022-10/2022-10-18.md",
-    "Daily.priv/2022-10/2022-10-17.md",
-    "Daily.priv/2022-08-02.md"
+    "Daily.priv/2022-10/2022-10-17.md"
   ]
 }
