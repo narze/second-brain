@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily.priv/2022-10/2022-10-25.md",
+                "file": "Daily.priv/2022-10/2022-10-05.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tailscale cert",
+                "query": "skillest",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -58,7 +58,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -78,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily.priv/2022-10/2022-10-25.md",
+                "file": "Daily.priv/2022-10/2022-10-05.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,15 +102,15 @@
   },
   "active": "b7934a4e9e90d3aa",
   "lastOpenFiles": [
+    "Daily.priv/2022-10/2022-10-25.md",
+    "Daily.priv/2022-10/2022-10-03.md",
+    "Daily.priv/2022-10/2022-10-05.md",
     "Daily.priv/2022-10/2022-10-24.md",
     "Untitled.md",
     "Daily.priv/2022-10/2022-10-23.md",
     "Wishlist.md",
     "Daily.priv/2022-10/2022-10-21.md",
     "Daily.priv/2022-10/2022-10-20.md",
-    "Daily.priv/2022-10/2022-10-19.md",
-    "Daily.priv/Attachments/URL Attacks.png",
-    "Daily.priv/2022-10/2022-10-19 2.md",
-    "Daily.priv/2022-10/2022-10-18.md"
+    "Daily.priv/2022-10/2022-10-19.md"
   ]
 }
