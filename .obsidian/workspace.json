@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "1f5c70a1aeb9b7aa",
+        "id": "f8eadd82a6e22f12",
         "type": "tabs",
         "children": [
           {
-            "id": "b7934a4e9e90d3aa",
+            "id": "b383ca126265525e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily.priv/2022-10/2022-10-21.md",
+                "file": "Daily.priv/2022-10/2022-10-26.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily.priv/2022-10/2022-10-21.md",
+                "file": "Daily.priv/2022-10/2022-10-26.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,17 +99,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "b7934a4e9e90d3aa",
+  "active": "b383ca126265525e",
   "lastOpenFiles": [
     "Daily.priv/2022-10/2022-10-23.md",
     "Daily.priv/2022-10/2022-10-24.md",
     "Daily.priv/2022-10/2022-10-25.md",
+    "Daily.priv/2022-10/2022-10-26.md",
+    "Daily.priv/2022-10/2022-10-21.md",
     "Daily.priv/2022-10/2022-10-18.md",
     "Daily.priv/2022-10/2022-10-07.md",
     "Daily.priv/2022-10/2022-10-17.md",
     "Daily.priv/2022-10/2022-10-19.md",
-    "Daily.priv/2022-10/2022-10-20.md",
-    "Daily.priv/2022-10/2022-10-21.md",
-    "Daily.priv/2022-10/2022-10-26.md"
+    "Daily.priv/2022-10/2022-10-20.md"
   ]
 }
