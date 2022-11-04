@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "group by ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -58,7 +58,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -96,7 +97,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "6d4be2bcccf81bca",
+  "active": "4439195e7c96871f",
   "lastOpenFiles": [
     "Daily.priv/2022-11/2022-11-03.md",
     "Daily.priv/2022-11/2022-11-04.md",
