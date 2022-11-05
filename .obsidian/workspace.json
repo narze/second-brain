@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "group by ",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -58,12 +58,11 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 271.5026054382324
+    "width": 254.5110321044922
   },
   "right": {
     "id": "c9338617ea4c4348",
@@ -97,17 +96,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "4439195e7c96871f",
+  "active": "b383ca126265525e",
   "lastOpenFiles": [
-    "Daily.priv/2022-11/2022-11-03.md",
-    "Daily.priv/2022-11/2022-11-04.md",
-    "Daily.priv/Attachments/Pasted image 20221103134016.png",
     "Daily.priv/2022-11/2022-11-02.md",
     "Daily.priv/2022-11/2022-11-01.md",
     "Daily.priv/2022-10/2022-10-31.md",
     "Daily.priv/2022-10/2022-10-29.md",
     "Daily.priv/2022-10/2022-10-28.md",
     "Daily.priv/Attachments/Pasted image 20221028112243.png",
-    "Daily.priv/2022-10/2022-10-27.md"
+    "Daily.priv/2022-10/2022-10-27.md",
+    "Daily.priv/2022-10/2022-10-26.md",
+    "Daily.priv/2022-10/2022-10-21.md",
+    "Daily.priv/2022-10/2022-10-24.md"
   ]
 }
