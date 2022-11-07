@@ -45,6 +45,8 @@ title: "Wishlist"
 
 ## Tech
 - 144hz 4K Monitor
+  - Dell G3223Q https://www.bnn.in.th/th/p/dell-monitor-g3223q-ips-4k-144h-5397184567920_dkekxj
+  - ACER MONITOR Nitro Gaming XV282 https://www.bnn.in.th/th/p/computer-hardware-diy/monitor-computer-hardware-diy/acer-monitor-computer-hardware-diy/acer-monitor-nitro-gaming-xv282kkvbmiipruzx-ips-4k-144hz-usb-c-speaker-4710886700081_zwlj8o
 - Better microphone with handle for streaming & video calls
  - `แนะนำ Behringer XM8500 (970.-) กับ Behringer UMC22 (2,790.-)ครับ อาจรูปร่างไม่สวยเท่าไหร่แต่เสียงดีแน่นอน (สำหรับราคานี้) https://youtu.be/zrKKjGXyHg4`
 - Ouraring https://ouraring.com

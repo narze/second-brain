@@ -8,5 +8,6 @@
   "tabSize": 2,
   "useTab": false,
   "showFrontmatter": true,
-  "autoPairMarkdown": false
+  "autoPairMarkdown": false,
+  "attachmentFolderPath": "./attachments"
 }
