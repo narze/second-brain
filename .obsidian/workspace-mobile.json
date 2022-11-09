@@ -11,9 +11,12 @@
             "id": "76ee4a4c58abe17a",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2022-11-02 20.20.13.excalidraw.md"
+                "file": "Drafts.priv/Building Manoonchai.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
             }
           }
@@ -64,7 +67,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Excalidraw/Drawing 2022-11-02 20.20.13.excalidraw.md",
+            "file": "Drafts.priv/Building Manoonchai.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -80,15 +83,15 @@
   },
   "active": "76ee4a4c58abe17a",
   "lastOpenFiles": [
-    "Daily.priv/2022-11/2022-11-02.md",
+    "Daily.priv/2022-11/2022-11-07.md",
+    "Daily.priv/2022-11/2022-11-08.md",
+    "Daily.priv/2022-11/2022-11-09 2.md",
+    "Daily.priv/2022-11/2022-11-09.md",
     "Excalidraw/Drawing 2022-11-02 20.20.13.excalidraw.md",
+    "Daily.priv/2022-11/2022-11-02.md",
     "Daily.priv/2022-11/2022-11-01.md",
     "Daily.priv/2022-10/2022-10-19.md",
     "Daily.priv/2022-10/2022-10-06.md",
-    "Daily.priv/Attachments/Pasted image 20221006221835.png",
-    "Daily.priv/2022-10/2022-10-05.md",
-    "Daily.priv/2022-10/2022-10-04.md",
-    "Daily.priv/Attachments/Pace payment.png",
-    "Daily.priv/2022-09/2022-09-30.md"
+    "Daily.priv/Attachments/Pasted image 20221006221835.png"
   ]
 }
