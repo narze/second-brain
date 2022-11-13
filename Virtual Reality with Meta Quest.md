@@ -7,3 +7,4 @@
   - Setting up BMBF
     - https://bsmg.wiki/quest-modding.html#installing-bmbf-with-sidequest
   - Downgrading BeatSaber to latest moddable version https://oculusdb.rui2015.me/id/2448060205267927
+  - MoonRider WebXR (Uses song from Beatsaver) - https://moonrider.xyz
