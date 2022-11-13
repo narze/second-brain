@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "f8eadd82a6e22f12",
+        "id": "f7222404dcddda0e",
         "type": "tabs",
         "children": [
           {
-            "id": "fc592a0f1c776bcb",
+            "id": "b841c3cb76c3ccc1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Drafts.priv/Building Manoonchai.md",
+                "file": "Daily.priv/2022-11/2022-11-13.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "361b564e6167b02c",
+            "id": "f1b8a1baf6506bbe",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Virtual Reality with Meta Quest.md",
+                "file": "Unconditional FizzBuzz.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -72,8 +72,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -93,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Virtual Reality with Meta Quest.md",
+                "file": "Unconditional FizzBuzz.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,17 +110,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "361b564e6167b02c",
+  "active": "f1b8a1baf6506bbe",
   "lastOpenFiles": [
+    "Meta Quest.md",
+    "Unconditional FizzBuzz.md",
+    "Daily.priv/2022-11/2022-11-13.md",
+    "Daily.priv/2022-11/2022-11-11.md",
+    "Daily.priv/2022-11/2022-11-10.md",
+    "Daily.priv/2022-11/2022-11-09.md",
+    "Daily.priv/2022-11/2022-11-08.md",
+    "Daily.priv/2022-11/2022-11-09 2.md",
     "Drafts.priv/Building Manoonchai.md",
-    "Wishlist.md",
-    "Drafts.priv/Svelte in brief.md",
-    "1-Projects/Page365.priv/Shopee PH.md",
-    "1-Projects/Page365.priv/Pasted image 20221106142930.png",
-    "Daily.priv/2022-11/2022-11-06.md",
-    "Daily.priv/2022-11/2022-11-04.md",
-    "Daily.priv/2022-11/2022-11-02.md",
-    "Daily.priv/2022-11/2022-11-01.md",
-    "Daily.priv/2022-10/2022-10-31.md"
+    "Wishlist.md"
   ]
 }
