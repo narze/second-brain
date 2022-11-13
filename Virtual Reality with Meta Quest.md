@@ -1,0 +1,6 @@
+- Virtual desktop app with macOS support
+  - https://www.vrdesktop.net
+  - https://immersed.com
+    - https://medium.com/immersedteam/working-from-orbit-39bf95a6d385
+- SideQuest - 3rd party app store
+- BeatSaber custom songs with BMBF
