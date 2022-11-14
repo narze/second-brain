@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Unconditional FizzBuzz.md",
+                "file": "Daily.priv/2022-11/2022-11-14.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -92,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Unconditional FizzBuzz.md",
+                "file": "Daily.priv/2022-11/2022-11-14.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,8 +112,8 @@
   },
   "active": "f1b8a1baf6506bbe",
   "lastOpenFiles": [
-    "Meta Quest.md",
     "Unconditional FizzBuzz.md",
+    "Meta Quest.md",
     "Daily.priv/2022-11/2022-11-13.md",
     "Daily.priv/2022-11/2022-11-11.md",
     "Daily.priv/2022-11/2022-11-10.md",

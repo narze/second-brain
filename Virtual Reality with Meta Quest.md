@@ -1,0 +1,11 @@
+- Virtual desktop app with macOS support
+  - https://www.vrdesktop.net
+  - https://immersed.com
+    - https://medium.com/immersedteam/working-from-orbit-39bf95a6d385
+- SideQuest - 3rd party app store
+- BeatSaber custom songs with BMBF
+  - Setting up BMBF
+    - https://bsmg.wiki/quest-modding.html#installing-bmbf-with-sidequest
+  - Downgrading BeatSaber to latest moddable version https://oculusdb.rui2015.me/id/2448060205267927
+  - MoonRider WebXR (Uses song from Beatsaver) - https://moonrider.xyz
+- [McOsu](https://store.steampowered.com/app/607260/McOsu) has VR support
