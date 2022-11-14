@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily.priv/2022-11/2022-11-13.md",
+                "file": "Daily.priv/2022-11/2022-11-14.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -26,15 +26,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily.priv/2022-11/2022-11-14.md",
+                "file": "Virtual Reality with Meta Quest.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -76,7 +75,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 254.5110321044922
+    "width": 212.50260543823242
   },
   "right": {
     "id": "c9338617ea4c4348",
@@ -110,17 +109,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "f1b8a1baf6506bbe",
+  "active": "b841c3cb76c3ccc1",
   "lastOpenFiles": [
-    "Unconditional FizzBuzz.md",
-    "Meta Quest.md",
     "Daily.priv/2022-11/2022-11-13.md",
+    "Daily.priv/2022-11/2022-11-14.md",
     "Daily.priv/2022-11/2022-11-11.md",
     "Daily.priv/2022-11/2022-11-10.md",
     "Daily.priv/2022-11/2022-11-09.md",
-    "Daily.priv/2022-11/2022-11-08.md",
-    "Daily.priv/2022-11/2022-11-09 2.md",
     "Drafts.priv/Building Manoonchai.md",
-    "Wishlist.md"
+    "Daily.priv/2022-11/2022-11-08.md",
+    "Virtual Reality with Meta Quest.md",
+    "Unconditional FizzBuzz.md",
+    "Meta Quest.md"
   ]
 }
