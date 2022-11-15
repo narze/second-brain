@@ -19,19 +19,6 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "f1b8a1baf6506bbe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Virtual Reality with Meta Quest.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
         ]
       }
@@ -62,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "openssl req",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -71,7 +58,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -109,8 +97,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "b841c3cb76c3ccc1",
+  "active": "4439195e7c96871f",
   "lastOpenFiles": [
+    "Virtual Reality with Meta Quest.md",
+    "Daily.priv/2022-11/2022-11-15.md",
     "Daily.priv/2022-11/2022-11-13.md",
     "Daily.priv/2022-11/2022-11-14.md",
     "Daily.priv/2022-11/2022-11-11.md",
@@ -118,8 +108,6 @@
     "Daily.priv/2022-11/2022-11-09.md",
     "Drafts.priv/Building Manoonchai.md",
     "Daily.priv/2022-11/2022-11-08.md",
-    "Virtual Reality with Meta Quest.md",
-    "Unconditional FizzBuzz.md",
-    "Meta Quest.md"
+    "Unconditional FizzBuzz.md"
   ]
 }
