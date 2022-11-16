@@ -9,3 +9,11 @@
   - Downgrading BeatSaber to latest moddable version https://oculusdb.rui2015.me/id/2448060205267927
   - MoonRider WebXR (Uses song from Beatsaver) - https://moonrider.xyz
 - [McOsu](https://store.steampowered.com/app/607260/McOsu) has VR support
+
+# Tips
+- Disabling Proximity sensor (Sleep when taking the headset off)
+  - https://smartglasseshub.com/disable-quest-2-proximity-sensor
+    - SideQuest -> Headset Settings
+    - Meta Quest Developer Hub application
+    - `adb`
+      - `cd "/Applications/Meta Quest Developer Hub.app/Contents/Resources/bin"`
