@@ -17,3 +17,7 @@
     - Meta Quest Developer Hub application
     - `adb`
       - `cd "/Applications/Meta Quest Developer Hub.app/Contents/Resources/bin"`
+- Use `scrcpy` to cast screen from Quest to macOS 
+  - `scrcpy -b25M --crop 1600:900:2017:510`
+  - However, the audio is not casting and `sndcpy` does not work with my Quest
+- https://www.youtube.com/watch?v=Ora7OrQHwEs
