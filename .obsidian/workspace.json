@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily.priv/2022-11/2022-11-15.md",
+                "file": "Daily.priv/2022-11/2022-11-16.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "openssl req",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily.priv/2022-11/2022-11-15.md",
+                "file": "Daily.priv/2022-11/2022-11-16.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,8 +99,8 @@
   },
   "active": "b841c3cb76c3ccc1",
   "lastOpenFiles": [
-    "Virtual Reality with Meta Quest.md",
     "Daily.priv/2022-11/2022-11-15.md",
+    "Virtual Reality with Meta Quest.md",
     "Daily.priv/2022-11/2022-11-13.md",
     "Daily.priv/2022-11/2022-11-14.md",
     "Daily.priv/2022-11/2022-11-11.md",
