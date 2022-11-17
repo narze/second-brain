@@ -4,23 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "bfcd5c151e941ae9",
+        "id": "7e273e617a27201a",
         "type": "tabs",
         "children": [
           {
-            "id": "d6ca3a8dba9b1174",
+            "id": "a1c69edda00fcbcd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Virtual Reality with Meta Quest.md",
+                "file": "Daily.priv/2022-11/2022-11-17.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f4865849775a6074",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Daily.priv/2022-11/2022-11-17.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -49,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "libpq",
+                "query": "argocd log",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -58,8 +72,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -79,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Virtual Reality with Meta Quest.md",
+                "file": "Daily.priv/2022-11/2022-11-17.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,17 +110,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "d6ca3a8dba9b1174",
+  "active": "f4865849775a6074",
   "lastOpenFiles": [
+    "Daily.priv/2022-11/attachments/Pasted image 20221117114906.png",
+    "Daily.priv/2022-11/attachments/Pasted image 20221115175918.png",
+    "Daily.priv/2022-11/2022-11-17.md",
+    "Daily.priv/2022-09/2022-09-01.md",
+    "Daily.priv/2022-09/2022-09-27.md",
     "Daily.priv/2022-11/2022-11-16.md",
     "Daily.priv/2022-10/2022-10-26.md",
     "Daily.priv/2022-11/2022-11-15.md",
     "Virtual Reality with Meta Quest.md",
-    "Daily.priv/2022-11/2022-11-13.md",
-    "Daily.priv/2022-11/2022-11-14.md",
-    "Daily.priv/2022-11/2022-11-11.md",
-    "Daily.priv/2022-11/2022-11-10.md",
-    "Daily.priv/2022-11/2022-11-09.md",
-    "Drafts.priv/Building Manoonchai.md"
+    "Daily.priv/2022-11/2022-11-13.md"
   ]
 }
