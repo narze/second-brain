@@ -4,37 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "7e273e617a27201a",
+        "id": "a8efcc49361dd7e5",
         "type": "tabs",
         "children": [
           {
-            "id": "a1c69edda00fcbcd",
+            "id": "c2f2e3c0c46a9fe6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily.priv/2022-11/2022-11-17.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f4865849775a6074",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily.priv/2022-11/2022-11-18.md",
+                "file": "Wasm.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -92,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily.priv/2022-11/2022-11-18.md",
+                "file": "Wasm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,10 +96,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "f4865849775a6074",
+  "active": "c2f2e3c0c46a9fe6",
   "lastOpenFiles": [
     "Daily.priv/2022-11/2022-11-17.md",
-    "Daily.priv/2022-11/2022-11-18.md",
     "Daily.priv/2022-11/attachments/Pasted image 20221117114906.png",
     "Daily.priv/2022-11/attachments/Pasted image 20221115175918.png",
     "Daily.priv/2022-09/2022-09-01.md",
@@ -121,6 +106,7 @@
     "Daily.priv/2022-11/2022-11-16.md",
     "Daily.priv/2022-10/2022-10-26.md",
     "Daily.priv/2022-11/2022-11-15.md",
-    "Virtual Reality with Meta Quest.md"
+    "Virtual Reality with Meta Quest.md",
+    "Daily.priv/2022-11/2022-11-13.md"
   ]
 }
