@@ -23,3 +23,6 @@ date: 2022-11-19 00:34
 - https://github.com/appcypher/awesome-wasm-runtimes
 - [Javy](https://github.com/Shopify/javy) - JS to Wasm toolchain (it can [compile js to wasm](https://github.com/Shopify/javy#compiling-to-webassembly))
 - [Learning WebAssembly Series (Blog)](https://blog.ttulka.com/learning-webassembly-series/?ref=hackernoon.com)
+- [Wasm Ecosystem Mind Mapping](https://coggle.it/diagram/YgSRKkMks4i53-Ps/t/webassembly-icon-wasm-webassembly)
+- Misc
+    - [Essential Guide to Image Processing with WebAssembly](https://hackernoon.com/essential-guide-to-image-processing-with-webassembly-q11u33hq)

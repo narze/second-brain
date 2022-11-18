@@ -1,3 +1,9 @@
+---
+title: "Unconditional FizzBuzz"
+created: 2022-11-19 00:44
+date: 2022-11-19 00:44
+---
+
 - Ruby (~5min)
 ```ruby
 n = 100

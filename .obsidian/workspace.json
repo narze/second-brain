@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wasm.md",
+                "file": "Unconditional FizzBuzz.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wasm.md",
+                "file": "Unconditional FizzBuzz.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +98,7 @@
   },
   "active": "c2f2e3c0c46a9fe6",
   "lastOpenFiles": [
+    "Wasm.md",
     "Daily.priv/2022-11/2022-11-17.md",
     "Daily.priv/2022-11/attachments/Pasted image 20221117114906.png",
     "Daily.priv/2022-11/attachments/Pasted image 20221115175918.png",
@@ -106,7 +107,6 @@
     "Daily.priv/2022-11/2022-11-16.md",
     "Daily.priv/2022-10/2022-10-26.md",
     "Daily.priv/2022-11/2022-11-15.md",
-    "Virtual Reality with Meta Quest.md",
-    "Daily.priv/2022-11/2022-11-13.md"
+    "Virtual Reality with Meta Quest.md"
   ]
 }
