@@ -9,3 +9,4 @@
   - [Wasmer](https://wasmer.io/wasmer-vs-wasmtime) claims that it's faster & better than wasm
     - `asdf plugin add wasmer && asdf install wasmer latest`
     - [Wapm](https://wapm.io) - Wasm package manager (which comes with wasmer)
+    - `wax` ~ nodejs's npx but it's wasm (example: `wax quickjs`)
