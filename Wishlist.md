@@ -7,7 +7,14 @@ title: "Wishlist"
 
 ## Coffee
 - [x] Manual Espresso Machine
-	- [SuperKop](https://www.superkop.com)
+  - [Cafelat Robot](https://th.hazelnhershey.com/collections/equipment)
+    - Best workflow for 2 cups, no preheating required, have gauge
+    - Thai shops
+      - FB: Robot Coffee Maker Thailand
+      - [Agaligo Coffee Chonburi](https://www.facebook.com/AgaligoCoffee)
+      - [Hazel & Hershey Thailand](https://www.facebook.com/hazelnhershey.thailand) [Website](https://th.hazelnhershey.com/collections/equipment)
+- [SuperKop](https://www.superkop.com)
+- [Mischief](https://www.mischiefworkshop.com/product/mischief-espresso-maker-steel-support)
   	- Thailand Reseller https://www.facebook.com/SuperkopThailand
   	- [Review](https://www.youtube.com/watch?v=4GavR71moBQ)
   - [Cafelat Robot](http://www.cafelat.com/robot.html)

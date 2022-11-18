@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wasm.md",
+                "file": "Wishlist.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wasm.md",
+                "file": "Wishlist.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,11 +98,11 @@
   },
   "active": "c2f2e3c0c46a9fe6",
   "lastOpenFiles": [
+    "Wasm.md",
     "Virtual Reality with Meta Quest.md",
     "Untitled 2.md",
     "Untitled.md",
     "Unconditional FizzBuzz.md",
-    "Wasm.md",
     "Daily.priv/2022-11/2022-11-17.md",
     "Daily.priv/2022-11/attachments/Pasted image 20221117114906.png",
     "Daily.priv/2022-11/attachments/Pasted image 20221115175918.png",
