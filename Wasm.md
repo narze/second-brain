@@ -15,3 +15,4 @@
 - [Wasm runtimes compared](https://blog.logrocket.com/webassembly-runtimes-compared)
 - https://github.com/appcypher/awesome-wasm-runtimes
 - [Javy](https://github.com/Shopify/javy) - JS to Wasm toolchain (it can [compile js to wasm](https://github.com/Shopify/javy#compiling-to-webassembly))
+- [Learning WebAssembly Series (Blog)](https://blog.ttulka.com/learning-webassembly-series/?ref=hackernoon.com)
