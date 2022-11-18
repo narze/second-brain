@@ -11,13 +11,8 @@
             "id": "c2f2e3c0c46a9fe6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Unconditional FizzBuzz.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -78,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Unconditional FizzBuzz.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,15 +92,15 @@
   },
   "active": "c2f2e3c0c46a9fe6",
   "lastOpenFiles": [
+    "Untitled 2.md",
+    "Untitled.md",
+    "Unconditional FizzBuzz.md",
     "Wasm.md",
     "Daily.priv/2022-11/2022-11-17.md",
     "Daily.priv/2022-11/attachments/Pasted image 20221117114906.png",
     "Daily.priv/2022-11/attachments/Pasted image 20221115175918.png",
     "Daily.priv/2022-09/2022-09-01.md",
     "Daily.priv/2022-09/2022-09-27.md",
-    "Daily.priv/2022-11/2022-11-16.md",
-    "Daily.priv/2022-10/2022-10-26.md",
-    "Daily.priv/2022-11/2022-11-15.md",
-    "Virtual Reality with Meta Quest.md"
+    "Daily.priv/2022-11/2022-11-16.md"
   ]
 }
