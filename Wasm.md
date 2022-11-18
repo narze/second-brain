@@ -1,3 +1,9 @@
+---
+title: "Wasm"
+created: 2022-11-19 00:34
+date: 2022-11-19 00:34
+---
+
 - Wasm Dev Guide https://webassembly.org/getting-started/developers-guide/
   - AssemblyScript (ts-like) https://www.assemblyscript.org/introduction.html
   - Rust to Wasm https://developer.mozilla.org/en-US/docs/WebAssembly/Rust_to_wasm
@@ -5,6 +11,7 @@
     - `WebAssembly.instantiateStreaming()` https://developer.mozilla.org/en-US/docs/WebAssembly/JavaScript_interface/instantiateStreaming
 - WASI - https://github.com/bytecodealliance/wasmtime/blob/main/docs/WASI-intro.md
   - Use the compiled wasm as a CLI application / in Node.js with system interface
+- Runtimes
   - Run with [wasmtime](https://wasmtime.dev) (Runtime for wasm)
   - [Wasmer](https://wasmer.io/wasmer-vs-wasmtime) claims that it's faster & better than wasm
     - `asdf plugin add wasmer && asdf install wasmer latest`
