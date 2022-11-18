@@ -10,3 +10,8 @@
     - `asdf plugin add wasmer && asdf install wasmer latest`
     - [Wapm](https://wapm.io) - Wasm package manager (which comes with wasmer)
     - `wax` ~ nodejs's npx but it's wasm (example: `wax quickjs`)
+  - There's also [WasmEdge](https://github.com/WasmEdge/WasmEdge) runtime
+    - Supports compiling JavaScript https://wasmedge.org/book/en/write_wasm/js.html
+- [Wasm runtimes compared](https://blog.logrocket.com/webassembly-runtimes-compared)
+- https://github.com/appcypher/awesome-wasm-runtimes
+- [Javy](https://github.com/Shopify/javy) - JS to Wasm toolchain (it can [compile js to wasm](https://github.com/Shopify/javy#compiling-to-webassembly))
