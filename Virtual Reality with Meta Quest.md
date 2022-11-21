@@ -14,6 +14,8 @@ date: 2022-11-19 00:49
     - https://bsmg.wiki/quest-modding.html#installing-bmbf-with-sidequest
   - Downgrading BeatSaber to latest moddable version https://oculusdb.rui2015.me/id/2448060205267927
   - MoonRider WebXR (Uses song from Beatsaver) - https://moonrider.xyz
+  - Mods https://computerelite.github.io/tools/Beat_Saber/questmods.html
+    - Install by opening BMBF on quest, go to Tools page, open browser with IP shown (port 50000), drag `.qmod` files in.
 - [McOsu](https://store.steampowered.com/app/607260/McOsu) has VR support
 
 # Tips
