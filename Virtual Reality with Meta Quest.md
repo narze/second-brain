@@ -32,3 +32,4 @@ date: 2022-11-19 00:49
 
 # Troubleshooting
 - Beatsaber settings not persisted
+  - Upload JSON setting to `ModData/com.beatgames.beatsaber/Mods/datakeeper/settings.cfg`  ![](attachments/Pasted%20image%2020221203222732.png)
