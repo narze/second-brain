@@ -29,3 +29,6 @@ date: 2022-11-19 00:49
   - `scrcpy -b25M --crop 1600:900:2017:510`
   - However, the audio is not casting and `sndcpy` does not work with my Quest
 - https://www.youtube.com/watch?v=Ora7OrQHwEs
+
+# Troubleshooting
+- Beatsaber settings not persisted
