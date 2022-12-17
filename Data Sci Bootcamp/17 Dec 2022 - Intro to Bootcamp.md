@@ -4,7 +4,7 @@ created: 2022-12-17 09:45
 date: 2022-12-17 09:45
 ---
 
-5 Books
+5 Awesome Books
 ![](Data%20Sci%20Bootcamp/attachments/Pasted%20image%2020221217094633.png)
 
 2 Rules:
