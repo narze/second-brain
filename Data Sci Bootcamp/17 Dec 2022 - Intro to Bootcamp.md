@@ -29,3 +29,11 @@ Skills
   - Storage is cheaper + processing power is increasing
 - Strategic Data Acquisition
   - Tesco Clubcard, All member
+- Framework : 4 (+1) Phases of Data Analytics
+  - **Descriptive** Analytics - What happened?
+  - **Diagnostic** Analytics - Why it happened?
+  - **Predictive** Analytics - What will happen?
+  - **Prescriptive** Analytics - What should we do about it?
+  - Cognitive Analytics (Microsoft's framework) - AI
+    - AGI - Aritificial General Intelligent (Fictional)
+    - ANI - Artificial Narrow Intelligent (Real world)
