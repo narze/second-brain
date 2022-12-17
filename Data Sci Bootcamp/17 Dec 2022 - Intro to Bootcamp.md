@@ -27,3 +27,5 @@ Skills
 - Data + Science
 - BigData = Volume, Velocity, Variety
   - Storage is cheaper + processing power is increasing
+- Strategic Data Acquisition
+  - Tesco Clubcard, All member
