@@ -26,3 +26,4 @@ Skills
 
 - Data + Science
 - BigData = Volume, Velocity, Variety
+  - Storage is cheaper + processing power is increasing
