@@ -9,7 +9,7 @@ src: https://docs.google.com/document/d/1D9hzmKMCWzbqIBqpA4j02a2XjuhJbILimBMAFM2
 How to touch type
 - Keybr.com for starters, then Monkeytype.com
 - Practice 8 fingers typing
-- Never look keyboard (esp. 26 letters,spacebar,backspace)
+- Never look keyboard (especially on 26 letters, spacebar, backspace)
 
 Understanding the role of repetition
 - Develop muscle memory for many words as possible
