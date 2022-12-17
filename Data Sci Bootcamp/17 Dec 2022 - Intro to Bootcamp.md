@@ -37,3 +37,14 @@ Skills
   - Cognitive Analytics (Microsoft's framework) - AI
     - AGI - Aritificial General Intelligent (Fictional)
     - ANI - Artificial Narrow Intelligent (Real world)
+- Traditional Programming: Input + Program > Computer > Result
+- Machine Learning: Input + Desired Result > Computer > Program/Model
+- Deep learning != Machine Learning (Supervised Learning)
+- "Data Sci is a set of skills that we use to **analyze data** and **communicate our results**"
+- Data Science = Stats + Domain + Coding (Drew Conway)
+- To teach : Technical, Communication, Business
+- CDP: Customer Data Platform
+- The Social Dilemma - Netflix
+- Start with good question
+  - How can I eat more hotdog? => How can I make hotdog easier to eat?
+  - Book: Think like a freak
