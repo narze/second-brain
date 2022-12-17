@@ -23,3 +23,6 @@ Interests: Data Analyst > Data Scientist > Data Engineer
 
 Skills
 ![](Data%20Sci%20Bootcamp/attachments/Pasted%20image%2020221217100441.png)
+
+- Data + Science
+- BigData = Volume, Velocity, Variety
