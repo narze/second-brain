@@ -66,6 +66,8 @@ title: "Wishlist"
 - A mech keyboard with ZMK firmware support
   - nice!60 https://nicekeyboards.com/nice-60 (has BLE)
   - Planck rev6 (again??)
+  - Lily58 With rotary encoders
+    - ![](attachments/Pasted%20image%2020221223170125.png)
 
 ## Misc
 - Sling bag
