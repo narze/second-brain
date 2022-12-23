@@ -68,6 +68,7 @@ title: "Wishlist"
   - Planck rev6 (again??)
   - Lily58 With rotary encoders
     - ![](attachments/Pasted%20image%2020221223170125.png)
+  - Lulu https://boardsource.xyz/store/61d0b772319a1f3cc53ba2fb ![](attachments/Pasted%20image%2020221223225947.png)
 
 ## Misc
 - Sling bag
