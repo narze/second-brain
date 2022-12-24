@@ -18,7 +18,3 @@ url: https://data-science-bootcamp1.teachable.com/courses/data-science-bootcamp-
 - Top 4 apps (> 75% market share) : Evernote, Notion, Obsidian, Roam Research
 
 Notion
-- Productivity App
-- Full page vs. inline database
-- Slash commands
-- Case study - Build online course on Notion + Gmeet + Vimeo plus vs Teachable
