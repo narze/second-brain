@@ -1,7 +1,7 @@
 ---
 title: "Personal typing techniques"
 created: 2022-12-27 13:03
-date: 2022-12-27 13:03
+date: 2022-12-27
 ---
 
 - Never look at keyboard (obviously)

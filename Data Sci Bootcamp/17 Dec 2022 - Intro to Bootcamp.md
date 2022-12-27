@@ -1,7 +1,7 @@
 ---
 title: "17 Dec 2022 - Intro to Bootcamp"
 created: 2022-12-17 09:45
-date: 2022-12-17 09:45
+date: 2022-12-17
 ---
 
 5 Awesome Books

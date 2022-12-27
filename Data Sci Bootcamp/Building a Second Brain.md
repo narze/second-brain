@@ -1,7 +1,7 @@
 ---
 title: "Building a Second Brain"
 created: 2022-12-23 17:32
-date: 2022-12-23 17:32
+date: 2022-12-23
 src: https://data-science-bootcamp1.teachable.com/courses/data-science-bootcamp-7/lectures/44462595
 ---
 

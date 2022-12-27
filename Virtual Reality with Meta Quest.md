@@ -1,7 +1,7 @@
 ---
 title: "Virtual Reality with Meta Quest"
 created: 2022-11-19 00:49
-date: 2022-11-19 00:49
+date: 2022-11-19
 ---
 
 - Virtual desktop app with macOS support

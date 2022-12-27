@@ -1,7 +1,7 @@
 ---
 title: "Wasm"
 created: 2022-11-19 00:34
-date: 2022-11-19 00:34
+date: 2022-11-19
 ---
 
 - Wasm Dev Guide https://webassembly.org/getting-started/developers-guide/

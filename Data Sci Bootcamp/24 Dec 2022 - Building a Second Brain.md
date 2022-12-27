@@ -1,7 +1,7 @@
 ---
 title: "24 Dec 2022 - Building a Second Brain"
 created: 2022-12-24 09:09
-date: 2022-12-24 09:09
+date: 2022-12-24
 ---
 
 - The power of writing things down + The power of sharing
