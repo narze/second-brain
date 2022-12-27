@@ -7,3 +7,7 @@ created: 2022-12-28 01:52
   - Docs https://docs.google.com/document/d/1K1yRBoRvL91ADHS8vuuCVGMddjgmPjepc-GSr3a0aa0/edit
   - Mods (for Quest) https://github.com/Royston1999/Saber-Tailor-quest
     - Copy Saber.Tailor.qmod & libsabertailor.so to Quest's `sdcard/BMBFData/Mods` via Sidequest
+- Downgrading
+  - [The guide](https://oculusdb.rui2015.me/guide/quest/qavs?game=Beat+Saber)
+  - Use Quest App Version Switcher
+    - Connect to port :50002 to manage on PC/Mac
