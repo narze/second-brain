@@ -10,6 +10,7 @@ date: 2022-12-27 13:03
   - Monkeytype: English -> English 1k -> 5k -> 10k
 - Stop subvocalizing (pronuncing words or letters) while typing
   - Or change from subvocalizing letters to subvocalizing words at least
+- Don't skip wrong words, alt/ctrl + bksp to correct them
 - Try lookahead mode
   - Stylus script https://github.com/narze/userscripts/blob/master/userstyles/monkeytype-readahead-fadeout.user.css
 - Type in words, not letters
