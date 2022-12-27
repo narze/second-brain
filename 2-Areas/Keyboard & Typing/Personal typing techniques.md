@@ -1,0 +1,16 @@
+---
+title: "Personal typing techniques"
+created: 2022-12-27 13:03
+date: 2022-12-27 13:03
+---
+
+- Never look at keyboard (obviously)
+- Focus on accuracy first
+- Build muscle memory, change to larger wordsets when consistent or plateau to improve bigrams
+  - Monkeytype: English -> English 1k -> 5k -> 10k
+- Stop subvocalizing (pronuncing words or letters) while typing
+  - Or change from subvocalizing letters to subvocalizing words at least
+- Try lookahead mode
+  - Stylus script https://github.com/narze/userscripts/blob/master/userstyles/monkeytype-readahead-fadeout.user.css
+- Type in words, not letters
+- [Gary's Internet Typing Guide](1-Projects/tech-long-didnt-read/Gary's%20Internet%20Typing%20Guide.md)
