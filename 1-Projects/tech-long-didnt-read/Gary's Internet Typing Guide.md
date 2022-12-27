@@ -2,6 +2,8 @@
 title: "Gary's Internet Typing Guide"
 created: 2022-12-16 23:38
 date: 2022-12-16
+tags:
+- tech-long-didnt-read
 ---
 
 src: https://docs.google.com/document/d/1D9hzmKMCWzbqIBqpA4j02a2XjuhJbILimBMAFM2Deis/edit
