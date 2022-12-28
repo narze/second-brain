@@ -1,8 +1,8 @@
 {
-  "dateFormat": "yyyy-MM-dd HH:mm",
-  "readDateFormat": "yyyy-MM-dd'T'HH:mm:ssxxx",
-  "useDifferentReadFormat": false,
-  "enableCreateTime": true,
+  "dateFormat": "yyyy-MM-dd",
+  "readDateFormat": "yyyy-MM-dd HH:mm",
+  "useDifferentReadFormat": true,
+  "enableCreateTime": false,
   "headerUpdated": "date",
   "headerCreated": "created",
   "minMinutesBetweenSaves": 1,

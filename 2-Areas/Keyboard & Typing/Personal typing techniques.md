@@ -1,14 +1,14 @@
 ---
 title: "Personal typing techniques"
 created: 2022-12-27 13:03
-date: 2022-12-27
+date: 2022-12-28
 ---
 
 - NEVER LOOK AT KEYBOARD
   - Lose half to one second each time
   - Also ergonomically bad (neck, back)
 - Practice every day
-  - Not too much (less chant 30m/day)
+  - Not too much (less than 30m/day)
   - Kata principle
 - Focus on accuracy first
 - Build muscle memory, change to larger wordsets when consistent or plateau to improve bigrams
@@ -19,6 +19,12 @@ date: 2022-12-27
 - Try lookahead mode
   - Stylus script https://github.com/narze/userscripts/blob/master/userstyles/monkeytype-readahead-fadeout.user.css
 - Type in words, not letters (works well with subvocalizing words)
+- When plateau'd, try something else
+  - Change wordset
+  - Change to other websites
+    - zty.pe
+    - typeracer
+    - keymach.io
 - [Gary's Internet Typing Guide](1-Projects/tech-long-didnt-read/Gary's%20Internet%20Typing%20Guide.md)
 - Old guide
   - [Typing Guide](2-Areas/Keyboard%20&%20Typing/Typing%20Guide.md)

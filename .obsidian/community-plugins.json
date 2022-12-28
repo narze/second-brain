@@ -1,9 +1,9 @@
 [
   "obsidian-git",
-  "sliding-panes-obsidian",
   "periodic-notes",
   "obsidian-advanced-uri",
   "obsidian-kindle-plugin",
   "dataview",
-  "obsidian-excalidraw-plugin"
+  "obsidian-excalidraw-plugin",
+  "update-time-on-edit"
 ]
