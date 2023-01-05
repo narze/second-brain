@@ -11,12 +11,9 @@
             "id": "76ee4a4c58abe17a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Daily.priv/2022-12/2022-12-27.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
+                "file": "Excalidraw.priv/Drawing 2023-01-05 19.02.36.excalidraw.md"
               }
             }
           }
@@ -67,7 +64,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Daily.priv/2022-12/2022-12-27.md",
+            "file": "Excalidraw.priv/Drawing 2023-01-05 19.02.36.excalidraw.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -81,8 +78,9 @@
     ],
     "currentTab": 0
   },
-  "active": "76ee4a4c58abe17a",
+  "active": "2620a265bb52b134",
   "lastOpenFiles": [
+    "Daily.priv/2022-12/2022-12-27.md",
     "Drafts.priv/Building Manoonchai.md",
     "Daily.priv/2022-11/2022-11-07.md",
     "Daily.priv/2022-11/2022-11-08.md",
@@ -91,7 +89,6 @@
     "Excalidraw/Drawing 2022-11-02 20.20.13.excalidraw.md",
     "Daily.priv/2022-11/2022-11-02.md",
     "Daily.priv/2022-11/2022-11-01.md",
-    "Daily.priv/2022-10/2022-10-19.md",
-    "Daily.priv/2022-10/2022-10-06.md"
+    "Daily.priv/2022-10/2022-10-19.md"
   ]
 }
