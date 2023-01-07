@@ -17,3 +17,5 @@ draft: true
 - Overlay
   - Mod ส่งขึ้นจอ
   - Dono alert
+- Stream in web & play something
+- Streamlabs alert is slow -> detect from chat maybe faster (nice to have)
