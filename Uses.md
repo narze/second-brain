@@ -1,6 +1,7 @@
 ---
 title: "Uses"
-updated_at: "20220213-232641"
+created: 2022-02-13 23:26
+date: 2023-01-08
 ---
 
 Everything I use. Migrated from https://monosor.com/uses
@@ -65,6 +66,8 @@ Everything I use. Migrated from https://monosor.com/uses
 	- [Planck Rev 6](https://drop.com/buy/planck-mechanical-keyboard)
 	- [Lily58 Pro](https://keyhive.xyz/shop/lily58)
 	- Keychron K12
+	- Keychron K6 Pro
+	- [Aurora Lily58](https://splitkb.com/collections/keyboard-kits/products/aurora-lily58-pcb-kit) - My first keyboard with ZMK. [See my config](https://github.com/narze/zmk-config)
 - [OnePlus 6T](http://oneplus.com)
 - [Zojirushi](https://www.zojirushi.com) Mugs & Tumblers
 - iPad with Apple Pencil
