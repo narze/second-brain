@@ -1,10 +1,10 @@
 ---
 title: "Uses"
 created: 2022-02-13 23:26
-date: 2023-01-08
+date: 2023-01-09
 ---
 
-Everything I use. Migrated from https://monosor.com/uses
+Everything I use.
 
 ## Coding
 - [Dash](https://kapeli.com/dash) - Offline code & API documentation
@@ -24,8 +24,8 @@ Everything I use. Migrated from https://monosor.com/uses
 - Terraform
 
 ## Command Line
-- [asdf](https://asdf-vm.com) to install & manage programming language versions (Ruby, Nodejs, Python, Go, etc.)
-- [Chezmoi](https://www.chezmoi.io)for my [Dotfiles](https://github.com/narze/dotfiles)
+- [asdf](https://asdf-vm.com) to install & manage programming language versions (Ruby, Nodejs, Python, Go, Rust, yetc.)
+- [Chezmoi](https://www.chezmoi.io) - for my [Dotfiles](https://github.com/narze/dotfiles)
 - [Fish](https://fishshell.com) - Alternative command line shell than Zsh, I still use Zsh though.
 - [ghq](https://github.com/x-motemen/ghq) - Clone & access Git repos
 - [Homebrew](http://brew.sh) - macOS Package Manager
@@ -67,7 +67,7 @@ Everything I use. Migrated from https://monosor.com/uses
 	- [Lily58 Pro](https://keyhive.xyz/shop/lily58)
 	- Keychron K12
 	- Keychron K6 Pro
-	- [Aurora Lily58](https://splitkb.com/collections/keyboard-kits/products/aurora-lily58-pcb-kit) - My first keyboard with ZMK. [See my config](https://github.com/narze/zmk-config)
+	- [Aurora Lily58](https://splitkb.com/collections/keyboard-kits/products/aurora-lily58-pcb-kit) - My first keyboard with ZMK firmware instead of QMK. [See my config](https://github.com/narze/zmk-config)
 - [OnePlus 6T](http://oneplus.com)
 - [Zojirushi](https://www.zojirushi.com) Mugs & Tumblers
 - iPad with Apple Pencil
