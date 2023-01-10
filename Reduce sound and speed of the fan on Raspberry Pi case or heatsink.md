@@ -1,7 +1,7 @@
 ---
 title: "Reduce sound and speed of the fan on Raspberry Pi case"
 created: 2023-01-10 13:15
-date: 2023-01-10
+date: 2023-01-11
 ---
 
 ![](attachments/Pasted%20image%2020230110131527.png)
