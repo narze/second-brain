@@ -1,7 +1,7 @@
 ---
 title: "Getting full Github URL of the latest commit"
 created: 2023-01-12 15:46
-date: 2023-01-12
+date: 2023-01-13
 ---
 
 I want to share my latest commit's url, previously I would go to Github repo, click the latest commit message, then copy the url.
