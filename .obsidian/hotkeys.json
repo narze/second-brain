@@ -23,5 +23,28 @@
       "key": "D"
     }
   ],
-  "editor:delete-paragraph": []
+  "editor:delete-paragraph": [],
+  "app:go-back": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "["
+    }
+  ],
+  "app:go-forward": [
+    {
+      "modifiers": [
+        "Mod",
+        "Alt"
+      ],
+      "key": "ArrowRight"
+    },
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "]"
+    }
+  ]
 }

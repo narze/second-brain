@@ -11,8 +11,8 @@
   "disablePopups": false,
   "listChangedFilesInMessageBody": true,
   "showStatusBar": true,
-  "updateSubmodules": false,
-  "syncMethod": "merge",
+  "updateSubmodules": true,
+  "syncMethod": "rebase",
   "customMessageOnAutoBackup": false,
   "autoBackupAfterFileChange": true,
   "treeStructure": false,
@@ -20,8 +20,8 @@
   "basePath": "",
   "differentIntervalCommitAndPush": false,
   "changedFilesInStatusBar": false,
-  "username": "",
   "showedMobileNotice": true,
   "refreshSourceControlTimer": 7000,
-  "showBranchStatusBar": true
+  "showBranchStatusBar": true,
+  "setLastSaveToLastCommit": false
 }

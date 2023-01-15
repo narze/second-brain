@@ -1,3 +1,6 @@
+---
+date: 2023-01-16
+---
 
 
 …---
@@ -223,7 +226,7 @@ title: "narzeLIVE twitch devlog"
    - [ ] Subbers get more
  - [x] !give to give coin to other with 30% fee
  - [x] argo.home-cluster.narze.live
- - [ ] Youtube mediashare
+- [ ] Youtube mediashare
  - [ ] 20 marbles game
  - [ ] Inactive burn rate
  - [ ] Resound redux
