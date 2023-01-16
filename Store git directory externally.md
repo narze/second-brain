@@ -1,7 +1,7 @@
 ---
 title: "Store git directory externally"
 created: 2023-01-15 14:57
-date: 2023-01-16
+date: 2023-01-17
 ---
 
 I'm using [Obsidian Git](https://github.com/denolehov/obsidian-git) to sync my [Digital Garden](Digital%20Garden.md) site to Github, and I also sync all the files including private ones to other Macs & iPad via iCloud Drive, too. However syncing `.git` folder on iCloud is a bad idea and will eventually cause `fatal: bad object HEAD`.

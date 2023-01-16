@@ -1,7 +1,7 @@
 ---
 title: "Why you should use Arc Browser"
 created: 2023-01-16 15:35
-date: 2023-01-16
+date: 2023-01-17
 draft: true
 ---
 
