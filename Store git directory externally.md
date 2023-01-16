@@ -1,5 +1,5 @@
 ---
-title: "Store .git directory externally"
+title: "Store git directory externally"
 created: 2023-01-15 14:57
 date: 2023-01-16
 ---
