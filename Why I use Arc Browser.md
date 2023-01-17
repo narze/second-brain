@@ -7,6 +7,7 @@ date: 2023-01-18
 I plan to write details in a blog post later
 
 - Vertical tabs view
+- Auto tab nap
 - Multiple profiles in same window
 - Pinned tabs can set URL, can navigate away and "Reset to pinned URL" later
 - "Little Arc" window, can choose which profile to open the window later
