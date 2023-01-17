@@ -1,10 +1,10 @@
 ---
-title: "Why you should use Arc Browser"
+title: "Why I use Arc Browser"
 created: 2023-01-16 15:35
 date: 2023-01-18
 ---
 
-I plan to write details in a blog later
+I plan to write details in a blog post later
 
 - Vertical tabs view
 - Multiple profiles in same window
