@@ -23,3 +23,5 @@ draft: true
 
 Possible Improvements
 - CLI command to open url with specified profile (Arc does not have cli capability like Chrome yet)
+- Sync extensions across machines
+- Confusing when setting shortcuts with non-qwerty layouts
