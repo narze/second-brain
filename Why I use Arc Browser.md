@@ -1,7 +1,7 @@
 ---
 title: "Why I use Arc Browser"
 created: 2023-01-16 15:35
-date: 2023-01-19
+date: 2023-01-20
 ---
 
 I plan to write details in a blog post later
@@ -23,6 +23,7 @@ I plan to write details in a blog post later
   - Show / hide sidebar
 - Dev Mode
 - Command bar instead of url bar
+  - Be able to switch to any tabs with text search
 - etc.
 
 Improvements I want to see:
