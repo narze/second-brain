@@ -11,7 +11,7 @@
   "disablePopups": false,
   "listChangedFilesInMessageBody": true,
   "showStatusBar": true,
-  "updateSubmodules": true,
+  "updateSubmodules": false,
   "syncMethod": "merge",
   "customMessageOnAutoBackup": false,
   "autoBackupAfterFileChange": true,
