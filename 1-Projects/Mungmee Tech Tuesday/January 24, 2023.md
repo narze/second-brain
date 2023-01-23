@@ -1,7 +1,7 @@
 ---
 title: "January 24, 2023"
 created: 2023-01-23 19:38
-date: 2023-01-23
+date: 2023-01-24
 draft: true
 ---
 
