@@ -1,5 +1,5 @@
 ---
-title: "Change League of Legends macOS client language"
+title: "Change League of Legends macOS language from Thai to English"
 created: 2023-01-29 02:11
 date: 2023-01-29
 ---
@@ -8,7 +8,7 @@ By default the interface language will be locked to region, playing in TH server
 
 ![](attachments/Pasted%20image%2020230129021252.png)
 
-However it can be run from command line with `--locale` argument
+)However it can be run from command line with `--locale` argument
 
 ```shell
 open /Applications/League\ of\ Legends.app/Contents/LoL/LeagueClient.app --args --locale=en_US
