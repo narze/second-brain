@@ -8,7 +8,7 @@ By default the interface language will be locked to region, playing in TH server
 
 ![](attachments/Pasted%20image%2020230129021252.png)
 
-)However it can be run from command line with `--locale` argument
+However it can be run from command line with `--locale` argument
 
 ```shell
 open /Applications/League\ of\ Legends.app/Contents/LoL/LeagueClient.app --args --locale=en_US
