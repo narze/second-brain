@@ -5,7 +5,7 @@
   "scriptFolderPath": "Excalidraw/Scripts",
   "compress": false,
   "autosave": true,
-  "autosaveInterval": 10000,
+  "autosaveInterval": 15000,
   "autosaveIntervalDesktop": 15000,
   "autosaveIntervalMobile": 10000,
   "drawingFilenamePrefix": "Drawing ",
@@ -23,6 +23,8 @@
   "matchThemeTrigger": true,
   "defaultMode": "normal",
   "defaultPenMode": "mobile",
+  "allowPinchZoom": false,
+  "allowWheelZoom": false,
   "zoomToFitOnOpen": true,
   "zoomToFitOnResize": true,
   "zoomToFitMaxLevel": 2,
@@ -91,7 +93,7 @@
             "height": 103.65107323746608,
             "seed": 1445523839,
             "groupIds": [],
-            "strokeSharpness": "sharp",
+            "roundness": null,
             "boundElements": [],
             "updated": 1663767021093,
             "link": null,
@@ -161,7 +163,9 @@
             "groupIds": [
               "N2YAi9nU-wlRb0rDaDZoe"
             ],
-            "strokeSharpness": "round",
+            "roundness": {
+              "type": 2
+            },
             "boundElements": [],
             "updated": 1663767021094,
             "link": null,
@@ -272,7 +276,9 @@
             "groupIds": [
               "N2YAi9nU-wlRb0rDaDZoe"
             ],
-            "strokeSharpness": "round",
+            "roundness": {
+              "type": 2
+            },
             "boundElements": [],
             "updated": 1663767021094,
             "link": null,
@@ -339,7 +345,9 @@
             "groupIds": [
               "N2YAi9nU-wlRb0rDaDZoe"
             ],
-            "strokeSharpness": "round",
+            "roundness": {
+              "type": 2
+            },
             "boundElements": [],
             "updated": 1663767021094,
             "link": null,
@@ -406,13 +414,8 @@
             "groupIds": [
               "N2YAi9nU-wlRb0rDaDZoe"
             ],
-            "strokeSharpness": "sharp",
-            "boundElements": [
-              {
-                "type": "arrow",
-                "id": "bxuMGTzXLn7H-uBCptINx"
-              }
-            ],
+            "roundness": null,
+            "boundElements": [],
             "updated": 1663767021095,
             "link": null,
             "locked": false
@@ -439,7 +442,7 @@
             "groupIds": [
               "N2YAi9nU-wlRb0rDaDZoe"
             ],
-            "strokeSharpness": "sharp",
+            "roundness": null,
             "boundElements": [],
             "updated": 1663767021095,
             "link": null,
@@ -467,7 +470,7 @@
             "groupIds": [
               "N2YAi9nU-wlRb0rDaDZoe"
             ],
-            "strokeSharpness": "sharp",
+            "roundness": null,
             "boundElements": [],
             "updated": 1663767021095,
             "link": null,
@@ -495,7 +498,7 @@
             "groupIds": [
               "N2YAi9nU-wlRb0rDaDZoe"
             ],
-            "strokeSharpness": "sharp",
+            "roundness": null,
             "boundElements": [],
             "updated": 1663767021095,
             "link": null,
@@ -530,7 +533,7 @@
             "groupIds": [
               "M6ByXuSmtHCr3RtPPKJQh"
             ],
-            "strokeSharpness": "sharp",
+            "roundness": null,
             "boundElements": [],
             "updated": 1663767021095,
             "link": null,
@@ -558,7 +561,7 @@
             "groupIds": [
               "M6ByXuSmtHCr3RtPPKJQh"
             ],
-            "strokeSharpness": "sharp",
+            "roundness": null,
             "boundElements": [],
             "updated": 1663767021095,
             "link": null,
@@ -586,7 +589,7 @@
             "groupIds": [
               "M6ByXuSmtHCr3RtPPKJQh"
             ],
-            "strokeSharpness": "sharp",
+            "roundness": null,
             "boundElements": [],
             "updated": 1663767021095,
             "link": null,
@@ -614,7 +617,7 @@
             "groupIds": [
               "M6ByXuSmtHCr3RtPPKJQh"
             ],
-            "strokeSharpness": "sharp",
+            "roundness": null,
             "boundElements": [],
             "updated": 1663767021095,
             "link": null,
@@ -649,7 +652,9 @@
             "groupIds": [
               "HSrtfEf-CssQTf160Fb6R"
             ],
-            "strokeSharpness": "round",
+            "roundness": {
+              "type": 2
+            },
             "boundElements": [],
             "updated": 1663767021095,
             "link": null,
@@ -760,7 +765,9 @@
             "groupIds": [
               "HSrtfEf-CssQTf160Fb6R"
             ],
-            "strokeSharpness": "round",
+            "roundness": {
+              "type": 2
+            },
             "boundElements": [],
             "updated": 1663767021095,
             "link": null,
@@ -827,7 +834,9 @@
             "groupIds": [
               "HSrtfEf-CssQTf160Fb6R"
             ],
-            "strokeSharpness": "round",
+            "roundness": {
+              "type": 2
+            },
             "boundElements": [],
             "updated": 1663767021096,
             "link": null,
@@ -894,13 +903,8 @@
             "groupIds": [
               "HSrtfEf-CssQTf160Fb6R"
             ],
-            "strokeSharpness": "sharp",
-            "boundElements": [
-              {
-                "type": "arrow",
-                "id": "bxuMGTzXLn7H-uBCptINx"
-              }
-            ],
+            "roundness": null,
+            "boundElements": [],
             "updated": 1663767021096,
             "link": null,
             "locked": false
@@ -934,21 +938,8 @@
             "groupIds": [
               "9ppmKFUbA4iKjt8FaDFox"
             ],
-            "strokeSharpness": "sharp",
-            "boundElements": [
-              {
-                "type": "arrow",
-                "id": "CFu0B4Mw_1wC1Hbgx8Fs0"
-              },
-              {
-                "type": "arrow",
-                "id": "XIl_NhaFtRO00pX5Pq6VU"
-              },
-              {
-                "type": "arrow",
-                "id": "EndiSTFlx1AT7vcBVjgve"
-              }
-            ],
+            "roundness": null,
+            "boundElements": [],
             "updated": 1663767021096,
             "link": null,
             "locked": false
@@ -976,21 +967,8 @@
               "0RJwA-yKP5dqk5oMiSeot",
               "9ppmKFUbA4iKjt8FaDFox"
             ],
-            "strokeSharpness": "sharp",
-            "boundElements": [
-              {
-                "type": "arrow",
-                "id": "CFu0B4Mw_1wC1Hbgx8Fs0"
-              },
-              {
-                "type": "arrow",
-                "id": "XIl_NhaFtRO00pX5Pq6VU"
-              },
-              {
-                "type": "arrow",
-                "id": "EndiSTFlx1AT7vcBVjgve"
-              }
-            ],
+            "roundness": null,
+            "boundElements": [],
             "updated": 1663767021096,
             "link": null,
             "locked": false
@@ -1017,21 +995,8 @@
             "groupIds": [
               "9ppmKFUbA4iKjt8FaDFox"
             ],
-            "strokeSharpness": "sharp",
-            "boundElements": [
-              {
-                "type": "arrow",
-                "id": "CFu0B4Mw_1wC1Hbgx8Fs0"
-              },
-              {
-                "type": "arrow",
-                "id": "XIl_NhaFtRO00pX5Pq6VU"
-              },
-              {
-                "type": "arrow",
-                "id": "EndiSTFlx1AT7vcBVjgve"
-              }
-            ],
+            "roundness": null,
+            "boundElements": [],
             "updated": 1663767021096,
             "link": null,
             "locked": false
@@ -1058,7 +1023,9 @@
             "groupIds": [
               "9ppmKFUbA4iKjt8FaDFox"
             ],
-            "strokeSharpness": "round",
+            "roundness": {
+              "type": 2
+            },
             "boundElements": [],
             "updated": 1663767021096,
             "link": null,
@@ -1103,7 +1070,9 @@
             "groupIds": [
               "9ppmKFUbA4iKjt8FaDFox"
             ],
-            "strokeSharpness": "round",
+            "roundness": {
+              "type": 2
+            },
             "boundElements": [],
             "updated": 1663767021096,
             "link": null,
@@ -1148,7 +1117,9 @@
             "groupIds": [
               "9ppmKFUbA4iKjt8FaDFox"
             ],
-            "strokeSharpness": "round",
+            "roundness": {
+              "type": 2
+            },
             "boundElements": [],
             "updated": 1663767021096,
             "link": null,
@@ -1197,7 +1168,9 @@
             "groupIds": [
               "9ppmKFUbA4iKjt8FaDFox"
             ],
-            "strokeSharpness": "round",
+            "roundness": {
+              "type": 2
+            },
             "boundElements": [],
             "updated": 1663767021096,
             "link": null,
@@ -1250,7 +1223,9 @@
             "groupIds": [
               "9ppmKFUbA4iKjt8FaDFox"
             ],
-            "strokeSharpness": "round",
+            "roundness": {
+              "type": 2
+            },
             "boundElements": [],
             "updated": 1663767021096,
             "link": null,
@@ -1295,7 +1270,9 @@
             "groupIds": [
               "9ppmKFUbA4iKjt8FaDFox"
             ],
-            "strokeSharpness": "round",
+            "roundness": {
+              "type": 2
+            },
             "boundElements": [],
             "updated": 1663767021096,
             "link": null,
@@ -1351,7 +1328,7 @@
             "groupIds": [
               "TC0RSM64Cxmu17MlE12-o"
             ],
-            "strokeSharpness": "sharp",
+            "roundness": null,
             "boundElements": [],
             "updated": 1663767021096,
             "link": null,
@@ -1379,7 +1356,9 @@
             "groupIds": [
               "TC0RSM64Cxmu17MlE12-o"
             ],
-            "strokeSharpness": "round",
+            "roundness": {
+              "type": 2
+            },
             "boundElements": [],
             "updated": 1663767021096,
             "link": null,
@@ -1422,7 +1401,7 @@
             "groupIds": [
               "TC0RSM64Cxmu17MlE12-o"
             ],
-            "strokeSharpness": "sharp",
+            "roundness": null,
             "boundElements": [],
             "updated": 1663767021096,
             "link": null,
@@ -1450,7 +1429,7 @@
             "groupIds": [
               "TC0RSM64Cxmu17MlE12-o"
             ],
-            "strokeSharpness": "sharp",
+            "roundness": null,
             "boundElements": [],
             "updated": 1663767021096,
             "link": null,
@@ -1478,7 +1457,7 @@
             "groupIds": [
               "TC0RSM64Cxmu17MlE12-o"
             ],
-            "strokeSharpness": "sharp",
+            "roundness": null,
             "boundElements": [],
             "updated": 1663767021096,
             "link": null,
@@ -1506,7 +1485,7 @@
             "groupIds": [
               "TC0RSM64Cxmu17MlE12-o"
             ],
-            "strokeSharpness": "sharp",
+            "roundness": null,
             "boundElements": [],
             "updated": 1663767021098,
             "link": null,
@@ -1534,7 +1513,9 @@
             "groupIds": [
               "TC0RSM64Cxmu17MlE12-o"
             ],
-            "strokeSharpness": "round",
+            "roundness": {
+              "type": 2
+            },
             "boundElements": [],
             "updated": 1663767021098,
             "link": null,
@@ -1657,7 +1638,9 @@
             "groupIds": [
               "TC0RSM64Cxmu17MlE12-o"
             ],
-            "strokeSharpness": "round",
+            "roundness": {
+              "type": 2
+            },
             "boundElements": [],
             "updated": 1663767021098,
             "link": null,
@@ -1700,7 +1683,9 @@
             "groupIds": [
               "TC0RSM64Cxmu17MlE12-o"
             ],
-            "strokeSharpness": "round",
+            "roundness": {
+              "type": 2
+            },
             "boundElements": [],
             "updated": 1663767021098,
             "link": null,
@@ -1767,7 +1752,7 @@
             "groupIds": [
               "TC0RSM64Cxmu17MlE12-o"
             ],
-            "strokeSharpness": "sharp",
+            "roundness": null,
             "boundElements": [],
             "updated": 1663767021098,
             "link": null,
@@ -1795,7 +1780,9 @@
             "groupIds": [
               "TC0RSM64Cxmu17MlE12-o"
             ],
-            "strokeSharpness": "round",
+            "roundness": {
+              "type": 2
+            },
             "boundElements": [],
             "updated": 1663767021098,
             "link": null,
@@ -1865,7 +1852,7 @@
             "groupIds": [
               "GMZ-NW9lG7c1AtfBInZ0n"
             ],
-            "strokeSharpness": "sharp",
+            "roundness": null,
             "boundElements": [],
             "updated": 1663767021098,
             "link": null,
@@ -1893,7 +1880,7 @@
             "groupIds": [
               "GMZ-NW9lG7c1AtfBInZ0n"
             ],
-            "strokeSharpness": "sharp",
+            "roundness": null,
             "boundElements": [],
             "updated": 1663767021098,
             "link": null,
@@ -1921,7 +1908,7 @@
             "groupIds": [
               "GMZ-NW9lG7c1AtfBInZ0n"
             ],
-            "strokeSharpness": "sharp",
+            "roundness": null,
             "boundElements": [],
             "updated": 1663767021098,
             "link": null,
@@ -1949,7 +1936,7 @@
             "groupIds": [
               "GMZ-NW9lG7c1AtfBInZ0n"
             ],
-            "strokeSharpness": "sharp",
+            "roundness": null,
             "boundElements": [],
             "updated": 1663767021098,
             "link": null,
@@ -1977,7 +1964,7 @@
             "groupIds": [
               "GMZ-NW9lG7c1AtfBInZ0n"
             ],
-            "strokeSharpness": "sharp",
+            "roundness": null,
             "boundElements": [],
             "updated": 1663767021098,
             "link": null,
@@ -1998,10 +1985,324 @@
   "mdCSS": "",
   "scriptEngineSettings": {},
   "defaultTrayMode": true,
-  "previousRelease": "1.8.10",
+  "previousRelease": "1.8.12",
   "showReleaseNotes": true,
   "showNewVersionNotification": true,
   "mathjaxSourceURL": "https://cdn.jsdelivr.net/npm/mathjax@3.2.1/es5/tex-svg.js",
   "taskboneEnabled": false,
-  "taskboneAPIkey": ""
+  "taskboneAPIkey": "",
+  "pinnedScripts": [],
+  "customPens": [
+    {
+      "type": "default",
+      "freedrawOnly": false,
+      "strokeColor": "#000000",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": 0,
+      "roughness": 0,
+      "penOptions": {
+        "highlighter": false,
+        "constantPressure": false,
+        "hasOutline": false,
+        "outlineWidth": 1,
+        "options": {
+          "thinning": 0.6,
+          "smoothing": 0.5,
+          "streamline": 0.5,
+          "easing": "easeOutSine",
+          "start": {
+            "cap": true,
+            "taper": 0,
+            "easing": "linear"
+          },
+          "end": {
+            "cap": true,
+            "taper": 0,
+            "easing": "linear"
+          }
+        }
+      }
+    },
+    {
+      "type": "highlighter",
+      "freedrawOnly": true,
+      "strokeColor": "#FFC47C",
+      "backgroundColor": "#FFC47C",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": null,
+      "penOptions": {
+        "highlighter": true,
+        "constantPressure": true,
+        "hasOutline": true,
+        "outlineWidth": 4,
+        "options": {
+          "thinning": 1,
+          "smoothing": 0.5,
+          "streamline": 0.5,
+          "easing": "linear",
+          "start": {
+            "taper": 0,
+            "cap": true,
+            "easing": "linear"
+          },
+          "end": {
+            "taper": 0,
+            "cap": true,
+            "easing": "linear"
+          }
+        }
+      }
+    },
+    {
+      "type": "finetip",
+      "freedrawOnly": false,
+      "strokeColor": "#3E6F8D",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": 0.5,
+      "roughness": 0,
+      "penOptions": {
+        "highlighter": false,
+        "hasOutline": false,
+        "outlineWidth": 1,
+        "constantPressure": true,
+        "options": {
+          "smoothing": 0.4,
+          "thinning": -0.5,
+          "streamline": 0.4,
+          "easing": "linear",
+          "start": {
+            "taper": 5,
+            "cap": false,
+            "easing": "linear"
+          },
+          "end": {
+            "taper": 5,
+            "cap": false,
+            "easing": "linear"
+          }
+        }
+      }
+    },
+    {
+      "type": "fountain",
+      "freedrawOnly": false,
+      "strokeColor": "#000000",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": 2,
+      "roughness": 0,
+      "penOptions": {
+        "highlighter": false,
+        "constantPressure": false,
+        "hasOutline": false,
+        "outlineWidth": 1,
+        "options": {
+          "smoothing": 0.2,
+          "thinning": 0.6,
+          "streamline": 0.2,
+          "easing": "easeInOutSine",
+          "start": {
+            "taper": 150,
+            "cap": true,
+            "easing": "linear"
+          },
+          "end": {
+            "taper": 1,
+            "cap": true,
+            "easing": "linear"
+          }
+        }
+      }
+    },
+    {
+      "type": "marker",
+      "freedrawOnly": true,
+      "strokeColor": "#B83E3E",
+      "backgroundColor": "#FF7C7C",
+      "fillStyle": "dashed",
+      "strokeWidth": 2,
+      "roughness": 3,
+      "penOptions": {
+        "highlighter": false,
+        "constantPressure": true,
+        "hasOutline": true,
+        "outlineWidth": 4,
+        "options": {
+          "thinning": 1,
+          "smoothing": 0.5,
+          "streamline": 0.5,
+          "easing": "linear",
+          "start": {
+            "taper": 0,
+            "cap": true,
+            "easing": "linear"
+          },
+          "end": {
+            "taper": 0,
+            "cap": true,
+            "easing": "linear"
+          }
+        }
+      }
+    },
+    {
+      "type": "thick-thin",
+      "freedrawOnly": true,
+      "strokeColor": "#CECDCC",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": 0,
+      "roughness": null,
+      "penOptions": {
+        "highlighter": true,
+        "constantPressure": true,
+        "hasOutline": false,
+        "outlineWidth": 1,
+        "options": {
+          "thinning": 1,
+          "smoothing": 0.5,
+          "streamline": 0.5,
+          "easing": "linear",
+          "start": {
+            "taper": 0,
+            "cap": true,
+            "easing": "linear"
+          },
+          "end": {
+            "cap": true,
+            "taper": true,
+            "easing": "linear"
+          }
+        }
+      }
+    },
+    {
+      "type": "thin-thick-thin",
+      "freedrawOnly": true,
+      "strokeColor": "#CECDCC",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": 0,
+      "roughness": null,
+      "penOptions": {
+        "highlighter": true,
+        "constantPressure": true,
+        "hasOutline": false,
+        "outlineWidth": 1,
+        "options": {
+          "thinning": 1,
+          "smoothing": 0.5,
+          "streamline": 0.5,
+          "easing": "linear",
+          "start": {
+            "cap": true,
+            "taper": true,
+            "easing": "linear"
+          },
+          "end": {
+            "cap": true,
+            "taper": true,
+            "easing": "linear"
+          }
+        }
+      }
+    },
+    {
+      "type": "default",
+      "freedrawOnly": false,
+      "strokeColor": "#000000",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": 0,
+      "roughness": 0,
+      "penOptions": {
+        "highlighter": false,
+        "constantPressure": false,
+        "hasOutline": false,
+        "outlineWidth": 1,
+        "options": {
+          "thinning": 0.6,
+          "smoothing": 0.5,
+          "streamline": 0.5,
+          "easing": "easeOutSine",
+          "start": {
+            "cap": true,
+            "taper": 0,
+            "easing": "linear"
+          },
+          "end": {
+            "cap": true,
+            "taper": 0,
+            "easing": "linear"
+          }
+        }
+      }
+    },
+    {
+      "type": "default",
+      "freedrawOnly": false,
+      "strokeColor": "#000000",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": 0,
+      "roughness": 0,
+      "penOptions": {
+        "highlighter": false,
+        "constantPressure": false,
+        "hasOutline": false,
+        "outlineWidth": 1,
+        "options": {
+          "thinning": 0.6,
+          "smoothing": 0.5,
+          "streamline": 0.5,
+          "easing": "easeOutSine",
+          "start": {
+            "cap": true,
+            "taper": 0,
+            "easing": "linear"
+          },
+          "end": {
+            "cap": true,
+            "taper": 0,
+            "easing": "linear"
+          }
+        }
+      }
+    },
+    {
+      "type": "default",
+      "freedrawOnly": false,
+      "strokeColor": "#000000",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": 0,
+      "roughness": 0,
+      "penOptions": {
+        "highlighter": false,
+        "constantPressure": false,
+        "hasOutline": false,
+        "outlineWidth": 1,
+        "options": {
+          "thinning": 0.6,
+          "smoothing": 0.5,
+          "streamline": 0.5,
+          "easing": "easeOutSine",
+          "start": {
+            "cap": true,
+            "taper": 0,
+            "easing": "linear"
+          },
+          "end": {
+            "cap": true,
+            "taper": 0,
+            "easing": "linear"
+          }
+        }
+      }
+    }
+  ],
+  "numberOfCustomPens": 0
 }
