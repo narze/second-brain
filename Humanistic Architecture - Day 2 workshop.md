@@ -1,7 +1,7 @@
 ---
 title: "Humanistic Architecture - Day 2 workshop"
 created: 2023-02-05 16:04
-date: 2023-02-05
+date: 2023-02-06
 draft: true
 ---
 
