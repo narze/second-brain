@@ -2,3 +2,4 @@
 private/
 *.priv/
 *.priv.md
+.tmp.driveupload
