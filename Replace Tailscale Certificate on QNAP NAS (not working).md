@@ -16,3 +16,4 @@ tailscale cert foo.bar.ts.net
 - `cat *.crt` then copy the certificate plaintext to save into your local machine (It should end with `-----END CERTIFICATE-----` without blank lines)
 - Login to NAS, go to Control Panel -> System -> Security -> SSL Certificate & Private Key ![](attachments/Pasted%20image%2020230222223229.png)
 - Import the `.crt` file
+  - ERROR: Root certificate not valid
