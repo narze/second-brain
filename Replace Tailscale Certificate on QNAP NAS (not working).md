@@ -1,7 +1,7 @@
 ---
 title: "Replace Tailscale Certificate on QNAP NAS"
 created: 2023-02-22 22:28
-date: 2023-02-24
+date: 2023-02-27
 draft: true
 ---
 
