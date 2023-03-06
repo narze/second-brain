@@ -1,7 +1,7 @@
 ---
-title: "Uses"
+title: "uses"
 created: 2022-02-13 23:26
-date: 2023-01-09
+date: 2023-03-06
 ---
 
 Everything I use.
@@ -45,8 +45,7 @@ Everything I use.
 - [Karabiner Elements](https://github.com/pqrs-org/Karabi,ner-Elements) with [Goku](https://github.com/yqrashawn/GokuRakuJoudo) enables my [(S)uper(D)uper Mode](https://github.com/jasonrudolph/keyboard/#super-duper-mode) and Hyper Key
 - [Keyboard Maestro](https://www.keyboardmaestro.com) - Launch apps with Hyper Key
 - Web Browser
-	- Google Chrome - Work
-	- [Microsoft Edge](https://microsoftedge.microsoft.com) & [Opera GX](https://www.opera.com/gx) - Personal 
+  - [Arc](https://arc.net) For everything, I have 10+ profiles separated by projects & workspaces
 - [Obsidian](https://obsidian.md) - My current [Second Brain](/Second%20Brain.md) system
 - [Setapp](https://setapp.com) - App bundles, saved money since I already use tons of apps.
   - [Bartender](https://setapp.com/apps/bartender) - Hide excessive menu bar icons
