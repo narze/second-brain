@@ -1,5 +1,6 @@
 ---
 title: "Digital Garden"
+date: 2023-03-06
 ---
 
 ## What's this?
