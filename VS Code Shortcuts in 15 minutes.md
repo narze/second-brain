@@ -5,27 +5,38 @@ date: 2023-05-06
 ---
 
 ## Note
-
 - Cmd (⌘) on mac == Ctrl on Windows/Linux
+- Show keystrokes with `Toggle Screencast Mode`
 
 ## Essentials
-
-- Quick Open : Cmd/Ctrl + P
-- Multi selection : Cmd/Ctrl + D
-- Find in project : Cmd/Ctrl + Shift + F
-- Previous or Next editor (Tab) : Cmd/Ctrl + Shift + [ or ]
-- Open Command Palette : Cmd/Ctrl + Shift + P
+- Quick Open
+    Cmd/Ctrl + P
+- Multi selection
+    Cmd/Ctrl + D
+- Find in project
+    Cmd/Ctrl + Shift + F
+- Previous or Next editor (Tab)
+    Cmd/Ctrl + Shift + [ or ]
+- Open Command Palette
+    Cmd/Ctrl + Shift + P
 
 ## Text Editing
+- Insert line below / above
+    Cmd/Ctrl (+ Shift) + Enter
+- Go to line
+    - Ctrl + G
+    - Quick open with `:num`
+- Word operation modifier
+    Alt (⌥ on Mac)
+- Select line
+    Cmd/Ctrl + L
+- Delete line
+    Cmd/Ctrl + Shift + K / Cut line (Cmd/Ctrl + X)
+- Move line
+    Alt + Up/Down
+- Indent
+    Cmd/Ctrl + [ / ]
 
-- Insert line below / above : Cmd/Ctrl (+ Shift) + Enter
-- Go to line : Ctrl + G / Quick open with `:num`
-- Word operation modifier : Alt (⌥ on Mac)
-- Select line : Cmd/Ctrl + L
-- Delete line : Cmd/Ctrl + Shift + K / Cut line (Cmd/Ctrl + X)
-- Move line : Alt + Up/Down
-- Indent : Cmd/Ctrl + [ / ]
-              
 ## Miscelleneous
 
 - Cmd/Ctrl + K commands (Key combination)
@@ -36,8 +47,7 @@ date: 2023-05-06
 - Type on command pallette
     - Show Explorer
     - Toggle Terminal
-    - Rename file
-    - Delete file
+    - Create file (Edit/Rename/Delete needs "File Utils" extension)
     - Split editor
     - Toggle word wrap
     - Screencast Mode
@@ -45,5 +55,5 @@ date: 2023-05-06
     - Find other commands & shortcut keys
 
 - Tips
-    - Inspect / Modify Keyboard Shortcuts
-    - Cheatsheet https://code.visualstudio.com/docs/getstarted/keybindings#_keyboard-shortcuts-reference
+    - Inspect / Modify Keyboard Shortcuts 
+    - Cheatsheet https://aka.ms/vscodekeybindings
