@@ -1,7 +1,7 @@
 ---
 title: "VS Code Shortcuts in 15 minutes"
 created: 2023-05-05 19:57
-date: 2023-05-07
+date: 2023-05-09
 ---
 
 ## Note
