@@ -1,6 +1,6 @@
 ---
 title: "Typing Guide"
-updated: 2023-05-10
+updated: 2023-05-11
 ---
 
 https://docs.google.com/document/d/1L-P68VDSGlpLM5A9tfRvWFohaR2NzPbkUT0ok34rsFU/edit
