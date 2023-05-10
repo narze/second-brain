@@ -1,4 +1,5 @@
 .obsidian/workspace*
+.obsidian/plugins/*
 private/
 *.priv/
 *.priv.md
