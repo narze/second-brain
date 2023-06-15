@@ -1,0 +1,2 @@
+- `cd /share/CACHEDEV1_DATA/.qpkg/Tailscale`
+- `./tailscale status`
