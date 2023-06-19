@@ -1,0 +1,2 @@
+- Add `<foreignObject>` into svg so that css grid can be usable
+- However, some images are colliding ![](1-Projects/100DaysOfCode-R3/attachments/Pasted%20image%2020230617000833.png)
