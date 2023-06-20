@@ -13,3 +13,6 @@ Wishlist
 Writing strategies
 - Write md/mdx from Obsidian -> Git push to narze/second-brain -> Pulled into narze/garden -> Published in narze/garden
 - Edit .astro from VSCode -> Git push to narze/garden -> Published
+- Git submodule?
+    - It has problems with some files, maybe use a script to filter files?
+    - degit
