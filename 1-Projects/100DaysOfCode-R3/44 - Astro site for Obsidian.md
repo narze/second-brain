@@ -16,6 +16,8 @@ Writing strategies
 - Git submodule?
     - It has problems with some files, maybe use a script to filter files?
     - [x] degit
+        - If developed locally, notes from Obsidian should be auto-sync without push and `degit`
+        - Maybe use `watch`
 
 Concerns
 - Should we use flattened path (44.md) instead of retaining paths from Obsidian? (/1-projects/100DaysOfCode-R3/44.md)
@@ -24,4 +26,4 @@ Concerns
         - Folder structure not leaked
     - Cons
         - Hard to add links?
-    - Or we can just use `slug:` frontmatter...
+    - _Verdict_: retain path & use `slug:` in frontmatter if you want it flattened
