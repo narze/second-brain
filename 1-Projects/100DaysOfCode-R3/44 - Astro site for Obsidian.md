@@ -15,4 +15,13 @@ Writing strategies
 - Edit .astro from VSCode -> Git push to narze/garden -> Published
 - Git submodule?
     - It has problems with some files, maybe use a script to filter files?
-    - degit
+    - [x] degit
+
+Concerns
+- Should we use flattened path (44.md) instead of retaining paths from Obsidian? (/1-projects/100DaysOfCode-R3/44.md)
+    - Pros
+        - Clean
+        - Folder structure not leaked
+    - Cons
+        - Hard to add links?
+    - Or we can just use `slug:` frontmatter...
