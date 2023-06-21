@@ -17,7 +17,7 @@ Writing strategies
     - It has problems with some files, maybe use a script to filter files?
     - [x] degit
         - If developed locally, notes from Obsidian should be auto-sync without push and `degit`
-        - Maybe use `watch`
+        - Maybe use `watch` or soft link?
 
 Concerns
 - Should we use flattened path (44.md) instead of retaining paths from Obsidian? (/1-projects/100DaysOfCode-R3/44.md)
