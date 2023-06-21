@@ -4,4 +4,4 @@ This mode will support editing notes on Obsidian and preview on the browser with
     - [ ] Check if saving file on Obsidian trigger the event
     - When saved, copy the file to narze/garden/src/content/local
     - Clear /local path on exit
-    - 
+    - Handle file conflict (/local should have more precedence)
