@@ -1,0 +1,15 @@
+name: Deploy Garden Astro
+
+on:
+  push:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy narze/garden-astro
+        env:
+          GARDEN_ASTRO_DEPLOY_WEBHOOK_URL: ${{ secrets.GARDEN_ASTRO_DEPLOY_WEBHOOK_URL }}
+        run: "curl -X POST $GARDEN_ASTRO_DEPLOY_WEBHOOK_URL"
