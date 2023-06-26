@@ -12,7 +12,7 @@ This will be the one of my [Outlets](/Outlets.md)
 ## Start Here
 - [Second Brain](Second%20Brain.md)
 - [Wishlist](Wishlist.md)
-- [uses](uses.md)
+- [Uses](Uses.md)
 - [Excalidraw](/Excalidraw/)
 - [PARA](PARA%20Method.md)
 	- [Projects](/1-projects/)

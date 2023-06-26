@@ -4,7 +4,7 @@ date: 2023-03-11
 ---
 
 # Wishlist
-- Things to buy, it'll be moved to [uses](uses.md) if I bought it or [someone bought me](https://ko-fi.com/narze).
+- Things to buy, it'll be moved to [Uses](Uses.md) if I bought it or [someone bought me](https://ko-fi.com/narze).
 
 ## Coffee
 - [x] Manual Espresso Machine
