@@ -7,8 +7,8 @@ function slugify(path) {
     .split("/")
     .slice(-2)
     .join("/")
-    .replace(/\W+/g, "-")
     .toLowerCase()
     .replace(/\.md$/, "")
+    .replace(/\W+/g, "-")
 }
 module.exports = slugify

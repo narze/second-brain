@@ -1,7 +1,8 @@
 ---
 title: "Re-stream Twitch to Facebook Live"
-created: 2023-03-04 03:27
 date: 2023-03-04
+slug: re-stream-twitch-to-facebook-live
+publish: true
 ---
 
 - Open Facebook live producer https://www.facebook.com/live/producer
