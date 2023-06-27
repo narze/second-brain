@@ -1,5 +1,7 @@
 ---
+title: 45 - Garden Astro - Dev mode
 publish: true
+date: 2023-06-22
 slug: 100daysofcode-r3-45-garden-astro-cont
 ---
 
