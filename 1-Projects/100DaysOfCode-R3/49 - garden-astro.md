@@ -8,4 +8,6 @@ publish: true
 - List recent entries
 - Support `.mdx` & `.svx` 
     - <a href="/mdx-test">Test page</a>
-
+- Update post layout
+- Add Svelte integration
+    - `pnpm astro add svelte`
