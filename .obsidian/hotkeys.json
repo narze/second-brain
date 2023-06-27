@@ -1,12 +1,4 @@
 {
-  "insert-template": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "T"
-    }
-  ],
   "note-composer:split-file": [
     {
       "modifiers": [
@@ -53,6 +45,23 @@
         "Ctrl"
       ],
       "key": "N"
+    }
+  ],
+  "templater-obsidian:replace-in-file-templater": [],
+  "templater-obsidian:templates/post.md": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "T"
+    }
+  ],
+  "templater-obsidian:templates/garden_templater.md": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "T"
     }
   ]
 }
