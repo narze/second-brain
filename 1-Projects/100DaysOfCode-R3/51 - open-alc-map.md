@@ -5,6 +5,8 @@ slug: 100daysofcode-r3-51-open-alc-map
 publish: true
 ---
 
+<iframe width="100%" style="aspect-ratio: 16 / 9;" src="https://www.youtube.com/embed/QX6btbNeoBQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 - Upgrade to Svelte v4
 - Move data to yaml format
     - Read file in raw format `import data from "./file.yaml?raw"`
