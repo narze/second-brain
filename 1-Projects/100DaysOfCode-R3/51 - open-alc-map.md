@@ -5,7 +5,6 @@ slug: 100daysofcode-r3-51-open-alc-map
 publish: true
 ---
 
-
 - Upgrade to Svelte v4
 - Move data to yaml format
     - Read file in raw format `import data from "./file.yaml?raw"`
