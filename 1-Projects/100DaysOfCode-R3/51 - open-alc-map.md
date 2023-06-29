@@ -3,8 +3,8 @@ title: "51 - open-alc-map"
 date: 2023-06-29
 slug: 100daysofcode-r3-51-open-alc-map
 publish: true
-draft: true
 ---
+
 
 - Upgrade to Svelte v4
 - Move data to yaml format
@@ -38,4 +38,8 @@ declare namespace svelteHTML {
 }
 ```
 - Add more entries
+
+As there are more entries, will have to adjust D3 force simulation to make them distribute more evenly
+
+![](1-Projects/100DaysOfCode-R3/attachments/Pasted%20image%2020230629235125.png)
 
