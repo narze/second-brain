@@ -27,15 +27,5 @@ draft: true
 </mask>
 ```
 - Show data on click
-    - Use `<dialog>` HTML tag
-    - Handle clicking outside the dialog to close, however got Typescript error on implementation
-    - Declare custom attribute typing in a separate .d.ts file [ref.](https://github.com/sveltejs/language-tools/blob/master/docs/preprocessors/typescript.md#im-using-an-attributeevent-on-a-dom-element-and-it-throws-a-type-error)
-```typescript
-declare namespace svelteHTML {
-	interface HTMLAttributes<T> {
-		'on:outclick'?: () => void;
-	}
-}
-```
 - Add more entries
 
