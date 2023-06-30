@@ -36,7 +36,7 @@ publish: true
 <html lang="en">
 	<head>
 		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-    <DarkModeScript />
+        <DarkModeScript />
 	</head>
 	<body class="flex flex-col h-[100svh] bg-white dark:bg-slate-800 text-black dark:text-white">
 		<Header title={SITE_TITLE} />
@@ -46,4 +46,26 @@ publish: true
 		<Footer />
 	</body>
 </html>
+```
+- Dark theme switcher (Svelte)
+```html
+<script lang="ts">
+  let theme = localStorage.getItem("theme") ?? "light"
+
+  $: {
+    if (theme === "dark") {
+      document.documentElement.classList.add("dark")
+    } else {
+      document.documentElement.classList.remove("dark")
+    }
+
+    localStorage.setItem("theme", theme)
+  }
+
+  function toggleTheme() {
+    theme = theme === "light" ? "dark" : "light"
+  }
+</script>
+
+<button on:click={toggleTheme}>{theme === "light" ? "🌞" : "🌙"}</button>
 ```
