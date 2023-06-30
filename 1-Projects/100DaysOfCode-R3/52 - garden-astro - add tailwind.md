@@ -69,3 +69,5 @@ publish: true
 
 <button on:click={toggleTheme}>{theme === "light" ? "🌞" : "🌙"}</button>
 ```
+
+![](1-Projects/100DaysOfCode-R3/attachments/Pasted%20image%2020230701000858.png)
