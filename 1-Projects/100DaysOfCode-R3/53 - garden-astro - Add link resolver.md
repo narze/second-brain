@@ -13,4 +13,4 @@ Create a link resolver script and hook with Github fetch integration & dev.ts sc
 - Link to [homepage](/) should work on website (not working on Obsidian since it does not link to a file)
 - Link to [other websites](https://narze.live) should still work since it starts with `http`
 
-I also added [Prettier](https://github.com/narze/garden-astro/commit/b24181ce8d33752a268e096c9f3e7801320f61de) & [ESLint](https://github.com/narze/garden-astro/commit/317817bbc197abb1e01c59e60b57f944bbf9d790) off-stream
+I also added [Prettier](https://github.com/narze/garden-astro/commit/b24181ce8d33752a268e096c9f3e7801320f61de) & [ESLint](https://github.com/narze/garden-astro/commit/317817bbc197abb1e01c59e60b57f944bbf9d790) off-stream.
