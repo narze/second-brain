@@ -17,8 +17,12 @@ Create a link resolver script and hook with Github fetch integration & dev.ts sc
 I also added [Prettier](https://github.com/narze/garden-astro/commit/b24181ce8d33752a268e096c9f3e7801320f61de) & [ESLint](https://github.com/narze/garden-astro/commit/317817bbc197abb1e01c59e60b57f944bbf9d790), then took some time to add "View Source" button, to achieve that I have to create another script to add `filepath:` key to frontmatter
 
 ```typescript
+import fs from "node:fs"
+import { remark } from "remark"
+import { visit } from "unist-util-visit"
+import remarkFrontmatter from "remark-frontmatter"
+
 export const addFilepath = (filePath: string) => {
-  let modified = false
   const markdown = fs.readFileSync(filePath, "utf-8")
 
   const processor = remark()
