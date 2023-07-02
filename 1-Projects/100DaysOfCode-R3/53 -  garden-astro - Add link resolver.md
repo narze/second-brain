@@ -1,9 +1,11 @@
 ---
-title: "53 garden-astro"
+title: "53 - garden-astro - Add link resolver"
 date: 2023-07-02
-slug: 100daysofcode-r3-53-garden-astro
+slug: 100daysofcode-r3-53-garden-astro-add-link-resolver
 publish: true
 ---
+
+<iframe width="100%" style="aspect-ratio: 16 / 9;" src="https://www.youtube.com/embed/QNxlSBWc09U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 Create a link resolver script and hook with Github fetch integration & dev.ts script. It uses `gray-matter` to read each of the entries and check if each markdown link points to other web pages (after filter non-published pages), then overwrite the link with working slugs.
 
