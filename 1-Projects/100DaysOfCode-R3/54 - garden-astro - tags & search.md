@@ -41,6 +41,8 @@ Use [Pagefind](https://pagefind.app) that indexes the whole site after build. Th
 
 ![](1-Projects/100DaysOfCode-R3/attachments/Pasted%20image%2020230703235733.png)
 
+The search result is not ideal since it does not strip some html tags, will deal with it later. ![](1-Projects/100DaysOfCode-R3/attachments/Pasted%20image%2020230704000014.png)
+
 ---
 
 #issue Degit blows up
