@@ -7,8 +7,9 @@ tags:
 - Astro
 - Digital Garden
 - 100DaysOfCode
-draft: true
 ---
+
+<iframe width="100%" style="aspect-ratio: 16 / 9;" src="https://www.youtube.com/embed/qtQ6RK-NDPI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Add tags
 
