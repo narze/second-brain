@@ -35,6 +35,13 @@ const { title, date, draft, updated, filepath, tags } = Astro.props
 ## Tag entries page
 ![](1-Projects/100DaysOfCode-R3/attachments/Pasted%20image%2020230703220118.png)
 
+## Search
+
+Use Pagefind that indexes after the site is build, one problem about this library is it have to be async imported and it's not available on development, luckily there is a workaround to [add a dev endpoint to mock the library on development](https://blog.otterlord.dev/post/astro-search/#adding-a-dev-endpoint)
+
+![](1-Projects/100DaysOfCode-R3/attachments/Pasted%20image%2020230703235733.png)
+
+
 #issue Degit blows up
 ```
 09:11:04 PM [build] Waiting for the github-fetch integration...
