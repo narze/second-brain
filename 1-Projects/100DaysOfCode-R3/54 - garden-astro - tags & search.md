@@ -4,9 +4,9 @@ date: 2023-07-03
 slug: 100daysofcode-r3-54-garden-astro-tags-search
 publish: true
 tags:
-    - Astro
-    - Digital Garden
-    - 100DaysOfCode
+- Astro
+- Digital Garden
+- 100DaysOfCode
 draft: true
 ---
 
@@ -28,6 +28,12 @@ Then the tags will be available in Astro layout file
 // Post.astro
 const { title, date, draft, updated, filepath, tags } = Astro.props
 ```
+
+## All tags page
+![](1-Projects/100DaysOfCode-R3/attachments/Pasted%20image%2020230703220104.png)
+
+## Tag entries page
+![](1-Projects/100DaysOfCode-R3/attachments/Pasted%20image%2020230703220118.png)
 
 #issue Degit blows up
 ```

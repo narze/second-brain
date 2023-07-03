@@ -3,6 +3,9 @@ title: "51 - open-alc-map"
 date: 2023-06-29
 slug: 100daysofcode-r3-51-open-alc-map
 publish: true
+tags:
+- 100DaysOfCode
+- Open Alcohol Map
 ---
 
 <iframe width="100%" style="aspect-ratio: 16 / 9;" src="https://www.youtube.com/embed/QX6btbNeoBQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

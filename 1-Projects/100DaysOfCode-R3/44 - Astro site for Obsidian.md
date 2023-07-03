@@ -1,3 +1,13 @@
+---
+title: "44 - Astro site for Obsidian"
+date: 2023-07-03
+slug: 100daysofcode-r3-44-astro-site-for-obsidian
+tags:
+- Astro
+- Digital Garden
+- 100DaysOfCode
+---
+
 Wishlist
 - [Markdown support](https://docs.astro.build/en/guides/markdown-content)
 - Edit from Obsidian and/or VSCode, sync with Git
