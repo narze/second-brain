@@ -1,5 +1,5 @@
 ---
-title: "55 - garden-astro"
+title: "55 - garden-astro - Move website & add RSS feed"
 date: 2023-07-04
 slug: 100daysofcode-r3-55-garden-astro
 publish: true
@@ -66,3 +66,5 @@ export async function get(context) {
 ```
 
 ![](1-Projects/100DaysOfCode-R3/attachments/55%20-%20garden-astro-1.png)
+
+The feed is available at https://garden.narze.live/feed.xml and https://garden.narze.live/index.xml (In case I forgot the URL)
