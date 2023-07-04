@@ -10,8 +10,12 @@ tags:
 - Astro
 ---
 
+## Moving websites
+
 Switch https://garden.narze.live too use garden-astro instead, here is the image of the old site which uses [Quartz](https://github.com/jackyzha0/quartz) ![](1-Projects/100DaysOfCode-R3/attachments/55%20-%20garden-astro.png)
 The old website is moved to [garden-quartz.narze.live](https://garden-quartz.narze.live)
+
+## Webring logo
 
 Add webring logo to the site following these [instructions](https://github.com/wonderfulsoftware/webring#%E0%B8%A3%E0%B9%88%E0%B8%A7%E0%B8%A1%E0%B8%A7%E0%B8%87)
 
@@ -25,3 +29,9 @@ Add webring logo to the site following these [instructions](https://github.com/w
     />
 </a>
 ```
+
+---
+
+## Add RSS feed
+
+The RSS feed can be easily added using `@astrojs/rss`  https://docs.astro.build/en/guides/rss/#setting-up-astrojsrss
