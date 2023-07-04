@@ -1,5 +1,8 @@
 ---
 title: "Outlets"
+date: 2023-01-01
+slug: outlets
+publish: true
 ---
 
 I tried to post things separately, since I wants to try everything new to cope with my FOMO, maybe?
