@@ -1,9 +1,10 @@
 ---
 title: "Choose Boring Technology"
 date: 2022-08-20
-src: "https://boringtechnology.club"
+slug: tech-long-didnt-read-choose-boring-technology
+publish: true
 tags:
-- tech-long-didnt-read
+- Tech long didn't read
 ---
 
 src: https://boringtechnology.club

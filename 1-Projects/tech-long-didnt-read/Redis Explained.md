@@ -1,9 +1,10 @@
 ---
 title: "Redis Explained"
-src: "https://architecturenotes.co/redis"
 date: 2022-09-04
+slug: tech-long-didnt-read-redis-explained
+publish: true
 tags:
-- tech-long-didnt-read
+- Tech long didn't read
 ---
 
 ![](1-Projects/tech-long-didnt-read/Images/Redis%20Explained.png)

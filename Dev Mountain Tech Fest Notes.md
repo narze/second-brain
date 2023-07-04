@@ -1,6 +1,10 @@
 ---
 title: "Dev Mountain Tech Fest Notes"
 date: 2022-03-19
+slug: dev-mountain-tech-fest-notes
+publish: true
+tags:
+- 
 ---
 
 Keywords
