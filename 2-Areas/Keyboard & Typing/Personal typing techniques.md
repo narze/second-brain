@@ -1,7 +1,10 @@
 ---
 title: "Personal typing techniques"
-created: 2022-12-27 13:03
 date: 2022-12-29
+slug: keyboard-typing-personal-typing-techniques
+publish: true
+tags:
+- typing
 ---
 
 - NEVER LOOK AT KEYBOARD
