@@ -10,6 +10,10 @@ tags:
 - Astro
 ---
 
+## Livestream
+
+<iframe width="100%" style="aspect-ratio: 16 / 9;" src="https://www.youtube.com/embed/gOJU88MIXjs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ## Moving websites
 
 Switch https://garden.narze.live too use garden-astro instead, here is the image of the old site which uses [Quartz](https://github.com/jackyzha0/quartz) ![](1-Projects/100DaysOfCode-R3/attachments/55%20-%20garden-astro.png)
