@@ -35,3 +35,34 @@ Add webring logo to the site following these [instructions](https://github.com/w
 ## Add RSS feed
 
 The RSS feed can be easily added using `@astrojs/rss`  https://docs.astro.build/en/guides/rss/#setting-up-astrojsrss
+
+```typescript
+// feed.xml.ts
+
+import rss from "@astrojs/rss"
+import { getCollection } from "astro:content"
+import { SITE_TITLE, SITE_DESCRIPTION } from "../consts"
+
+export async function get(context) {
+  const entries = (await getCollection("second-brain")).sort(
+    (a, b) => b.data.date.valueOf() - a.data.date.valueOf()
+  )
+
+  const items = entries.map((post) => ({
+    title: post.data.title,
+    pubDate: post.data.date,
+    // description: post.data.description,
+    // customData: post.data.customData,
+    link: `/${post.slug}`,
+  }))
+
+  return rss({
+    title: SITE_TITLE,
+    description: SITE_DESCRIPTION,
+    site: context.site,
+    items,
+  })
+}
+```
+
+![](1-Projects/100DaysOfCode-R3/attachments/55%20-%20garden-astro-1.png)
