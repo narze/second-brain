@@ -1,7 +1,10 @@
 ---
 title: "Change League of Legends macOS language from Thai to English"
-created: 2023-01-29 02:11
 date: 2023-01-30
+slug: change-league-of-legends-macos-language-from-thai-to-english
+publish: true
+tags:
+- game
 ---
 
 By default the interface language will be locked to region, playing in TH server will result in Thai language and it cannot be changed within the game.

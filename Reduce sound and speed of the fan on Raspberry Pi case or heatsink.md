@@ -1,8 +1,14 @@
 ---
-title: "Reduce sound and speed of the fan on Raspberry Pi case"
-created: 2023-01-10 13:15
+title: "Reduce sound and speed of the fan on Raspberry Pi case or heatsink"
 date: 2023-01-11
+slug: reduce-sound-and-speed-of-the-fan-on-raspberry-pi-case-or-heatsink
+publish: true
+tags:
+- 
 ---
+
+
+
 
 ![](attachments/Pasted%20image%2020230110131527.png)
 

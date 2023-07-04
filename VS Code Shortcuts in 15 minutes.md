@@ -1,8 +1,10 @@
 ---
 title: "VS Code Shortcuts in 15 minutes"
 date: 2023-05-10
-slug: vs-code-shortcuts-in-15-minutes-md
+slug: vs-code-shortcuts-in-15-minutes
 publish: true
+tags:
+- VSCode
 ---
 
 ## Note

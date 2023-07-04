@@ -1,7 +1,10 @@
 ---
 title: "VSCode Extension Pack"
-created: 2022-12-31 18:37
 date: 2023-01-01
+slug: vscode-extension-pack
+publish: true
+tags:
+- 
 ---
 
 1. Install Yeoman & `generator-code`

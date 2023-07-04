@@ -1,6 +1,10 @@
 ---
 title: "Wishlist"
 date: 2023-03-11
+slug: wishlist
+publish: true
+tags:
+- 
 ---
 
 # Wishlist
@@ -8,7 +12,7 @@ date: 2023-03-11
 
 ## Coffee
 - [x] Manual Espresso Machine
-  - [Cafelat Robot](https://th.hazelnhershey.com/collections/equipment)
+  - [x] [Cafelat Robot](https://th.hazelnhershey.com/collections/equipment)
     - Best workflow for 2 cups, no preheating required, have gauge
     - Thai shops
       - FB: Robot Coffee Maker Thailand
