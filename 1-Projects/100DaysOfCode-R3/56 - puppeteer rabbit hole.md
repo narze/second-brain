@@ -39,8 +39,9 @@ By the way @Thai did comment in the livestream regarding `personal-puppeteer`
 (Twitch)
 ![](1-Projects/100DaysOfCode-R3/attachments/56%20-%20puppeteer%20rabbit%20hole-4.png)
 
-I finally deployed pptr-io to https://pptrio.narze.live but it still returns 504 🫠
-I think I'll learn how to use Google Cloud Run soon 
+I finally deployed pptr-io to https://pptrio.narze.live but it still returns 504 timeout 🫠
+
+I'll learn how to use Google Cloud Run soon 
 
 References:
 - https://gist.github.com/kettanaito/56861aff96e6debc575d522dd03e5725
