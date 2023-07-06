@@ -8,7 +8,7 @@ tags:
 - today-i-learned
 ---
 
-I ran my [dotfiles](https://github.com/narze/dotfiles) update today and found that my VSCode font looked weird, I'm using [Nerdfont-patched FantasqueSansMono](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/FantasqueSansMono) but it's name changed from `FantasqueSansMono Nerd Font Mono` to `FantasqueSansM Nerd Font Mono` so after updating the font name is missing from VSCode.
+I ran my [dotfiles](https://github.com/narze/dotfiles) update today and found that my VSCode font looked weird, I'm using [Nerdfont-patched Fantasque Sans Mono](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/FantasqueSansMono) but it's name changed from `FantasqueSansMono Nerd Font Mono` to `FantasqueSansM Nerd Font Mono` so after updating the font is missing from VSCode.
 
 ![](attachments/Pasted%20image%2020230706143036.png)
 
