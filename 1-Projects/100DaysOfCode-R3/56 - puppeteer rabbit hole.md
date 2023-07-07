@@ -3,7 +3,7 @@ title: "56 - puppeteer rabbit hole"
 date: 2023-07-05
 slug: 100daysofcode-r3-56-puppeteer-rabbit-hole
 publish: true
-tags:
+tags:   
 - puppeteer
 ---
 
