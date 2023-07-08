@@ -1,7 +1,7 @@
 ---
-title: "Git - fatal error detected dubious ownership in repository"
+title: "Git - fatal: detected dubious ownership in repository"
 date: 2023-07-08
-slug: git-fatal-error-detected-dubious-ownership-in-repository
+slug: git-fatal-detected-dubious-ownership-in-repository
 publish: true
 tags:
 - git
