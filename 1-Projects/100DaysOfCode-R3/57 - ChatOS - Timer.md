@@ -1,0 +1,18 @@
+---
+title: "57 - ChatOS - Timer"
+date: 2023-07-08
+slug: 100daysofcode-r3-57-chatos-timer
+publish: true
+tags:
+- 
+draft: true
+---
+
+
+## Livestream
+
+<iframe width="100%" style="aspect-ratio: 16 / 9;" src="https://www.youtube.com/embed/05Lg7zyM8zA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+...
+
+![](1-Projects/100DaysOfCode-R3/attachments/Screenshot%202023-07-09%20at%202.32.05%20AM.png)
