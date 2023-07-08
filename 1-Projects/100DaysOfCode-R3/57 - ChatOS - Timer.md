@@ -16,3 +16,7 @@ draft: true
 ...
 
 ![](1-Projects/100DaysOfCode-R3/attachments/Screenshot%202023-07-09%20at%202.32.05%20AM.png)
+
+[1]: https://blog.atulr.com/web-notifications
+[2]: https://kit.svelte.dev/docs/service-workers
+[3] https://vitejs.dev/guide/assets.html#importing-script-as-a-worker
