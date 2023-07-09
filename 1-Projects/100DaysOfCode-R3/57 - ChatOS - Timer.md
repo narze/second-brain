@@ -148,6 +148,11 @@ Try the timer command on [ChatOS](https://chat.narze.live) by typing `timer mm:s
 
 ![](1-Projects/100DaysOfCode-R3/attachments/57%20-%20ChatOS%20-%20Timer.png)
 
+## Possible improvements
+
+- Refactor notification related code so that other commands can use it as well
+- Support [Web Push API](https://developer.mozilla.org/en-US/docs/Web/API/Push_API), so that the tab can be closed but notification still can be sent to user (This may need persisting user...) 
+
 ## References
 - https://blog.atulr.com/web-notifications
 - https://kit.svelte.dev/docs/service-workers
