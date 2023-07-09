@@ -7,7 +7,6 @@ tags:
  - #digital-garden
  - #Astro
  - #100DaysOfCode
-draft: true
 ---
 
 Previously I add support for tags in this format
