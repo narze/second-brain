@@ -144,9 +144,9 @@ See the working code (at the time of this writing) here:
 
 Try the timer command on [ChatOS](https://chat.narze.live) by typing `timer mm:ss`
 
-![](1-Projects/100DaysOfCode-R3/attachments/Screenshot%202023-07-09%20at%202.32.05%20AM.png)
+The finished timer ![](1-Projects/100DaysOfCode-R3/attachments/Screenshot%202023-07-09%20at%202.32.05%20AM.png)
 
-![](1-Projects/100DaysOfCode-R3/attachments/57%20-%20ChatOS%20-%20Timer.png)
+The notification ![](1-Projects/100DaysOfCode-R3/attachments/57%20-%20ChatOS%20-%20Timer.png)
 
 ## Possible improvements
 
