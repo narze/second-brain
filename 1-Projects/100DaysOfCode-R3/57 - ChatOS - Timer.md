@@ -150,6 +150,7 @@ Try the timer command on [ChatOS](https://chat.narze.live) by typing `timer mm:s
 
 ## Possible improvements
 
+- Play around with [Notification properties](https://developer.mozilla.org/en-US/docs/Web/API/Notification#instance_properties), adding icon, custom sound, timestamp, etc.
 - Refactor notification related code so that other commands can use it as well
 - Support [Web Push API](https://developer.mozilla.org/en-US/docs/Web/API/Push_API), so that the tab can be closed but notification still can be sent to user (This may need persisting user...) 
 
