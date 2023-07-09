@@ -5,7 +5,7 @@ slug: 100daysofcode-r3-52-garden-astro-add-tailwind
 publish: true
 tags:
 - Astro
-- Digital Garden
+- Digital-Garden
 - 100DaysOfCode
 ---
 

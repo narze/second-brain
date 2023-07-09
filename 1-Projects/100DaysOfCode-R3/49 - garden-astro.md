@@ -5,7 +5,7 @@ slug: 100daysofcode-r3-49-garden-astro
 publish: true
 tags:
 - Astro
-- Digital Garden
+- Digital-Garden
 - 100DaysOfCode
 ---
 

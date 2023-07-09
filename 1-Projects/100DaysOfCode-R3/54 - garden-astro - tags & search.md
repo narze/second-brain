@@ -5,7 +5,7 @@ slug: 100daysofcode-r3-54-garden-astro-tags-search
 publish: true
 tags:
 - Astro
-- Digital Garden
+- Digital-Garden
 - 100DaysOfCode
 ---
 

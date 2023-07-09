@@ -66,5 +66,37 @@ export const stripHashFromTags = (filePath: string) => {
 }
 ```
 
+It will now display on Astro site since `#` is removed.
+
 ![](1-Projects/100DaysOfCode-R3/attachments/58%20-%20garden-astro%20-%20use%20hashtags-1.png)
 
+## Disallow whitespaces in tags
+
+Since we're using hashtags as tags in Obsidian, we should not have spaces in the tags like `#Digital Garden` should not be allowed.
+
+Add `zod` schema with `refine` to scan for whitespaces within tags array.
+
+```typescript
+const secondBrain = defineCollection({
+  schema: z.object({
+    ...,
+
+    tags: z
+      .array(
+        z
+          .string()
+          .refine(
+            (tag) => !/\s/.test(tag), // returns false when tag has spaces
+            (tag) => ({
+              message: `Tag "${tag}" cannot include whitespaces`,
+            })
+          )
+          .or(z.null())
+      )
+  })
+})
+```
+
+Astro site will now raise errors if any tags are including spaces.
+
+![](1-Projects/100DaysOfCode-R3/attachments/58%20-%20garden-astro%20-%20use%20hashtags-2.png)

@@ -5,7 +5,7 @@ slug: 100daysofcode-r3-53-garden-astro-add-link-resolver
 publish: true
 tags:
 - Astro
-- Digital Garden
+- Digital-Garden
 - 100DaysOfCode
 ---
 

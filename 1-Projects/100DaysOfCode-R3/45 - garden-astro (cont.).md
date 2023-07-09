@@ -5,7 +5,7 @@ date: 2023-06-22
 slug: 100daysofcode-r3-45-garden-astro-cont
 tags:
 - Astro
-- Digital Garden
+- Digital-Garden
 - 100DaysOfCode
 ---
 

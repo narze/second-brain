@@ -4,7 +4,7 @@ date: 2023-07-03
 slug: 100daysofcode-r3-44-astro-site-for-obsidian
 tags:
 - Astro
-- Digital Garden
+- Digital-Garden
 - 100DaysOfCode
 ---
 

@@ -2,7 +2,7 @@
 slug: 100daysofcode-r3-48-garden-astro-deploy-with-github-action-and-vercel-deploy-webhook
 tags:
 - Astro
-- Digital Garden
+- Digital-Garden
 - 100DaysOfCode
 ---
 

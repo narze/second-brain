@@ -5,7 +5,7 @@ slug: 100daysofcode-r3-46-garden-astro-fetch-github
 date: 2023-06-23
 tags:
 - Astro
-- Digital Garden
+- Digital-Garden
 - 100DaysOfCode
 ---
 
