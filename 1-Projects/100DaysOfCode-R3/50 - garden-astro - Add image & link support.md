@@ -4,9 +4,9 @@ date: 2023-06-28
 slug: 100daysofcode-r3-50-garden-astro-add-image-and-link-support
 publish: true
 tags:
-- Astro
-- Digital-Garden
-- 100DaysOfCode
+- #Astro
+- #Digital-Garden
+- #100DaysOfCode
 ---
 
 Normal Image looks like this in Obsidian, it's a markdown image link.

@@ -4,9 +4,9 @@ publish: true
 date: 2023-06-22
 slug: 100daysofcode-r3-45-garden-astro-cont
 tags:
-- Astro
-- Digital-Garden
-- 100DaysOfCode
+- #Astro
+- #Digital-Garden
+- #100DaysOfCode
 ---
 
 # Garden Astro - Dev mode

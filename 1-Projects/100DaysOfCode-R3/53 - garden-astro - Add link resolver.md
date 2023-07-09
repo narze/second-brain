@@ -4,9 +4,9 @@ date: 2023-07-02
 slug: 100daysofcode-r3-53-garden-astro-add-link-resolver
 publish: true
 tags:
-- Astro
-- Digital-Garden
-- 100DaysOfCode
+- #Astro
+- #Digital-Garden
+- #100DaysOfCode
 ---
 
 <iframe width="100%" style="aspect-ratio: 16 / 9;" src="https://www.youtube.com/embed/QNxlSBWc09U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

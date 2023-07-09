@@ -4,8 +4,8 @@ date: 2023-07-08
 slug: 100daysofcode-r3-57-chatos-timer
 publish: true
 tags:
-- chat-os
-- sveltekit
+- #chat-os
+- #sveltekit
 ---
 
 ## Livestream
