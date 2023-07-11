@@ -28,13 +28,23 @@ Here are what I planned to install to this machine
     rsync --archive --chown=narze:narze ~/.ssh /home/narze
     ```
 - [ ] Docker, maybe Kubernetes cluster (k3s or k0s or microk8s or whatever people use in 2023)
-    - [ ] Chose microk8s since it's from Canonical (Ubuntu) 
+    - [x] Chose microk8s since it's from Canonical (Ubuntu) 
         - See [comparison](https://microk8s.io/compare)
         - MicroK8s pronounced "Micro-Kates"
-        - `sudo snap install microk8s --classic`
+        ```shell
+        sudo snap install microk8s --classic
+        sudo usermod -a -G microk8s narze # add narze to microk8s user group
+        newgrp microk8s # reload user group
+        microk8s status --wait-ready # check status
+        microk8s kubectl get all --all-namespaces # verify
+        microk8s dashboard-proxy # dashboard
+        microk8s start # or stop
+        ```
 - [x] Tailscale so that I can connect to it without remembering the IP?
     - `curl -fsSL https://tailscale.com/install.sh | sh`
     - [ ] Setup ssh alias and add it to my dotfiles
-- [ ] Setup [my dotfiles](https://github.com/narze/dotfiles)
+- [x] Setup [my dotfiles](https://github.com/narze/dotfiles)
+    - Generate & add `id_ed25519.pub` to Github
 - [ ] VSCode remote
 - [ ] Firewall
+- [ ] Github CLI https://github.com/cli/cli/blob/trunk/docs/install_linux.md
