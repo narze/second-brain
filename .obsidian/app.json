@@ -9,5 +9,6 @@
   "useTab": false,
   "showFrontmatter": true,
   "autoPairMarkdown": false,
-  "attachmentFolderPath": "./attachments"
+  "attachmentFolderPath": "./attachments",
+  "newFileLocation": "current"
 }
