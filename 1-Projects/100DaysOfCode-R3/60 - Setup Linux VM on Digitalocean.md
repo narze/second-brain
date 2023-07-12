@@ -4,8 +4,10 @@ date: 2023-07-11
 slug: 100daysofcode-r3-60-setup-linux-vm-on-digitalocean
 publish: true
 tags:
-- 
-draft: true
+- #100DaysOfCode 
+- #linux 
+- #command-line 
+- #log
 ---
 
 ## Livestream
