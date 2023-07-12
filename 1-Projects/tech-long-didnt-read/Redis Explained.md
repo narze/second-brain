@@ -4,7 +4,7 @@ date: 2022-09-04
 slug: tech-long-didnt-read-redis-explained
 publish: true
 tags:
-- Tech long didn't read
+- #tech-long-didnt-read 
 ---
 
 ![](1-Projects/tech-long-didnt-read/Images/Redis%20Explained.png)

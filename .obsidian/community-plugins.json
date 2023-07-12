@@ -9,5 +9,6 @@
   "daily-activity",
   "templater-obsidian",
   "obsidian-markdown-file-suffix",
-  "obsidian-paste-image-rename"
+  "obsidian-paste-image-rename",
+  "obsidian-frontmatter-tag-suggest"
 ]

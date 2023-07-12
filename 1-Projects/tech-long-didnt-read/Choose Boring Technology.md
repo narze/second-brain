@@ -4,7 +4,7 @@ date: 2022-08-20
 slug: tech-long-didnt-read-choose-boring-technology
 publish: true
 tags:
-- Tech long didn't read
+- #tech-long-didnt-read 
 ---
 
 src: https://boringtechnology.club
