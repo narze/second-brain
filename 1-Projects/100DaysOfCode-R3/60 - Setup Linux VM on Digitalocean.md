@@ -7,6 +7,7 @@ tags:
 - #100DaysOfCode 
 - #linux 
 - #command-line 
+- #log
 ---
 
 ## Livestream
