@@ -4,8 +4,10 @@ date: 2023-07-14
 slug: 100daysofcode-r3-62-garden-astro-add-tests
 publish: true
 tags:
-- 
-draft: true
+- #garden-astro
+- #100DaysOfCode 
+- #testing
+- #playwright
 ---
 
 ## Livestream
@@ -55,4 +57,65 @@ If the test fail I'll know the bad links and fix them accordingly.
 
 ![](1-Projects/100DaysOfCode-R3/attachments/62%20-%20garden-astro%20-%20add%20tests-1.png)
 
+## CI with Github Actions
+
+Firstly, config the Playwright `webServer` configuration [2], then add the Github Action workflow provided from Playwright installation [3]. I also add Pnpm setup with caching.
+
+```yaml
+name: Playwright Tests
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+jobs:
+  test:
+    timeout-minutes: 60
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      # Pnpm
+      - uses: pnpm/action-setup@v2
+        name: Install pnpm
+        id: pnpm-install
+        with:
+          version: 8
+          run_install: false
+      - name: Get pnpm store directory
+        id: pnpm-cache
+        shell: bash
+        run: |
+          echo "STORE_PATH=$(pnpm store path)" >> $GITHUB_OUTPUT
+      - uses: actions/cache@v3
+        name: Setup pnpm cache
+        with:
+          path: ${{ steps.pnpm-cache.outputs.STORE_PATH }}
+          key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-pnpm-store-
+
+      - name: Install dependencies
+        run: pnpm install
+      - name: Install Playwright Browsers
+        run: pnpm exec playwright install --with-deps
+      - name: Build
+        run: pnpm run build
+      - name: Run Playwright tests
+        run: pnpm exec playwright test
+      - uses: actions/upload-artifact@v3
+        if: always()
+        with:
+          name: playwright-report
+          path: playwright-report/
+          retention-days: 30
+```
+
+Push code and then see the actions running https://github.com/narze/garden-astro/actions ✅
+
 [1]: https://testerops.com/2022/10/03/getting-all-links-in-a-page-using-playwright
+[2]: https://playwright.dev/docs/test-webserver#configuring-a-web-server
+[3]: https://playwright.dev/docs/ci-intro#github-actions
