@@ -4,7 +4,7 @@ date: 2023-07-09
 slug: 100daysofcode-r3-58-garden-astro-use-hashtags
 publish: true
 tags:
- - #digital-garden
+ - #Digital-Garden
  - #Astro
  - #100DaysOfCode
 ---
