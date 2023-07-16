@@ -88,6 +88,3 @@ docker run ttl.sh/heychat-8015391
 
 docker ps # Verify that the container is working
 ```
-
-## Expose port
-
