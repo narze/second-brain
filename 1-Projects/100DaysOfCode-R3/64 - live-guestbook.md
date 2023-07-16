@@ -9,6 +9,10 @@ tags:
 - #tailwind
 ---
 
+## Livestream
+
+<iframe width="100%" style="aspect-ratio: 16 / 9;" src="https://www.youtube.com/embed/3OOYlWenizo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 Originally @srakrn's idea, I think it's a fun idea to work on in Sunday night...
 
 ![](1-Projects/100DaysOfCode-R3/attachments/64%20-%20live-guestbook.png)
