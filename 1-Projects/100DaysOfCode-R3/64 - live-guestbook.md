@@ -24,7 +24,9 @@ Originally @srakrn's idea, I think it's a fun idea to work on in Sunday night...
 - [lowdb](https://github.com/typicode/lowdb)
 - [Svelte Carousel](https://vadimkorr.github.io/svelte-carousel)
 
-See in action! https://live-guestbook.vercel.app [Code](https://github.com/narze/live-guestbook)
+The implementation is simple, just a form to submit data, and another page to load those data and display. [Code](https://github.com/narze/live-guestbook)
+
+See in action! https://live-guestbook.vercel.app
 
 ![](1-Projects/100DaysOfCode-R3/attachments/64%20-%20live-guestbook-1.png)
 
