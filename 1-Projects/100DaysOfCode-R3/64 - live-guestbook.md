@@ -12,3 +12,8 @@ Originally @srakrn's idea, I think it's a fun idea to work on in Sunday night...
 
 ![](1-Projects/100DaysOfCode-R3/attachments/64%20-%20live-guestbook.png)
 
+## Technologies
+
+- SvelteKit
+- Tailwind
+- [lowdb](https://github.com/typicode/lowdb)
