@@ -4,8 +4,10 @@ date: 2023-07-17
 slug: 100daysofcode-r3-65-chatos-add-firebase-auth
 publish: true
 tags:
-- 
-draft: true
+- #firebase
+- #100DaysOfCode 
+- #ChatOS
+- #SvelteKit
 ---
 
 ## Livestream
@@ -102,3 +104,54 @@ export const auth = getAuth(app);
 ![](1-Projects/100DaysOfCode-R3/attachments/65%20-%20ChatOS%20-%20Add%20Firebase%20Auth-1.png)
 
 You can also choose to sign in with redirection instead with `signInWithRedirect`. Refer to [Firebase Documentation](https://firebase.google.com/docs/auth/web/google-signin)
+
+6. Load user in `+layout.ts` by wrapping `auth.onAuthStateChanged` and use it in `load` function
+
+```js
+import { auth } from '../lib/firebase';
+import type { LayoutLoad } from './$types';
+
+async function getUserAuthState() {
+	return new Promise((resolve, reject) => {
+		const unsubscribe = auth.onAuthStateChanged((user) => {
+			unsubscribe(); // Unsubscribe the listener once it's triggered
+			resolve(user); // Resolve the promise with the user object
+		}, reject);
+	});
+}
+
+export const load: LayoutLoad = async (_event) => {
+	const user = await getUserAuthState();
+
+	return {
+		user
+	};
+};
+```
+
+7. The user will be available through all pages as `data: PageData` using the layout
+
+```html
+<script lang="ts">
+  import { auth } from "$lib/firebase";
+  import { GoogleAuthProvider, signInWithPopup, type User } from "firebase/auth";
+  import type { PageData } from './$types';
+
+  const provider = new GoogleAuthProvider();
+
+  export let data: PageData;
+  let user: User | null = data.user as User
+</script>
+
+{#if user}
+  <p>Logged in as {user.displayName}</p>
+{:else}
+  <p>
+    Not logged in
+  </p>
+{/if}
+```
+
+Note - If deployed, make sure to add the domain name in Firebase console
+
+![](1-Projects/100DaysOfCode-R3/attachments/65%20-%20ChatOS%20-%20Add%20Firebase%20Auth-2.png)
