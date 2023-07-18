@@ -1,7 +1,7 @@
 ---
 title: "Glob import modules with Vite"
 date: 2023-07-19
-slug: 100daysofcode-r3-glob-import-modules-with-vite
+slug: glob-import-modules-with-vite
 publish: true
 tags:
 - #javascript
