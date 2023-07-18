@@ -36,7 +36,7 @@ const modules = {
 }
 ```
 
-Then you can loop through each modules to use it like so:
+Then you can loop through each module to use it like so:
 
 ```javascript
 for (const path in modules) {
@@ -59,7 +59,7 @@ If you want it to be immediately loaded, add `eager: true` option
 const modules = import.meta.glob('./dir/*.js', { eager: true })
 
 Object.keys(modules).map((path) => {
-    const mod = modules[path].default // Already loaded so it's the module
+    const mod = modules[path].default // Already loaded so it's the actual module
 });
 ```
 
