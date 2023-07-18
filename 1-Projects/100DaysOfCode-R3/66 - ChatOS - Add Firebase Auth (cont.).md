@@ -8,7 +8,6 @@ tags:
 - #100DaysOfCode 
 - #ChatOS
 - #SvelteKit
-draft: true
 ---
 
 ## Livestream
