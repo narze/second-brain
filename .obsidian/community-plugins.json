@@ -10,5 +10,8 @@
   "templater-obsidian",
   "obsidian-markdown-file-suffix",
   "obsidian-paste-image-rename",
-  "obsidian-frontmatter-tag-suggest"
+  "obsidian-frontmatter-tag-suggest",
+  "obsidian-advanced-slides",
+  "obsidian-tasks-plugin",
+  "cm-editor-syntax-highlight-obsidian"
 ]
