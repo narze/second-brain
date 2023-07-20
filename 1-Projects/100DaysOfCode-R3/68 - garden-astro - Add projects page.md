@@ -6,7 +6,6 @@ publish: true
 tags:
 - #garden-astro
 - #100DaysOfCode 
-draft: true
 ---
 
 ## Livestream
