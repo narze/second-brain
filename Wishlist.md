@@ -42,7 +42,7 @@ tags:
 		- My [Delonghi KG79](https://www.delonghi.com/en-int/products/coffee/coffee-makers/grinders/kg79-0177111028) is not that good & hard to clean, I used it for Cold Brew.
 		- Hand grinder
 			- Kingrinder K2 (Grinds faster than C2 [ref](https://www.youtube.com/watch?v=0qBVp__SWwQ))
-				- Kingrinder models  ![](../Images/KINGrinder.png)
+				- Kingrinder models  ![](/Images/KINGrinder.png)
 			- Timemore C2
 			- Comandante
 		- Electric Grinder
@@ -72,9 +72,9 @@ tags:
   - nice!60 https://nicekeyboards.com/nice-60 (has BLE)
   - Planck rev6 (again??)
   - Lily58 With rotary encoders
-    - ![](attachments/Pasted%20image%2020221223170125.png)
-    - ![](attachments/Pasted%20image%2020221225163746.png)
-  - Lulu https://boardsource.xyz/store/61d0b772319a1f3cc53ba2fb ![](attachments/Pasted%20image%2020221223225947.png)
+    - ![](/attachments/Pasted%20image%2020221223170125.png)
+    - ![](/attachments/Pasted%20image%2020221225163746.png)
+  - Lulu https://boardsource.xyz/store/61d0b772319a1f3cc53ba2fb
 
 ## Misc
 - Sling bag
