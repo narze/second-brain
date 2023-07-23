@@ -8,11 +8,7 @@ tags:
 - today-i-learned
 ---
 
-I ran my [dotfiles](https://github.com/narze/dotfiles) update today and found that my VSCode font looked weird, I'm using [Nerdfont-patched Fantasque Sans Mono](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/FantasqueSansMono) but it's name changed from `FantasqueSansMono Nerd Font Mono` to `FantasqueSansM Nerd Font Mono` so after updating the font is missing from VSCode.
-
-![](attachments/Pasted%20image%2020230706143036.png)
-
-Actually, you can use css-like trick in this field by adding fallback fonts [1]
+I ran my [dotfiles](https://github.com/narze/dotfiles) update today and found that my VSCode font looked weird, I'm using [Nerdfont-patched Fantasque Sans Mono](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/FantasqueSansMono) but it's name changed from `FantasqueSansMono Nerd Font Mono` to `FantasqueSansM Nerd Font Mono` so after updating the font is missing from VSCode. Actually, you can use css-like trick in this field by adding fallback fonts [1]
 
 ```text
 'FantasqueSansMono Nerd Font Mono', 'FantasqueSansM Nerd Font Mono'
