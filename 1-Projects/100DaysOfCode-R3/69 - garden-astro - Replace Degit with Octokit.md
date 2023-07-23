@@ -18,7 +18,7 @@ tags:
 
 ## Problems found
 
-The tarball file that Octokit downloaded contain randomly named subfolder. This causes the image path failed to resolve.
+- [ ] The tarball file that Octokit downloaded contain randomly named subfolder. This causes the image path failed to resolve.
 
 ![](1-Projects/100DaysOfCode-R3/attachments/69%20-%20garden-astro%20-%20Replace%20Degit%20with%20Octokit-1.png)
 
