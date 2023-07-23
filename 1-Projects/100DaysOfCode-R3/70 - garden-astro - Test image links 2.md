@@ -4,8 +4,9 @@ date: 2023-07-24
 slug: 100daysofcode-r3-70-garden-astro-test-image-links
 publish: true
 tags:
-- 
-draft: true
+- #garden-astro
+- #100DaysOfCode 
+- #playwright
 ---
 
 ## Livestream
@@ -50,3 +51,36 @@ The images are now render-able again.
 ## Testing
 
 To prevent broken images in the future, I add the Playwright test to test all the images on the website to the existing link tester.
+
+```typescript
+async function isImageLoaded(src: string) {
+  return new Promise((resolve) => {
+    const img = new Image()
+    img.onload = () => resolve(true)
+    img.onerror = () => resolve(false)
+    img.src = src
+  })
+}
+
+const locator = page.locator("img")
+const images = await locator.evaluateAll((imgs: HTMLImageElement[]) =>
+  imgs
+    .map((img) => img.src)
+    .filter((src) => src.startsWith("http://localhost:3000"))
+)
+
+for (const imageSrc of images) {
+  const isLoaded = await page.evaluate(isImageLoaded, imageSrc)
+  
+  if (!isLoaded) {
+    console.error("Broken image", imageSrc, "on page", link)
+    brokenImages.push({ image: imageSrc, page: link })
+  }
+}
+
+expect(brokenImages.length).toEqual(0)
+```
+
+When the test found any broken images, it will fail the test.
+
+![](1-Projects/100DaysOfCode-R3/attachments/70%20-%20garden-astro%20-%20Test%20image%20links-3.png)
