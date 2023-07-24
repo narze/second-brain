@@ -5,8 +5,8 @@ slug: 100daysofcode-r3-71-chatos-setup-firebase-emulator
 publish: true
 tags:
 - #100DaysOfCode 
-- #ChatOS
-draft: true
+- #ChatOS 
+- #firebase
 ---
 
 ## Livestream
@@ -47,3 +47,18 @@ Then try logging in, instead of redirecting to Google login, you'll see this pag
 Then add new account and fill in user information, or auto generate it.
 
 ![](1-Projects/100DaysOfCode-R3/attachments/71%20-%20ChatOS%20-%20Setup%20Firebase%20Emulator-1.png)
+
+Adding Firebase Emulator for other services can be done in a similar fashion
+
+```javascript
+import { getAuth, connectAuthEmulator, type User } from 'firebase/auth';
+import { getFirestore, connectFirestoreEmulator } from 'firebase/firestore';
+
+export const auth = getAuth(app);
+export const firestore = getFirestore(app);
+
+if (process.env.NODE_ENV === 'development') {
+	connectAuthEmulator(auth, 'http://localhost:9099');
+	connectFirestoreEmulator(firestore, 'localhost', 8080);
+}
+```
