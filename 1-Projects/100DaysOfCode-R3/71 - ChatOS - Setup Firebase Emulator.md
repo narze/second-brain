@@ -1,6 +1,6 @@
 ---
 title: "71 - ChatOS - Setup Firebase Emulator"
-date: 2023-07-24
+date: "2023-07-24 23:00"
 slug: 100daysofcode-r3-71-chatos-setup-firebase-emulator
 publish: true
 tags:
