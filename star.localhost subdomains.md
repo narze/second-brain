@@ -1,6 +1,6 @@
 ---
 title: "*.localhost subdomains"
-date: 2023-07-24
+date: 2023-07-25
 slug: star-dot-localhost-subdomains
 publish: true
 tags:
