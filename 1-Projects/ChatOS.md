@@ -8,4 +8,10 @@ tags:
 draft: true
 ---
 
-
+# TODOs
+- [ ] OpenAI / ChatGPT integration
+- [ ] Sync with Firestore
+- [ ] Image / file upload
+- [ ] Timer
+    - [ ] Restart timer
+    - [ ] Sound alert
