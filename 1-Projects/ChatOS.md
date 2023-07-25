@@ -15,3 +15,5 @@ draft: true
 - [ ] Timer
     - [ ] Restart timer
     - [ ] Sound alert
+- [ ] Redo command `!!`
+- [ ] Get / post URL
