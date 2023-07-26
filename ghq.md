@@ -1,7 +1,7 @@
 ---
 title: "ghq - Remote repo management tool"
 date: 2023-07-26
-slug: ghq
+slug: ghq-remote-repo-management-tool
 publish: true
 tags:
 - #command-line 
