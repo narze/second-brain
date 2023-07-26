@@ -5,7 +5,7 @@ slug: ghq
 publish: true
 tags:
 - #command-line 
-draft: true
+- #git
 ---
 
 In all of my 3 Macs, I store all of my code within `~/Code` to make it persistent and easy to use across the machines. I use [`ghq`](https://github.com/x-motemen/ghq) to manage the inner structure.
