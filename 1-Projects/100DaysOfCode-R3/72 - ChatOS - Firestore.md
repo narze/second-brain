@@ -1,7 +1,7 @@
 ---
 title: "72 - ChatOS - Firestore"
 date: 2023-07-26
-slug: 1-projects-72-chatos-firestore
+slug: 100daysofcode-r3-72-chatos-firestore
 publish: true
 tags:
 - #ChatOS 
