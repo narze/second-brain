@@ -1,7 +1,7 @@
 ---
 title: "Extract Saved Wi-Fi password on macOS"
 date: 2023-07-27
-slug: extract-saved-wi-fi-password-on-macos
+slug: extract-saved-wifi-password-on-macos
 publish: true
 tags:
 - #til
