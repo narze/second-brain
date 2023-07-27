@@ -26,4 +26,4 @@ I make a command line alias and add `-l` parameter (`look`) to change the path a
 alias gq='ghq get -l -p'
 ```
 
-I can just type `gq narze/garden-astro` in a new terminal session and start writing articles right away
+I can just type `gq narze/garden-astro` in a new terminal session and start coding right away.
