@@ -4,8 +4,9 @@ date: 2023-07-25
 slug: 100daysofcode-r3-72-chatos-setup-firestore
 publish: true
 tags:
-- 
-draft: true
+- #100DaysOfCode 
+- #ChatOS 
+- #firebase
 ---
 
 ## Livestream
