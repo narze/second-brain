@@ -15,7 +15,7 @@ tags:
 ## Tasks
 
 - Separate chat messages from each users
-    - Now when logged in, the chat logs from before logging in (guest session) will not transferred to user. To fix this issue I need to setup Firebase Admin and use [Batch Write](https://firebase.google.com/docs/firestore/manage-data/transactions) to manually copy logs from guest collection to user collection
+    - Now when logged in, the chat logs from before logging in (guest session) will not transferred to user. To fix this issue I need to setup Firebase Admin and use [Batch Write](https://firebase.google.com/docs/firestore/manage-data/transactions) to manually copy logs from guest collection to user collection. That will be the task for another day.
 
 The Firestore collection paths are now `/users/:uid/messages`  and `/guests/:sessionId/messages`.
 
