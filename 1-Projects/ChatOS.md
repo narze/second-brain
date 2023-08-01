@@ -17,6 +17,7 @@ draft: true
     - [ ] Sound alert
 - [ ] Redo command `!!`
 - [ ] Get / post URL
+- [ ] infinite load / pagination
 
 ## Architecture
 
