@@ -10,4 +10,8 @@ draft: true
 
 ## Livestream
 
-<iframe width="100%" style="aspect-ratio: 16 / 9;" src="https://www.youtube.com/embed/" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="100%" style="aspect-ratio: 16 / 9;" src="https://www.youtube.com/embed/ALabSN5Dyt0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+[Yesterday](1-Projects/100DaysOfCode-R3/73%20-%20ChatOS%20-%20Firestore%20(cont.).md) I planned to add Firebase Admin and use batch update to move guest chat logs to user when logged in. Today I want guests to store chat logs on their local storage only, so I'll bring back [Dexie](https://dexie.org) and then user can opt-in to merge guest chat logs to user.
+
+I also want to add more tests to ensure that login is working and user can be able to sync guest chat logs.
