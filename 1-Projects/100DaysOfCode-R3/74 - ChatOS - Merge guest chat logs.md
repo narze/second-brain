@@ -19,3 +19,4 @@ I also want to add more tests to ensure that login is working and user can be ab
 ## Changes
 
 - Add login flow tests.
+- Add [`wait-on`](https://www.npmjs.com/package/wait-on)  to wait for Firebase Emulator port on Github Actions
