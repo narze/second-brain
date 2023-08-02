@@ -4,8 +4,9 @@ date: 2023-08-02
 slug: 100daysofcode-r3-75-chatos-debug-app-on-ipad
 publish: true
 tags:
-- 
-draft: true
+- #100DaysOfCode 
+- #ChatOS 
+- #devlog
 ---
 
 ## Livestream
@@ -48,3 +49,7 @@ pnpm run dev --host 0.0.0.0
 
 - Check for `window.Notification` presence in timer command, since mobile Chrome & Safari [does not support Notification API yet](https://developer.mozilla.org/en-US/docs/Web/API/notification)
 - Turn off [auto capitalization](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/autocapitalize), so that the mobile keyboard will not use auto-capitalization
+
+Now ChatOS works on iPad!
+
+![](1-Projects/100DaysOfCode-R3/attachments/IMG_27B9BA42FD27-1.jpeg)
