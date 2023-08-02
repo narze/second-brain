@@ -11,13 +11,15 @@ draft: true
 # TODOs
 - [ ] OpenAI / ChatGPT integration
 - [ ] Sync with Firestore
+- [ ] Fix bug in iOS safari / chrome ![](1-Projects/attachments/ChatOS.png)
+    - Chat logs not rendering, but can still send message and see message on desktop devices
 - [ ] Image / file upload
 - [ ] Timer
     - [ ] Restart timer
     - [ ] Sound alert
 - [ ] Redo command `!!`
 - [ ] Get / post URL
-- [ ] infinite load / pagination
+- [ ] Excalidraw?
 
 ## Architecture
 
