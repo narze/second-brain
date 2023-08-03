@@ -40,3 +40,7 @@ pnpm run dev
 
 ![[Excalidraw.priv/ChatOS.excalidraw.svg]]
 %%[[Excalidraw.priv/ChatOS.excalidraw.md|🖋 Edit in Excalidraw]], and the [[Excalidraw.priv/ChatOS.excalidraw.dark.svg|dark exported image]]%%
+
+---
+
+<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fnarze%2Fposts%2Fpfbid02M11LkLDzaxJdJCAM1WcGJSidPXEjrWcD3hkAPF1V3XfEACQvaF2LtzRFGQ1d6MYbl&show_text=true&width=500" width="500" height="480" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
