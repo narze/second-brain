@@ -20,6 +20,19 @@ draft: true
 - [ ] Redo command `!!`
 - [ ] Get / post URL
 - [ ] Excalidraw?
+- [ ] Readme (setup project)
+- [ ] TODO app
+- [ ] iframe
+- [ ] bookmark (detect url)
+- [ ] QR (detect url)
+- [ ] Random string, uuid
+
+```shell
+# .envrc
+export VITE_FIREBASE_EMULATOR_HOST=$(ipconfig getifaddr en0) 
+
+pnpm run dev
+```
 
 ## Architecture
 
