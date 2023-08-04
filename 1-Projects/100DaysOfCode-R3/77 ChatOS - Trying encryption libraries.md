@@ -35,6 +35,8 @@ Key features to use on ChatOS:
 
 Themis has wasm port - need to append `?url` when imported. https://vitejs.dev/guide/features.html#webassembly
 
+You can try at https://try-encryption-libs.vercel.app (Github: https://github.com/narze/try-encryption-libs)
+
 ![](1-Projects/100DaysOfCode-R3/attachments/77%20ChatOS%20-%20Trying%20encryption%20libraries.png)
 
 Themis is very slow I dunno why...
