@@ -4,8 +4,9 @@ date: 2023-08-04
 slug: 100daysofcode-r3-77-chatos-trying-encryption-libraries
 publish: true
 tags:
-- 
-draft: true
+- 100DaysOfCode
+- ChatOS
+- devlog
 ---
 
 <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fnarze%2Fposts%2Fpfbid0yLYZ1se1Xm589oCcBiqGv99KnsddP4AyUjQZ7PfvEZC9bdKsTZNaL8Wwb6hqHxPLl&show_text=true&width=500" width="500" height="576" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
@@ -32,11 +33,14 @@ Key features to use on ChatOS:
 - Preferrably 1-key
 - Not too slow
 
-https://vitejs.dev/guide/features.html#webassembly
+Themis has wasm port - need to append `?url` when imported. https://vitejs.dev/guide/features.html#webassembly
 
 ![](1-Projects/100DaysOfCode-R3/attachments/77%20ChatOS%20-%20Trying%20encryption%20libraries.png)
+
 Themis is very slow I dunno why...
 
 ![](1-Projects/100DaysOfCode-R3/attachments/77%20ChatOS%20-%20Trying%20encryption%20libraries-1.png)
 
 ![](1-Projects/100DaysOfCode-R3/attachments/77%20ChatOS%20-%20Trying%20encryption%20libraries-2.png)
+
+Passphrase use PBKDF2 with more than 100k iteration so it takes 2.5 seconds to encrypt, maybe I'll find other libraries to convert passphrase to symmetric key separately.
