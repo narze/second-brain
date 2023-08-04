@@ -43,4 +43,8 @@ Themis is very slow I dunno why...
 
 ![](1-Projects/100DaysOfCode-R3/attachments/77%20ChatOS%20-%20Trying%20encryption%20libraries-2.png)
 
-Passphrase use PBKDF2 with more than 100k iteration so it takes 2.5 seconds to encrypt, maybe I'll find other libraries to convert passphrase to symmetric key separately.
+Passphrase method use PBKDF2 with more than 100k iterations so it takes 2.5 seconds to encrypt, maybe I'll find other libraries to convert passphrase to symmetric key separately.
+
+Found out later that it's 314110 rounds. 🫠 
+
+![](1-Projects/100DaysOfCode-R3/attachments/77%20ChatOS%20-%20Trying%20encryption%20libraries-3.png)
