@@ -31,3 +31,5 @@ Key features to use on ChatOS:
 - End-to-end encryption (Firebase admin cannot decrypt the content)
 - Preferrably 1-key
 - Not too slow
+
+https://vitejs.dev/guide/features.html#webassembly
