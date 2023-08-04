@@ -33,3 +33,10 @@ Key features to use on ChatOS:
 - Not too slow
 
 https://vitejs.dev/guide/features.html#webassembly
+
+![](1-Projects/100DaysOfCode-R3/attachments/77%20ChatOS%20-%20Trying%20encryption%20libraries.png)
+Themis is very slow I dunno why...
+
+![](1-Projects/100DaysOfCode-R3/attachments/77%20ChatOS%20-%20Trying%20encryption%20libraries-1.png)
+
+![](1-Projects/100DaysOfCode-R3/attachments/77%20ChatOS%20-%20Trying%20encryption%20libraries-2.png)
