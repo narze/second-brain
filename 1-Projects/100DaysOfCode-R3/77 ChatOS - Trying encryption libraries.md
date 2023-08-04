@@ -23,6 +23,7 @@ draft: true
 ## Resources
 - Keybase Book - Crypto Chat https://book.keybase.io/docs/chat/crypto
 - [Google Cloud - Security Key Management]([https://cloud.google.com/security-key-management](https://cloud.google.com/security-key-management)
+- [Kerckhoffs' Principle](https://en.wikipedia.org/wiki/Kerckhoffs%27s_principle) - 
 
 Key features to use on ChatOS:
 - Works on browser
