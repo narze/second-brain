@@ -1,5 +1,5 @@
 ---
-title: "77 ChatOS - Trying encryption libraries"
+title: "77 - ChatOS - Trying encryption libraries"
 date: 2023-08-04
 slug: 100daysofcode-r3-77-chatos-trying-encryption-libraries
 publish: true
