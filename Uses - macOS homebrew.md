@@ -12,7 +12,7 @@ tags:
 
 A collection of [homebrew](https://brew.sh) packages I use on my macOS machines. Most of them can be found on my [dotfiles](https://github.com/narze/dotfiles/blob/master/chezmoi/.chezmoiscripts/run_once_after_darwin_10-install-packages.sh.tmpl). To keep it brief, I won't add the well known ones here.
 
-- [amitv87-pip](https://github.com/amitv87/PiP) (cask) 
+- [amitv87-pip](https://github.com/amitv87/PiP) (cask)
 
     Display any Mac apps, screens, AirPlay compatible devices (e.g. iPad, iPhone) in an always on top window similar to Picture In Picture video mode.
 
@@ -41,3 +41,7 @@ A collection of [homebrew](https://brew.sh) packages I use on my macOS machines.
 - [zoxide](https://github.com/ajeetdsouza/zoxide) 
 
     Jump around directories with `z`
+
+- [chezmoi](https://www.chezmoi.io)
+
+    A Dotfiles manager
