@@ -103,3 +103,5 @@ Lastly, I add a simple lock icon 🔒 to indicate that the message is encrypted,
 ![](1-Projects/100DaysOfCode-R3/attachments/78%20-%20ChatOS%20-%20Encrypt%20message%20with%20TweetNaCl.js.png)
 
 ![](1-Projects/100DaysOfCode-R3/attachments/78%20-%20ChatOS%20-%20Encrypt%20message%20with%20TweetNaCl.js-1.png)
+
+([See code changes in Pull Request](https://github.com/narze/chat-os/pull/2))
