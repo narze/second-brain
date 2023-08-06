@@ -8,7 +8,7 @@ tags:
 draft: true
 ---
 
-# TODOs
+# TODOs & Ideas
 - [ ] OpenAI / ChatGPT integration
 - [ ] Sync with Firestore
 - [ ] Fix bug in iOS safari / chrome ![](1-Projects/attachments/ChatOS.png)
@@ -26,6 +26,7 @@ draft: true
 - [ ] bookmark (detect url)
 - [ ] QR (detect url)
 - [ ] Random string, uuid
+- [ ] Delete message
 
 ```shell
 # .envrc
