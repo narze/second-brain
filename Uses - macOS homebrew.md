@@ -1,7 +1,7 @@
 ---
 title: "Uses - macOS homebrew"
 date: 2023-08-06
-updated: 2023-08-06
+updated: "2023-08-06"
 slug: uses-macos-homebrew
 publish: true
 tags:
