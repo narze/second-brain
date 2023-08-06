@@ -12,13 +12,9 @@ tags:
 
 A collection of [homebrew](https://brew.sh) packages I use on my macOS machines. Most of them can be found on my [dotfiles](https://github.com/narze/dotfiles/blob/master/chezmoi/.chezmoiscripts/run_once_after_darwin_10-install-packages.sh.tmpl). To keep it brief, I won't add the well known ones here.
 
-- [amitv87-pip](https://github.com/amitv87/PiP) (cask)
+- [asdf](https://asdf-vm.com)
 
-    Display any Mac apps, screens, AirPlay compatible devices (e.g. iPad, iPhone) in an always on top window similar to Picture In Picture video mode.
-
-- [colima](https://github.com/abiosoft/colima)
-
-    Say goodbye to Docker Desktop and use this container runtime instead
+    A package manager for almost everything version manageable, I use this to manage [my Ruby, NodeJS, Rust, Direnv, etc. versions](https://github.com/narze/dotfiles/blob/master/chezmoi/.chezmoiscripts/run_once_after_darwin_31-install-asdf-plugins-macos.sh.tmpl). 
 
 - [yabai](https://github.com/koekeishiya/yabai)
 
@@ -30,9 +26,9 @@ A collection of [homebrew](https://brew.sh) packages I use on my macOS machines.
 
     [Manage remote Git repositories within a directory](./ghq.md)
 
-- [asdf](https://asdf-vm.com)
+- [colima](https://github.com/abiosoft/colima)
 
-    A package manager for almost everything version manageable, I use this to manage [my Ruby, NodeJS, Rust, Direnv, etc. versions](https://github.com/narze/dotfiles/blob/master/chezmoi/.chezmoiscripts/run_once_after_darwin_31-install-asdf-plugins-macos.sh.tmpl). 
+    Say goodbye to Docker Desktop and use this container runtime instead
 
 - [direnv](https://direnv.net)
 
@@ -45,3 +41,7 @@ A collection of [homebrew](https://brew.sh) packages I use on my macOS machines.
 - [chezmoi](https://www.chezmoi.io)
 
     A Dotfiles manager
+    
+- [amitv87-pip](https://github.com/amitv87/PiP) (cask)
+
+    Display any Mac apps, screens, AirPlay compatible devices (e.g. iPad, iPhone) in an always on top window similar to Picture In Picture video mode.
