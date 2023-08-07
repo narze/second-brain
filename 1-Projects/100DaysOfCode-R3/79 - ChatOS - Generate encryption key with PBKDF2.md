@@ -8,11 +8,35 @@ tags:
 - ChatOS
 - 100DaysOfCode
 - pbkdf2
-draft: true
 ---
 
 ## Livestream
 
 <iframe width="100%" style="aspect-ratio: 16 / 9;" src="https://www.youtube.com/embed/mObgce2vE7A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-PBKDF2 will enable user to use their own passphrase, I'll use [`@noble/hashes`](https://www.npmjs.com/package/@noble/hashes) package since it's quite popular and have TypeScript support built-in.
+[Yesterday](1-Projects/100DaysOfCode-R3/78%20-%20ChatOS%20-%20Encrypt%20message%20with%20TweetNaCl.js.md) I added TweetNaCl.js to encrypt chat messages, by the way it needs a 32-byte encryption key, it is strong but long and hard to memorize.
+
+Using PBKDF2 will enable user to use their own passphrase and generate longer keys, I'll use [`@noble/hashes`](https://www.npmjs.com/package/@noble/hashes) package since it's quite popular and have TypeScript support built-in.
+
+The usage is simple:
+
+```typescript
+import { pbkdf2Async } from '@noble/hashes/pbkdf2';
+import { sha256 } from '@noble/hashes/sha256';
+import { encodeBase64 } from 'tweetnacl-util'; // TweetNaCl needs base64 formatted key
+
+const key = encodeBase64(
+    await pbkdf2Async(sha256, "passphrase", 'some-salt', { 
+        c: 300000, // No. of iterations
+        dkLen: 32, // Length of key
+    })
+);
+
+localStorage.setItem('encryption-key', key);
+```
+
+## PBKDF2 References
+
+- https://en.wikipedia.org/wiki/PBKDF2
+- https://support.1password.com/pbkdf2
+- https://stackoverflow.com/questions/11298184/about-how-fast-can-you-brute-force-pbkdf2
