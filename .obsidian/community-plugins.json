@@ -14,5 +14,7 @@
   "obsidian-advanced-slides",
   "obsidian-tasks-plugin",
   "cm-editor-syntax-highlight-obsidian",
-  "mermaid-tools"
+  "mermaid-tools",
+  "cmdr",
+  "obsidian-shellcommands"
 ]
