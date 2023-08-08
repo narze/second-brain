@@ -6,11 +6,16 @@ publish: true
 tags:
 - 
 draft: true
+feed: false
 ---
 
 ## Livestream
 
 <iframe width="100%" style="aspect-ratio: 16 / 9;" src="https://www.youtube.com/embed/ESUbFKPRjls" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-- [ ] Encrypt some of bot's messages
-- [ ] Update passphrase/encryption key
+- [x] Encrypt some of bot's commands ✅ 2023-08-08
+    - Large type
+    - QR
+    - PromptPay QR
+    - Timer
+- [ ] ~~Update passphrase/encryption key~~
