@@ -7,6 +7,6 @@
 - [ ] ~~scrollbar color~~
 - [x] Optional comment section (Facebook)
 - [ ] Check syntax highlighting
-- [ ] Exclude post from feed with `feed: false` 📅 2023-08-09
-- [ ] Change front page design 📅 2023-08-09 
-- [ ] Pagination https://docs.astro.build/en/reference/api-reference/#paginate
+- [x] Exclude post from feed with `no_feed: true` 📅 2023-08-09 ✅ 2023-08-09
+- [x] Change front page design 📅 2023-08-09 ✅ 2023-08-09
+- [ ] Pagination https://docs.astro.build/en/core-concepts/routing/#pagination

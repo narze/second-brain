@@ -4,9 +4,9 @@ date: 2023-08-08
 slug: 100daysofcode-r3-80-chatos-add-more-features-on-e2e-encryption
 publish: true
 tags:
-- 
-draft: true
-feed: false
+- 100DaysOfCode
+- ChatOS
+no_feed: true
 ---
 
 ## Livestream

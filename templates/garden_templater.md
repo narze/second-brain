@@ -6,6 +6,7 @@ publish: true
 tags:
 - 
 draft: true
+no_feed: false
 ---
 
 
