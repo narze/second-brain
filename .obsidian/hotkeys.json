@@ -71,5 +71,31 @@
       ],
       "key": "L"
     }
+  ],
+  "editor:fold-more": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "["
+    }
+  ],
+  "editor:fold-less": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "]"
+    }
+  ],
+  "editor:toggle-fold": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "F"
+    }
   ]
 }
