@@ -1,6 +1,7 @@
 
 # TODOs
 - [x] Add reaction button
+- [ ] Change theme color to `#ff8552` & `.bg-zinc-900` (similar to https://narze.live)
 - [ ] Add share button 
 - [ ] Tag description page
 - [ ] Graph page (Obsidian like)
