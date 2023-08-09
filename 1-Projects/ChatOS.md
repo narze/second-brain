@@ -9,7 +9,7 @@ draft: true
 ---
 
 # TODOs & Ideas
-- [ ] Add ability for component to add more reply messages
+- [ ] Add ability for component to add more reply messages]
 - [ ] OpenAI / ChatGPT integration
 - [ ] Sync with Firestore
 - [ ] Fix bug in iOS safari / chrome ![](1-Projects/attachments/ChatOS.png)
