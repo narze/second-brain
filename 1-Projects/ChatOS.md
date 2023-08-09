@@ -9,6 +9,7 @@ draft: true
 ---
 
 # TODOs & Ideas
+- [ ] Store unencrypted message alongside encrypted? (Nanostores vs Dexie)
 - [ ] Add ability for component to add more reply messages]
 - [ ] OpenAI / ChatGPT integration
 - [ ] Sync with Firestore
