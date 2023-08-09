@@ -29,3 +29,5 @@ tags:
 ```
 
 Yes it works (Not on Obsidian though) ![](1-Projects/100DaysOfCode-R3/attachments/81%20-%20garden-astro%20-%20Update%20front%20page.png)
+
+- Add [pagination](https://docs.astro.build/en/core-concepts/routing/#pagination) 
