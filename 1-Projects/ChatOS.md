@@ -9,11 +9,11 @@ draft: true
 ---
 
 # TODOs & Ideas
-- [ ] Store unencrypted message alongside encrypted? (Nanostores vs Dexie)
-- [ ] Add ability for component to add more reply messages]
+- [ ] Store unencrypted message alongside encrypted? (~~Nanostores~~ vs Dexie indexeddb)
+- [ ] Add ability for component to add more reply messages
 - [ ] OpenAI / ChatGPT integration
-- [ ] Sync with Firestore
-- [ ] Fix bug in iOS safari / chrome ![](1-Projects/attachments/ChatOS.png)
+- [x] Sync with Firestore ✅ 
+- [x] Fix bug in iOS safari / chrome ![](1-Projects/attachments/ChatOS.png) ✅ 
     - Chat logs not rendering, but can still send message and see message on desktop devices
 - [ ] Image / file upload
 - [ ] Timer

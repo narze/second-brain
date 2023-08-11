@@ -1,7 +1,7 @@
 
 # TODOs
 - [x] Add reaction button
-- [ ] Image with caption (softbox?)
+- [ ] Image with caption (lightbox?)
 - [ ] Change theme color to `#ff8552` & `.bg-zinc-900` (similar to https://narze.live)
 - [ ] Add share button 
 - [ ] Tag description page
