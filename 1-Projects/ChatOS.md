@@ -9,6 +9,7 @@ draft: true
 ---
 
 # TODOs & Ideas
+- https://arc.net/p/8F97E451-856E-472E-ABAB-C68E386E696B
 - [ ] Store unencrypted message alongside encrypted? (~~Nanostores~~ vs Dexie indexeddb)
 - [ ] Add ability for component to add more reply messages
 - [ ] OpenAI / ChatGPT integration
@@ -29,6 +30,8 @@ draft: true
 - [ ] QR (detect url)
 - [ ] Random string, uuid
 - [ ] Delete message
+- [ ] PWA
+- [ ] say command
 
 ```shell
 # .envrc
