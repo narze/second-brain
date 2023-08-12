@@ -7,3 +7,5 @@ private/
 .tmp.drivedownload
 conflict-files-obsidian-git.md
 .*.icloud
+.vale.ini
+/styles/Joblint
