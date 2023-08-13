@@ -1,1 +1,13 @@
 - http://www.agitar.com/downloads/TheWayOfTestivus.pdf
+    - If you write code, write tests.
+    - Don’t get stuck on unit testing dogma.
+    - Embrace unit testing karma.
+    - Think of code and test as one.
+    - The test is more important than the unit.
+    - The best time to test is when the code is fresh.
+    - Tests not run waste away.
+    - An imperfect test today is better than a perfect test someday.
+    - An ugly test is better than no test.
+    - Sometimes, the test justifi es the means.
+    - Only fools use no tools.
+    - Good tests fail.
