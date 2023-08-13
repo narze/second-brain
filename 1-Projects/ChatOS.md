@@ -29,7 +29,7 @@ draft: true
 - [ ] bookmark (detect url)
 - [ ] QR (detect url)
 - [ ] Random string, uuid
-- [ ] Delete message
+- [ ] Delete message ⏫ 
 - [ ] PWA
 - [ ] say command
 
