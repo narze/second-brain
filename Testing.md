@@ -1,4 +1,4 @@
-- http://www.agitar.com/downloads/TheWayOfTestivus.pdf
+- [The Way of Testivus](http://www.agitar.com/downloads/TheWayOfTestivus.pdf)
     - If you write code, write tests.
     - Don’t get stuck on unit testing dogma.
     - Embrace unit testing karma.
