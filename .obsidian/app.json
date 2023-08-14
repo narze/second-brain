@@ -10,6 +10,6 @@
   "showFrontmatter": true,
   "autoPairMarkdown": false,
   "attachmentFolderPath": "./attachments",
-  "newFileLocation": "current",
+  "newFileLocation": "root",
   "vimMode": true
 }
