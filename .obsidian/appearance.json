@@ -2,6 +2,9 @@
   "baseFontSize": 16,
   "translucency": true,
   "cssTheme": "Minimal",
-  "monospaceFontFamily": "FantasqueSansMono Nerd Font Mono,FantasqueSansMono Nerd Font",
-  "accentColor": ""
+  "monospaceFontFamily": "FantasqueSansM Nerd Font Mono,FantasqueSansM Nerd Font",
+  "accentColor": "",
+  "enabledCssSnippets": [
+    "custom-checkbox"
+  ]
 }
