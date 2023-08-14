@@ -27,13 +27,6 @@
   "app:go-forward": [
     {
       "modifiers": [
-        "Mod",
-        "Alt"
-      ],
-      "key": "ArrowRight"
-    },
-    {
-      "modifiers": [
         "Mod"
       ],
       "key": "]"
@@ -101,7 +94,8 @@
   "app:toggle-left-sidebar": [
     {
       "modifiers": [
-        "Alt"
+        "Alt",
+        "Mod"
       ],
       "key": "ArrowLeft"
     }
@@ -109,9 +103,11 @@
   "app:toggle-right-sidebar": [
     {
       "modifiers": [
-        "Alt"
+        "Alt",
+        "Mod"
       ],
       "key": "ArrowRight"
     }
-  ]
+  ],
+  "obsidian-excalidraw-plugin:insert-link-to-element": []
 }
