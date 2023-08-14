@@ -9,3 +9,4 @@ conflict-files-obsidian-git.md
 .*.icloud
 .vale.ini
 /styles/Joblint
+.trash

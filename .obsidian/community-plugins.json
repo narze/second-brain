@@ -15,5 +15,10 @@
   "obsidian-tasks-plugin",
   "mermaid-tools",
   "calendar",
-  "obsidian-checklist-plugin"
+  "obsidian-checklist-plugin",
+  "settings-search",
+  "recent-files-obsidian",
+  "janitor",
+  "nldates-obsidian",
+  "obsidian-minimal-settings"
 ]
