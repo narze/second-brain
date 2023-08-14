@@ -3,10 +3,11 @@
   "translucency": true,
   "cssTheme": "Minimal",
   "monospaceFontFamily": "FantasqueSansM Nerd Font Mono",
-  "accentColor": "",
+  "accentColor": "#ff8552",
   "enabledCssSnippets": [
     "custom-checkbox"
   ],
   "interfaceFontFamily": "FantasqueSansM Nerd Font Propo",
-  "textFontFamily": "FantasqueSansM Nerd Font"
+  "textFontFamily": "FantasqueSansM Nerd Font",
+  "theme": "obsidian"
 }
