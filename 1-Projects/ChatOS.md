@@ -32,6 +32,8 @@ draft: true
 - [ ] Delete message ⏫ 
 - [ ] PWA
 - [ ] say command
+- [ ] Temporary message mode (Remove messages older than 7 - 30 days)
+- [ ] Improve notification action on click & auto dismiss
 
 ```shell
 # .envrc
