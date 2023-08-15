@@ -4,9 +4,9 @@ date: 2023-08-15
 slug: 100daysofcode-r3-86-chatos-add-more-commands
 publish: true
 tags:
-- 
-draft: true
-no_feed: false
+- 100DaysOfCode
+- ChatOS
+no_feed: true
 ---
 
 ## Livestream
@@ -16,3 +16,5 @@ no_feed: false
 - Add `uuid` command
 - Add `random [number]` command
 - Copy text message
+
+![](1-Projects/100DaysOfCode-R3/attachments/86%20-%20ChatOS%20-%20Add%20more%20commands.png)
