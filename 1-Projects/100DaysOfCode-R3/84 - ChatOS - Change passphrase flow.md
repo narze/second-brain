@@ -4,9 +4,9 @@ date: 2023-08-13
 slug: 100daysofcode-r3-84-chatos-change-passphrase-flow
 publish: true
 tags:
-- 
-draft: true
-no_feed: false
+- 100DaysOfCode
+- ChatOS
+no_feed: true
 ---
 
 ## Livestream

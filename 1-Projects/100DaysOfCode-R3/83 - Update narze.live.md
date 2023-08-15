@@ -4,8 +4,7 @@ date: 2023-08-12
 slug: 100daysofcode-r3-83-update-narze-live
 publish: true
 tags:
-- 
-draft: true
+- 100DaysOfCode 
 no_feed: true
 ---
 
