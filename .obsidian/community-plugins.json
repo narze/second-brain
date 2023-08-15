@@ -22,5 +22,11 @@
   "nldates-obsidian",
   "obsidian-minimal-settings",
   "mousewheel-image-zoom",
-  "url-into-selection"
+  "url-into-selection",
+  "obsidian-linter",
+  "cm-editor-syntax-highlight-obsidian",
+  "cmdr",
+  "obsidian-kanban",
+  "quickadd",
+  "buttons"
 ]
