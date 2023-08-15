@@ -15,3 +15,4 @@ no_feed: false
 
 - Add `uuid` command
 - Add `random [number]` command
+- Copy text message
