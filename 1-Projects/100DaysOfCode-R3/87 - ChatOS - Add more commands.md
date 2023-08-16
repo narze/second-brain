@@ -4,9 +4,9 @@ date: 2023-08-16
 slug: 100daysofcode-r3-87-chatos-add-more-commands
 publish: true
 tags:
-- 
-draft: true
-no_feed: false
+- ChatOS
+- 100DaysOfCode
+no_feed: true
 ---
 
 ## Livestream
@@ -14,3 +14,4 @@ no_feed: false
 <iframe width="100%" style="aspect-ratio: 16 / 9;" src="https://www.youtube.com/embed/hR2B7smfU6Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 - Add delete message menu command
+- Add toast (alert) on delete & copy
