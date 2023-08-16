@@ -10,12 +10,12 @@ draft: true
 
 # TODOs & Ideas
 - https://arc.net/p/8F97E451-856E-472E-ABAB-C68E386E696B
+- [i] Command parser (Typed)
 - [ ] Store unencrypted message alongside encrypted? (~~Nanostores~~ vs Dexie indexeddb)
 - [ ] Add ability for component to add more reply messages
 - [ ] OpenAI / ChatGPT integration
 - [x] Sync with Firestore ✅ 
-- [x] Fix bug in iOS safari / chrome ![](1-Projects/attachments/ChatOS.png) ✅ 
-    - Chat logs not rendering, but can still send message and see message on desktop devices
+- [x] Fix bug in iOS safari / chrome ![](1-Projects/attachments/ChatOS.png) ✅ Chat logs not rendering, but can still send message and see message on desktop devices
 - [ ] Image / file upload
 - [ ] Timer
     - [ ] Restart timer
