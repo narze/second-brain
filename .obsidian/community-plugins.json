@@ -30,5 +30,6 @@
   "quickadd",
   "buttons",
   "digitalgarden",
-  "narze-sample-plugin"
+  "hot-reload",
+  "my-sample-plugin"
 ]
