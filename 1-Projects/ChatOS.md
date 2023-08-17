@@ -11,6 +11,7 @@ draft: true
 # TODOs & Ideas
 - https://arc.net/p/8F97E451-856E-472E-ABAB-C68E386E696B
 - [i] Command parser (Typed)
+- [i] Share text/url/etc. to ChatOS
 - [ ] Store unencrypted message alongside encrypted? (~~Nanostores~~ vs Dexie indexeddb)
 - [ ] Add ability for component to add more reply messages
 - [ ] OpenAI / ChatGPT integration
