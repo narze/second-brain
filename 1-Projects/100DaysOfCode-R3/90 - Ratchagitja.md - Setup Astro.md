@@ -4,9 +4,10 @@ date: 2023-08-20
 slug: 100daysofcode-r3-90-ratchagitja-md-setup-astro
 publish: true
 tags:
-- 
-draft: true
-no_feed: false
+- 100DaysOfCode
+- ratchagitja
+- astro
+no_feed: true
 ---
 
 ## Livestream
@@ -30,4 +31,4 @@ UnknownContentCollectionError
     at async instantiateModule (file:///Users/narze/Code/github.com/narze/ratchagitja.md/web/node_modules/.pnpm/vite@4.4.9/node_modules/vite/dist/node/chunks/dep-df561101.js:55875:10)
 ```
 
-(Found the cause, I cannot use symlinks)
+(Found the cause, I cannot use symlinks within `src/content` folder)
