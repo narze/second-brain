@@ -32,3 +32,9 @@ UnknownContentCollectionError
 ```
 
 (Found the cause, I cannot use symlinks within `src/content` folder)
+
+It took 5 minutes to build on Vercel
+
+![](1-Projects/100DaysOfCode-R3/attachments/90%20-%20Ratchagitja.md%20-%20Setup%20Astro.png)
+
+https://ratchagitja.vercel.app/entries
