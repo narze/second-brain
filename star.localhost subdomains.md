@@ -11,7 +11,7 @@ I have been developing many projects and a lot of them share the same port `3000
 
 ![](attachments/star.localhost%20subdomains.png)
 
-I used to use subdomains on `lvh.me`  to separate local projects like so:
+I previously used `lvh.me` subdomains to separate local projects like so:
 
 - foo.lvh.me
 - bar.lvh.me:3000
