@@ -13,3 +13,4 @@
 - [x] Change front page design 📅 2023-08-09 ✅ 2023-08-09
 - [x] Pagination https://docs.astro.build/en/core-concepts/routing/#pagination ✅ 2023-08-09
     - [ ] Refactor `index.astro` & `page/[page].astro`
+- [ ] Fix theme error on changing page (Maybe it caused by Web Navigation API?) ![](1-Projects/attachments/garden-astro.png)
