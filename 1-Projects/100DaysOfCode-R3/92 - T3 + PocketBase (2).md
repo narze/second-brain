@@ -1,7 +1,7 @@
 ---
 title: "92 - T3 + PocketBase (2)"
-date: 2023-08-22
-slug: 92-t3-pocketbase-2
+date: 2023-08-24
+slug: 100daysofcode-r3-92-t3-pocketbase-2
 publish: true
 tags:
 - 100DaysOfCode
