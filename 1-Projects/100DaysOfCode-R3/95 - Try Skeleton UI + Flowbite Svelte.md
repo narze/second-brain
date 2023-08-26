@@ -4,9 +4,8 @@ date: 2023-08-26
 slug: 100daysofcode-r3-95-try-skeleton-ui-flowbite-svelte
 publish: true
 tags:
-- 
-draft: true
-no_feed: false
+- svelte
+no_feed: true
 ---
 
 ## Livestream
