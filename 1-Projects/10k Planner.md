@@ -9,6 +9,10 @@ draft: true
 no_feed: false
 ---
 
+Prototype: https://10k-planner.vercel.app
+
+Result page
+![|300](1-Projects/attachments/10k%20Planner.png)
 Architecture
 - CockroachDB
 - SvelteKit (Maybe with o7-app or [trpc-sveltekit](https://icflorescu.github.io/trpc-sveltekit/))
