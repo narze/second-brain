@@ -1,0 +1,3 @@
+- https://twitter.com/svpino/status/1695456920453140702
+- https://www.kaggle.com/learn
+- https://www.kaggle.com/c/titanic
