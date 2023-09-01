@@ -11,5 +11,6 @@
   "autoPairMarkdown": false,
   "attachmentFolderPath": "./attachments",
   "newFileLocation": "root",
-  "vimMode": true
+  "vimMode": true,
+  "propertiesInDocument": "visible"
 }

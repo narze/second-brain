@@ -1,3 +1,13 @@
+---
+title: "96-100 - 10k planner"
+date: 2023-09-01
+slug: 100daysofcode-r3-96-100-10k-planner
+publish: true
+tags:
+- 
+draft: true
+no_feed: false
+---
 # 96 - Setup project
 ## Livestream
 
@@ -70,3 +80,10 @@ brew install cockroachdb/tap/cockroach
 
 cockroach start-single-node --insecure --store=/tmp/cockroach-data # --background
 ```
+
+# 99
+
+## Livestream
+
+<iframe width="100%" style="aspect-ratio: 16 / 9;" src="https://www.youtube.com/embed/SXVGqOivcN0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
