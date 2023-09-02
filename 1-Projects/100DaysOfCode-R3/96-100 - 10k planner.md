@@ -1,11 +1,14 @@
 ---
-title: "96-100 - 10k planner"
-date: 2023-09-01
+title: 96-100 - 10k planner
+date: 2023-09-02
 slug: 100daysofcode-r3-96-100-10k-planner
 publish: true
 tags:
-- 
-draft: true
+  - 100DaysOfCode
+  - 10k-planner
+  - svelte
+  - skeleton-ui
+draft: false
 no_feed: false
 ---
 # 96 - Setup project
@@ -96,3 +99,5 @@ cockroach start-single-node --insecure --store=/tmp/cockroach-data # --backgroun
 <iframe width="100%" style="aspect-ratio: 16 / 9;" src="https://www.youtube.com/embed/XyiwJUC4QYc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 - Add overall stats page
+- Add Google Analytics
+- Add fly transitions on cards

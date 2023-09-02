@@ -1,5 +1,6 @@
 
 # TODOs
+- [ ] Fix slow Github fetching (Maybe optional or async fetch after server started?)
 - [x] Add reaction button
 - [ ] Image with caption (lightbox?)
 - [ ] Change theme color to `#ff8552` & `.bg-zinc-900` (similar to https://narze.live)
