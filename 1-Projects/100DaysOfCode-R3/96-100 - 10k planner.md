@@ -89,3 +89,10 @@ cockroach start-single-node --insecure --store=/tmp/cockroach-data # --backgroun
 
 - Add [autocomplete component](https://www.skeleton.dev/components/autocomplete)
 - Set API cache to 60s using [`setHeaders`](https://kit.svelte.dev/docs/load#headers)
+
+# 100
+## Livestream
+
+<iframe width="100%" style="aspect-ratio: 16 / 9;" src="https://www.youtube.com/embed/XyiwJUC4QYc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+- Add overall stats page
