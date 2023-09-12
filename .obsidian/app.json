@@ -12,5 +12,8 @@
   "attachmentFolderPath": "./attachments",
   "newFileLocation": "root",
   "vimMode": true,
-  "propertiesInDocument": "visible"
+  "propertiesInDocument": "visible",
+  "readableLineLength": true,
+  "strictLineBreaks": true,
+  "showLineNumber": false
 }
