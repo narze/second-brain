@@ -3,7 +3,10 @@
 
 ## Today
 ```<%* if (tp.file.title != "daily") { %>tasks<%* } %>
+# Happens or done today
 (happens on <% tp.file.title %>) OR (done on <% tp.file.title %>)
+
+sort by happens
 ```
 
 ## Tasks
@@ -12,7 +15,7 @@
 ((scheduled on or before <% tp.file.title %>) AND (not done)) OR (done on <% tp.file.title %>)
 
 # Sort
-sort by done, happens
+sort by happens reverse, done reverse
 
 # Hide date after emojis
 short mode
