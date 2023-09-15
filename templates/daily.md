@@ -7,6 +7,9 @@
 (happens on <% tp.file.title %>) OR (done on <% tp.file.title %>)
 
 sort by happens
+
+# Hide date after emojis
+short mode
 ```
 
 ## Tasks
