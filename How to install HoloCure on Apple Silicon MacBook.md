@@ -9,7 +9,7 @@ tags:
 draft: false
 no_feed: false
 ---
-![](attachments/How%20to%20install%20HoloCure%20on%20Apple%20Silicon%20Chip%20MacBook-9.png)
+![](attachments/How%20to%20install%20HoloCure%20on%20Apple%20Silicon%20Chip%20MacBook-8.png)
 
 Tested on MacBook M1 Pro with macOS Ventura 13.5.2
 
@@ -50,6 +50,6 @@ brew install --cask --no-quarantine gcenx/wine/wineskin
 - Quit `Wineskin` then open `HoloCure.app` again
 - Now the game is playable! Have fun!
 
-![](attachments/How%20to%20install%20HoloCure%20on%20Apple%20Silicon%20Chip%20MacBook-8.png)
+![](attachments/How%20to%20install%20HoloCure%20on%20Apple%20Silicon%20Chip%20MacBook-9.png)
 
 - Improve fps stability by adding Winetricks plugin [following this guide](https://www.reddit.com/r/holocure/comments/110maj2/holocure_works_perfectly_on_my_macbook_air_m1)
