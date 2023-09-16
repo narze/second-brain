@@ -1,5 +1,5 @@
 ---
-title: How to install HoloCure on Apple Silicon Chip MacBook
+title: How to install HoloCure on Apple Silicon MacBook
 date: 2023-09-16
 slug: how-to-install-holocure-on-apple-silicon-macbook
 publish: true
