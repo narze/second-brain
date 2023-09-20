@@ -17,16 +17,16 @@ Ref. https://suricrasia.online/iceberg
 
 ## Above the iceberg
 
-- [x] [y2k](https://en.wikipedia.org/wiki/Year_2000_problem) ✅ 2023-09-19
+- [x] [y2k](https://en.wikipedia.org/wiki/Year_2000_problem) 2023-09-19 (Read date)
     - Many programs represented four-digit years with only the final two digits, making the year 2000 indistinguishable from 1900.
     - via ChatGPT: `The Y2K problem was a computer bug that arose because many systems stored dates with only the last two digits of the year, potentially causing errors when transitioning from 1999 to 2000.`
-- [x] [brainfuck](https://esolangs.org/wiki/Brainfuck) ✅ 2023-09-19
+- [x] [brainfuck](https://esolangs.org/wiki/Brainfuck) 2023-09-19
     - A famous Esolang with 8 characters `><+-.,[]`
-- [x] [Little Bobby Tables](https://xkcd.com/327/) ✅ 2023-09-19
+- [x] [Little Bobby Tables](https://xkcd.com/327/) 2023-09-19
     - Classic XKCD Comic
-- [x] [TCP/IP over carrier pigeon](https://en.wikipedia.org/wiki/IP_over_Avian_Carriers) ✅ 2023-09-19
+- [x] [TCP/IP over carrier pigeon](https://en.wikipedia.org/wiki/IP_over_Avian_Carriers) 2023-09-19
     - via ChatGPT: `IPoAC, or "IP over Avian Carriers," humorously proposes using carrier pigeons to transmit data, illustrating the absurdity of slow physical transport in contrast to digital data transfer.`
-- [x] [year 2038 bug](https://en.wikipedia.org/wiki/Year_2038_problem) ✅ 2023-09-19
+- [x] [year 2038 bug](https://en.wikipedia.org/wiki/Year_2038_problem) 2023-09-19
     - Unix timestamp 32-bit integer overflow in January 2038
 - [ ] [spectre/meltdown](https://meltdownattack.com/)
 - [ ] [ternary operator](https://en.wikipedia.org/wiki/%3F:)
