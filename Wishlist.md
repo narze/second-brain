@@ -75,6 +75,7 @@ tags:
     - ![](/attachments/Pasted%20image%2020221223170125.png)
     - ![](/attachments/Pasted%20image%2020221225163746.png)
   - Lulu https://boardsource.xyz/store/61d0b772319a1f3cc53ba2fb
+  - [NuPhy Air75 v2](https://nuphy.com/products/air75-v2)
 
 ## Misc
 - Sling bag
