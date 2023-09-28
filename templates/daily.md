@@ -12,6 +12,18 @@ sort by happens
 short mode
 ```
 
+## Yesterday
+
+```<%* if (tp.file.title != "daily") { %>tasks<%* } %>
+# Happens or done yesterday
+(happens on <% tp.date.now("YYYY-MM/YYYY-MM-DD", -1, tp.file.title, "YYYY-MM-DD") %>) OR (done on <% tp.date.now("YYYY-MM/YYYY-MM-DD", -1, tp.file.title, "YYYY-MM-DD") %>)
+
+sort by happens
+
+# Hide date after emojis
+short mode
+```
+
 ## Tasks
 ```<%* if (tp.file.title != "daily") { %>tasks<%* } %>
 # Scheduled today or past OR just done today
