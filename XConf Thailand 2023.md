@@ -1,7 +1,7 @@
 ---
 title: XConf Thailand 2023
 date: 2023-09-29
-slug: xconf-2023
+slug: xconf-thailand-2023
 publish: true
 tags:
   - notes
