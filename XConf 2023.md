@@ -212,3 +212,139 @@ no_feed: false
     - Always stay vigilant, even if you get good numbers
 - Key takeaways
     - (img)
+
+# FinOps: Principles and cloud cost observability
+
+Athakorn Ongsiriporn
+
+- Sharing experiences as SRE/Platform Team in building FinOps for multiple k8s clusters
+- Problems & Goals
+    - Cloud costs
+    - Expectations, enterprises aspire to have $8 of $10 saved going to cloud
+- Centralised Observability Cluster 
+    - Monitor multiple clusters
+    - SRE Monitor & maintain
+- Reduce cost while efficiency is not reduced
+- FinOps = Finance + DevOps
+    - Definitions
+        - Maximize business value
+        - Increase revenues
+        - Build scalable culture of usage
+        - Optimize spend
+    - It's about "Making Money"
+    - Principles - https://finops.org
+        - Teams need to collaborate
+        - Decisions are driven by business value of cloud
+        - Everyone takes ownership for their cloud usage
+        - FinOps data should be accessible and timely
+        - A centralized team drives FinOps
+            - or Champions
+        - Take advantage of the variable cost model of the cloud
+- Provide tools for monitor cost and resources
+- Steps
+    - Inform
+    - Optimize
+    - Operate
+- FinOps is never ending journey
+
+# Democratizing data access through LLMs
+
+[Pee Tankulrat]
+
+Rethinking how we interact with data
+
+- Humanity's insights - driven by easier "access to knowledge"
+    - The lower the friction to knowledge access, the better the world becomes
+- Depicts how barrier is lowered
+    - Picture Q&A
+    - Generate SQL from schema & question
+- RAG (Retrieval augmented generation)
+    - Integrate proprietary data with LLM
+- Limitations
+    - Can expose inappropriate, harmful, bias, dangerous content
+        - Guardrails to help against adversarial inputs
+- Data strategy > AI strategy
+    - Data is Findable, Accessible, Interoperable, Reusable
+
+# Legacy modernization made practical: A live coding example of modernization patterns
+
+[Salah Chalermthai, Wanichnun Sinpitak]
+
+- Why legacy modernization is hard?
+    - user impact
+    - complex domain knowledge
+    - outdated tech
+    - unsafe refactoring
+- Keywords
+    - Modernization strategy
+    - Decompose patterns
+        - Strangulation Pattern (Strangler Fig)
+            - Indirection layer
+    - Data migration patterns
+        - One-off
+        - Migration on demand - Data transfer as needed
+        - Initial with deltas - Initial full migration followed by periodic updates
+        - CDC (Change Data Capture) - Realtime continuous replication
+        - Tools
+            - [Debezium](https://debezium.io)
+    - Measure of success
+    - Thin slices approach
+    - 6Rs - Help prioritize investment
+        - Retain/Retire
+        - Rehost
+        - Repurchase
+        - Re-platform
+        - Refactor
+        - Re-architect
+    - Scientist Pattern - Test in production, but safer
+        - Run function in both 2 modes, compare the result e.g. price calculation
+        - (However I cannot find this name so I asked ChatGPT and it's [Parallel Change / Shadowing](https://aiarchives.org/id/Nts36I1zy5hWRsbOHKrI))
+    - Modernization Scorecard
+
+# You should stop writing code
+
+[Peerapong Maitriwong]
+
+- Software Quality
+    - Strategy
+    - Design
+    - Technology
+- Code Quality
+- Continuous ~~delivery~~ agony
+- "Code-centric mindset" 
+    - Focusing too much on code, but lose sight of the big picture
+- Code serves as your means of communication
+    - Effective communication requires a deep understanding
+- Coding cycle < Software development lifecycle < Product development process < Business strategy
+- "Stop Coding, Start Communicating"
+    - Talk with domain driven expert e.g. Accountants
+- Understand people
+    - Communication
+    - Collaboration
+    - Iteration
+    - Incremental
+- Start with yourself
+    - Change your learning approach
+    - You are not developer. You are a business person with a technical knowledge.
+    - Take responsibility
+    - Contribute to the conversation
+- Shorten line of communication
+    - Gossip effect
+- Flatten your structure
+- (Quotes from many books)
+
+# Why organizations fail in investing in research and design (without Ops)?
+
+[Chanon Patarajierapun, Pipat Waitayaworanart]
+
+(did not take notes)
+
+# Panel discussion: Agile in the modern age
+
+[Kotchakorn Ded-Dechanukul, Pete Chemsripong, Siroratt Suntronsuk, Twin Panichsombat]
+
+- Conway's Law - orgs will design systems that mirror their communication structure
+- Multi vendors culture - Different principles
+    - Remove the "label" from the team, vendor
+    - Build trust, one by one, there is no shortcuts
+    - 
