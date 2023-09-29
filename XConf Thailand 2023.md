@@ -1,11 +1,11 @@
 ---
-title: "XConf 2023"
+title: XConf Thailand 2023
 date: 2023-09-29
 slug: xconf-2023
 publish: true
 tags:
-- 
-draft: true
+  - notes
+draft: false
 no_feed: false
 ---
 ---
@@ -347,4 +347,8 @@ Rethinking how we interact with data
 - Multi vendors culture - Different principles
     - Remove the "label" from the team, vendor
     - Build trust, one by one, there is no shortcuts
-    - 
+- [Tuckman's stages of group development](https://en.wikipedia.org/wiki/Tuckman%27s_stages_of_group_development) - Forming, Storming, Norming, Performing
+- "จะ Remote ได้ ต้อง Co-locate ให้ได้ก่อน"
+    - ODDS ให้คนเข้า office first 16 months
+- Team lunch tells a lot
+- 1-on-1s
