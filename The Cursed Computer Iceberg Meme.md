@@ -28,19 +28,31 @@ Ref. https://suricrasia.online/iceberg
     - via ChatGPT: `IPoAC, or "IP over Avian Carriers," humorously proposes using carrier pigeons to transmit data, illustrating the absurdity of slow physical transport in contrast to digital data transfer.`
 - [x] [year 2038 bug](https://en.wikipedia.org/wiki/Year_2038_problem) 2023-09-19
     - Unix timestamp 32-bit integer overflow in January 2038
-- [ ] [spectre/meltdown](https://meltdownattack.com/)
-- [ ] [ternary operator](https://en.wikipedia.org/wiki/%3F:)
-- [ ] [md5 rainbow tables](https://en.wikipedia.org/wiki/Rainbow_table)
-- [ ] [DOOM on a toaster](https://www.vice.com/en/article/qkjv9x/a-catalogue-of-all-the-devices-that-can-somehow-run-doom)
-- [ ] [self-modifying code](https://en.wikipedia.org/wiki/Self-modifying_code)
-- [ ] [undefined behaviour](https://en.wikipedia.org/wiki/Undefined_behavior)
-- [ ] [hungarian notation](https://en.wikipedia.org/wiki/Hungarian_notation)
-- [ ] [emoji variables](https://www.globalnerdy.com/wordpress/wp-content/uploads/2014/06/poopy-swift-code-example.jpg)
-- [ ] [tracking pixels](https://en.wikipedia.org/wiki/Web_beacon)
-- [ ] [heisenbugs](https://en.wikipedia.org/wiki/Heisenbug)
-- [ ] [perl golf](http://wiki.c2.com/?PerlGolf)
-- [ ] [parsing XML with a regex](https://flapenguin.me/xml-regex)
-- [ ] [tar bomb](http://www.linfo.org/tarbomb.html)
+- [x] [spectre/meltdown](https://meltdownattack.com/)
+    - Modern critical exploit that reads data in memory of other programs
+- [x] [ternary operator](https://en.wikipedia.org/wiki/%3F:)
+    - `a ? b : c`
+- [x] [md5 rainbow tables](https://en.wikipedia.org/wiki/Rainbow_table) 2023-10-01
+    - precomputed table for caching the outputs of a cryptographic hash function e.g. MD5
+- [x] [DOOM on a toaster](https://www.vice.com/en/article/qkjv9x/a-catalogue-of-all-the-devices-that-can-somehow-run-doom) 2023-10-01
+    - [https://youtu.be/vI7tWd7B3iI](https://youtu.be/vI7tWd7B3iI)
+- [x] [self-modifying code](https://en.wikipedia.org/wiki/Self-modifying_code) 2023-10-01
+- [x] [undefined behaviour](https://en.wikipedia.org/wiki/Undefined_behavior) 2023-10-01
+    - ChatGPT: When a program exhibits undefined behavior, it means that anything can happen, and the results are not guaranteed to be consistent or meaningful. This can lead to crashes, data corruption, or other unexpected and undesirable outcomes.
+- [x] [hungarian notation](https://en.wikipedia.org/wiki/Hungarian_notation) 2023-10-01
+    - Annotate data type within variables e.g. `strName`, `decPrice`
+- [x] [emoji variables](https://www.globalnerdy.com/wordpress/wp-content/uploads/2014/06/poopy-swift-code-example.jpg) 2023-10-01
+- [x] [tracking pixels](https://en.wikipedia.org/wiki/Web_beacon) 2023-10-01
+    - aka. web beacon - track webpage and/or email visitors, usually be a single pixel transparent image
+- [x] [heisenbugs](https://en.wikipedia.org/wiki/Heisenbug) 2023-10-01
+    - a software bug that seems to disappear or alter its behavior when one attempts to study it
+    - e.g. a bug that will not be present if runs with a debugger attached
+- [x] [perl golf](http://wiki.c2.com/?PerlGolf) 2023-10-01
+    - Code golf with Perl language
+- [x] [parsing XML with a regex](https://flapenguin.me/xml-regex) 2023-10-01
+    - [**H̸̡̪̯ͨ͊̽̅̾̎Ȩ̬̩̾͛ͪ̈́̀́͘ ̶̧̨̱̹̭̯ͧ̾ͬC̷̙̲̝͖ͭ̏ͥͮ͟Oͮ͏̮̪̝͍M̲̖͊̒ͪͩͬ̚̚͜Ȇ̴̟̟͙̞ͩ͌͝**S̨̥̫͎̭ͯ̿̔̀ͅ](https://stackoverflow.com/questions/1732348/regex-match-open-tags-except-xhtml-self-contained-tags/1732454#1732454)
+- [x] [tar bomb](http://www.linfo.org/tarbomb.html) 2023-10-01
+    - a `.tar` whose contents appear to _explode_ into the current/existing directory instead of a new directory
 - [ ] [all web browsers pretend to be each other](https://humanwhocodes.com/blog/2010/01/12/history-of-the-user-agent-string/)
 - [ ] [sidechannel attacks](https://en.wikipedia.org/wiki/Side-channel_attack)
 - [ ] [rowhammer](https://googleprojectzero.blogspot.com/2015/03/exploiting-dram-rowhammer-bug-to-gain.html)
