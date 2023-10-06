@@ -80,3 +80,22 @@ component :message, name: "World"
     - They are developers with "inflated skill"
     - Ruby Devs > Corp Devs
     - Much higher ROI
+
+## Data Indexing with RGB (Ruby, Graphs & Bitmaps) [Benji Lewis]
+
+([Previously talked in RubyConf Houston 2022](https://www.classcentral.com/classroom/youtube-rubyconf-2022-data-indexing-with-rgb-ruby-graphs-and-bitmaps-by-benjamin-lewis-235728))
+
+- MeasureStore - Store measures
+- Cross market analysis
+- Cross comparison
+- Harmonization
+- Bitmap Store
+- Store on Redis
+
+## Keynote: Breaking Barriers — Empowering the Unbanked with Innovative Tech [Bernard Banta]
+
+- https://rubycommunity.africa
+- Understanding the challenges in unbanked people (~1.4B over the world)
+    - Feature phones, low-end smartphones
+- USSD (Unstructured Supplementary Service Data) via SMS
+    - USSD App for feature phones
