@@ -200,3 +200,22 @@ component :message, name: "World"
     - ppl love live demos (high risk btw)
     - Be clear on abstract/message on submitting CFPs to get the talk accepted
     - https://speakerline.io
+
+## Kickboxer vs Ruby - the state of MRuby, JRuby and CRuby [Michael Milewski, Selena Small]
+
+- Actuator (mRuby)
+    - ESP32 with mruby
+    - ESP-IDF
+    - mqtt client
+- Server (cRuby)
+    - mqtt
+    - mosquitto
+- Mobile app
+    - Tried many solutions
+        - jRuby -> [Ruboto](http://ruboto.org) -> RubyMotion -> jruby on iSH terminal -> Rubyist -> Termux -> jruby on raspi -> ruboto+arduino ✅
+
+## Passkeys
+
+- a replacement for password
+- public/private keypair
+- use with biometrics
