@@ -99,3 +99,104 @@ component :message, name: "World"
     - Feature phones, low-end smartphones
 - USSD (Unstructured Supplementary Service Data) via SMS
     - USSD App for feature phones
+
+## A Beginner's Complete Guide to Microcontroller Programming with Ruby [Hitoshi Hasumi] 
+
+- PicoRuby - Wins Fukuoka Ruby Award
+- Uses Raspberry Pi Pico (RP2040 chip)
+- R2P2: PicoRuby shell - github.com/picoruby/R2P2
+- GPIO class
+- ADC - Temperature (built-in in RP2040, or use discrete parts like thermistor)
+- [PRK](https://github.com/picoruby/prk_firmware) - Keyboard firmware
+- `irb`
+- runs ruby file
+- Drag file and drop within the mounted R2P2 drive when connected to its USB
+- `/home/app.rb` runs on startup
+
+## Avoiding Disaster: Practical Strategies for Error Handling [Huy Du]
+
+- Programming is `f(x) = y`
+- Unexpected Error
+- Exception in Ruby
+    - Type `e.class`
+    - Message `e.message`
+    - Backtrace `e.backtrace`
+- Create `Business Logic` layer between application's Controller and Model
+- Return `Monad` as a result for better reusability
+    - Monad is a structure that wraps return result of function in monadic way
+- e.g. Simple monad is a struct with `:successful?`, `:results`, `:errors`, etc.
+- Change business logic to Service Object
+- Monadic handling by using Monad Result to manage the flow of execution
+
+## Event Streaming Patterns for Ruby Services [Brad Urani]
+
+- ProCore, IPO'd
+- Streaming Platform
+- Big Rails app (monolith)
+- How do we break it up? and ensure end-to-end "consistency"
+- Postgres -> AI, Snowflake, Elasticsearch, other services' Postgres
+- Rails --POST-> Rails : is this consistent?
+- gRPC?
+- vs Amazon Kinesis, Google Cloud Pub/Sub, Sidekiq, RMQ, SQS
+- Kafka
+    - Producer --topic-> Consumer
+- Kafka features
+    - At-least-once delivery (Consistent)
+    - Guaranteed Ordering (Consistent)
+    - Multi-cast (Democratized)
+    - Durable / Replay-able (Decoupled, High availability)
+- Rails --Kafka-> Rails
+- Managed Kafka
+    - Amazon MSK
+    - Heroku
+    - Confluent Cloud
+- Karafka gem (uses librdkafka)
+- Problem is data in Kafka must be consistent with app's database
+    - Dual Write Problem
+        - Also the same problem with Sidekiq
+    - Solution, btw complicated - Use database `Change Data Capture`
+    - Pg + Debezium on Kafka Connect
+        - Schema leaking
+    - Transactional Outbox (separated `outbox` table) with Change Data Capture
+    - Event Sourcing (Log first then insert db with consumer)
+        - Asynchronous
+        - CQRS
+        - Hard for startups
+- Idempotency
+    - You may get message twice (e.g. Insert x 2, Delete x 2)
+- Dead letter queue
+    - Don't recommended on most use cases
+        - It broke guaranteed order
+- Use cases
+    - New user signup
+        - Kafka multicasts to Email, Search, and Suggestion services
+    - Kafka Connect - Java
+    - Data lake - into S3 buckets
+    - Materialized Views
+        - Consumers populate db views for Rails app to query
+    - Region to Region replication
+        - MirrorMaker
+- Data structure
+    - JSON
+    - Protobuf
+    - Apache Avro
+- Article
+    - What Every Software Enigneer Should mlnw near realtime data's [...]
+
+## The Art of Abstracting: Key Factors for Success in a Core/Platform/BuildingBlocks team [Omar Sotillo Franco]
+
+(The presenter is absent, gws!)
+
+## Panel discussion [Various panelists]
+
+- What are effective ways to support junior devs in the Ruby community?
+- How do you foresee generative AI impacting the future of programming?
+- How can Ruby devs avoid burnout and maintain a sustainable work-life balance?
+    - Exercise
+- What tips or advice would you offer to people looking to present at Ruby or tech conf?
+    - Start small & simple (eg. lightning talks at smaller conf)
+    - few takeaways, focus on core messages
+    - practice
+    - ppl love live demos (high risk btw)
+    - Be clear on abstract/message on submitting CFPs to get the talk accepted
+    - https://speakerline.io
