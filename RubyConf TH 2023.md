@@ -1,4 +1,14 @@
-
+---
+title: RubyConf TH 2023
+date: 2023-10-07
+slug: rubyconf-th-2023
+publish: true
+tags:
+  - ruby
+  - notes
+draft: false
+no_feed: false
+---
 ## Component Driven UI with ViewComponent gem [Radoslav Stankov]
 
 https://rstankov.com/appearances - [Slides](https://speakerdeck.com/rstankov/component-driven-ui-with-viewcomponent-gem)
@@ -219,3 +229,40 @@ component :message, name: "World"
 - a replacement for password
 - public/private keypair
 - use with biometrics
+  github.com/ruby-passkeys
+
+## Rails Performance Monitoring 101: A Primer for Developers [Rishi Jain]
+
+- Misconceptions
+    - Cache = Fast
+    - Bigger hardware = Fast
+- APM - Application Performance Monitoring
+    - NewRelic
+    - DagaDog
+    - Scout
+    - AppSignal
+    - etc.
+- Common mistakes
+    - N+1 queries
+        - `#count` vs `#size`
+        - `#where` vs `#find`
+        - Convert queries to `has_one` then eager load it
+        - rack-mini-profiler, Bullet
+    - Lack of background jobs
+    - Timeout from 3rd party services
+    - Missing db indices
+        - Query with `#explain`, see the query plan
+            - `Seq Scan` is slow (should be `Index Scan`)
+    - The order of compound db index
+    - [SQL performance explained](https://sql-performance-explained.com)
+
+## Keynote: Thriving in Uncertainty [Ben Halpern]
+
+- https://dev.to
+- https://isrubydead.com
+- Specialists thrive in kind environment
+- Generalists thrive in wicked environment
+    - Adaptability
+    - Higher-order Thinking
+    - Problem Reformulation - reframing
+    - Collaboration & Communication
