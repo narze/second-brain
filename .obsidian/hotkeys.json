@@ -17,14 +17,6 @@
       "key": "ArrowRight"
     }
   ],
-  "app:go-forward": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "]"
-    }
-  ],
   "app:go-back": [
     {
       "modifiers": [
@@ -33,12 +25,12 @@
       "key": "["
     }
   ],
-  "daily-notes": [
+  "app:go-forward": [
     {
       "modifiers": [
-        "Ctrl"
+        "Mod"
       ],
-      "key": "N"
+      "key": "]"
     }
   ]
 }
