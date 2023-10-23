@@ -7,6 +7,7 @@
 (happens on <% tp.file.title %>) OR (done on <% tp.file.title %>)
 
 sort by happens
+root does not include private/
 
 # Hide date after emojis
 short mode
@@ -19,6 +20,7 @@ short mode
 (happens on <% tp.date.now("YYYY-MM/YYYY-MM-DD", -1, tp.file.title, "YYYY-MM-DD") %>) OR (done on <% tp.date.now("YYYY-MM/YYYY-MM-DD", -1, tp.file.title, "YYYY-MM-DD") %>)
 
 sort by happens
+root does not include private/
 
 # Hide date after emojis
 short mode
@@ -31,6 +33,7 @@ short mode
 
 # Sort
 sort by happens reverse, done reverse
+root does not include private/
 
 # Hide date after emojis
 short mode

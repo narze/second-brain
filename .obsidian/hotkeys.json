@@ -32,5 +32,21 @@
       ],
       "key": "]"
     }
+  ],
+  "templater-obsidian:templates/garden_templater.md": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "N"
+    }
+  ],
+  "daily-notes": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "T"
+    }
   ]
 }
