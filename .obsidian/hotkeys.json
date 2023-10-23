@@ -40,5 +40,13 @@
       ],
       "key": "N"
     }
+  ],
+  "daily-notes": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "T"
+    }
   ]
 }
