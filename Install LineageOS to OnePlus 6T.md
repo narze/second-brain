@@ -1,5 +1,14 @@
+---
+title: Install LineageOS to OnePlus 6T
+date: 2023-10-23
+slug: install-lineageos-to-oneplus-6t
+publish: true
+tags: 
+draft: false
+no_feed: false
+---
 - Download files https://download.lineageos.org/devices/fajita/builds
-    - lineage-20.0...-signed.zip
+    - lineage-20.0-xxx-signed.zip
     - boot.img
 - Download google apps plugin https://wiki.lineageos.org/gapps
 - Follow installation steps https://wiki.lineageos.org/devices/fajita/install
