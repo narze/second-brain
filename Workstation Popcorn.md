@@ -3,12 +3,13 @@ title: Workstation Popcorn
 date: 2023-10-23
 slug: workstation-popcorn
 publish: true
-tags: 
+tags:
+  - productivity
 draft: false
 no_feed: false
 ---
-Ref: https://impossiblehq.com/workstation-popcorn
 
+Ref: https://impossiblehq.com/workstation-popcorn
 ## Summary
 
 Boost Productivity with Workstation Popcorn
