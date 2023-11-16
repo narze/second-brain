@@ -1,6 +1,0 @@
-## Features
-- 
-
-## Tech Stack
-- Rails
-- 
