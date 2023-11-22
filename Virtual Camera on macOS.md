@@ -1,5 +1,0 @@
-- https://github.com/johnboiles/coremediaio-dal-minimal-example
-- https://github.com/seanchas116/SimpleDALPlugin
-- https://webcamoid.github.io/
-- OBS
-- https://manycam.com 

@@ -1,1 +1,0 @@
-![](1-Projects/attachments/emkay.png)

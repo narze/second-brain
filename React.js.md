@@ -1,1 +1,0 @@
-- [You Might Not Need an Effect](https://react.dev/learn/you-might-not-need-an-effect)
