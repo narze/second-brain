@@ -1,0 +1,1 @@
+- https://lakshmaji.medium.com/rails-7-reactjs-setup-monolith-b9baa0f84271

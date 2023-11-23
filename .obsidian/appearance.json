@@ -1,13 +1,3 @@
 {
-  "accentColor": "#ff8552",
-  "baseFontSize": 16,
-  "translucency": true,
-  "cssTheme": "Minimal",
-  "monospaceFontFamily": "FantasqueSansM Nerd Font Mono",
-  "enabledCssSnippets": [
-    "custom-checkbox"
-  ],
-  "interfaceFontFamily": "FantasqueSansM Nerd Font Propo",
-  "textFontFamily": "FantasqueSansM Nerd Font",
-  "theme": "obsidian"
+  "accentColor": ""
 }

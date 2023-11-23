@@ -1,0 +1,305 @@
+---
+date: 2023-01-17
+draft: true
+title: "narzeLIVE twitch devlog"
+---
+
+## 2022-04-04
+- Deploy new streamie version to home-cluster
+- Prisma is broken since can't run `prisma migrate` on arm64 arch
+  - Can be built with Rust, but freaking slow
+  - Change Dockerfile `node:16-alpine` to `node:16-slim` and it works 🤯
+
+## 2022-04-05
+- Setup feed for `!gacha` & `!airdrop`
+
+## 2022-04-06
+- `!airdrop [n]`
+- Deploy feed overlay & angalung page (web)
+- Build docker image with `make build`
+
+## 2022-04-07
+- !give 
+- !devmode -> !pause & !unpause (quick solution)
+- !farm
+
+## 2022-04-08
+- Fix inconsistent !say connection
+- Add testing
+- !gacha with range -> rename to !invest
+
+## 2022-04-09
+- Run socket.io server separately
+- Github Actions (build & push to ghcr.io)
+- Twitch Plays Patrick's Parabox (,w ,a ,s ,d)
+
+## 2022-04-10
+- Redis helm chart
+  - Bitnami's not working, use arm64v8/redis instead
+ - Add `redis` package to Streamie
+ - Replace `isPaused` with Redis key `streamie-dev-mode`
+ - Dev Streamie to update `streamie-dev-mode` to `"true"`, then Production Streamie will stop responding to !commands, until quitting Dev Streamie will update to `"false"`
+
+## 2022-04-11
+- Setup vitest
+  - Found issues when mocking Prisma, use `vitest-mock-extended`
+- ~~Bits & Subs -> $OULONG~~
+
+## 2022-04-15
+- Paperang x Streamie
+  - webusb
+  - `streamie/printer` package
+
+## 2022-04-17
+- Add print queue to printer
+- Add synced text page to  `streamie/web` to replace Stickies
+- Fix streamlarb (Error occurred randomly when opened VSCode before Streamlarb)
+
+## 2022-04-20
+- SvelteKit + Discord OAuth
+  - Problem : Refresh token not working on Vercel (It caches the page, but refreshes the token in background and not returning the cookie to the browser, so that the next refresh will force user to log out since old refresh token does not work anymore)
+  - Possible solutions : 
+    - Client auth (Don't use hooks to set cookies)
+    - SWR
+    - Match the cache time with access token age
+
+## 2022-04-22
+- Discord - Twitch integration (Update user's twitchId & discordId)
+- Vite build time ENVs
+  - Took streamie docker image private
+  - Add dockerpulljson secret to cluster https://kubernetes.io/docs/tasks/configure-pod-container/pull-image-private-registry/
+
+## 2022-04-25
+- Make !place page public @ https://streamie-public.narze.live/pub/place
+  - Setup Tailwind JIT mode `mode: "jit"`
+  - #til JIT class does not work with number variables `h-[${height}px]` ❌
+
+## 2022-04-27
+- Raycast extension for Navidrome
+  - https://github.com/narze/raycast-navidrome
+  - Only "Now Playing feature is working"
+  - Cannot use MPRIS to control Sonixd yet since macOS does not have DBus supported natively
+
+## 2022-04-29
+- Apply grid layout for "Code in the wind" observer page https://github.com/showdownspace/codeinthewind-live/pull/1
+
+## 2022-05-02
+- Code in the wind example challenge : [https://play.tailwindcss.com/pOr3W1rA40?size=504x720](https://play.tailwindcss.com/pOr3W1rA40?size=504x720 "https://play.tailwindcss.com/pOr3W1rA40?size=504x720")
+- Install HAOS
+  - Cannot reach via WiFi, must use LAN initially
+
+## 2022-05-04
+- Install HAOS
+- Tips
+  - Enable `Advanced Mode ` in [Profile Page](http://homeassistant.local:8123/profile)
+  - Essential Add-ons (Except Letsencrypt)
+    - ![](Pasted%20image%2020220504231508.png)
+  - Backup before doing something risky 
+
+## 2022-05-09
+- Code in the Wind - Example Challenge 2 https://citw01.pages.dev/example2
+  - https://play.tailwindcss.com/wSdPGj5xUk?size=540x720
+
+## 2022-05-11
+- Thwordle training mode (unlimited) https://thwordle.vercel.app/#/training
+
+## 2022-05-12
+- [Ophtusify](https://ophtusify.narze.live)
+
+## 2022-05-17
+- [Kuro - Credit Roll Renderer](https://github.com/narze/kuro)
+  - [Remotion](https://www.remotion.dev)
+
+## 2022-05-23
+- Streamlabs API + Socket API
+- TipMe Donation -> Printer
+- #til install multiple versions of package
+  - "socket.io-client": "^4.4.1",
+     "socket.io-client-v2": "npm:socket.io-client@v2-latest"
+
+## 2022-05-30
+- Pomodoro Timer
+  - Start timer by clicking button 
+  - or `!pomodoro` 
+  - Timer runs for 25 minute
+    - Will be customizable later
+  - When timer ends, alert on overlay and starts 5 minute break
+
+## 2022-06-01
+- PDPApe 🐒  https://PDPApe.vercel.app ([Github](https://github.com/narze/PDPApe))
+```
+หนังสือให้ความยินยอมในการเก็บรวบรวม/ใช้/เปิดเผยข้อมูลส่วนบุคคล
+
+  ________ ("บริษัท") ให้ความสำคัญกับความเป็นส่วนตัวของท่าน บริษัทจึงขอความยินยอมจากท่านเพื่อการเก็บรวบรวม ใช้ และ/หรือเปิดเผยข้อมูลส่วนบุคคลของท่านที่ให้ไว้แก้บริษัทหรือที่บริษัทได้รับมาจากแหล่งอื่น สำหรับวัตถุประสงค์ดังต่อไปนี้
+
+ข้าพเจ้ายินยอมกับการใช้ข้อมูลส่วนตัว ในวัตถุประสงค์ต่างๆ ดังนี้
+
+1. เพื่อเสนอผลิตภัณฑ์ และ/หรือ บริการของบริษัทที่เหมาะกับความต้องการของท่าน
+2. [โปรดระบุวัตถุประสงค์การประมวลผลข้อมูล]
+```
+
+## 2022-06-03
+- Pomodoro Overlay (cont.)
+
+## 2022-06-04
+- Try 25:5 pomodoro workflow on stream (Handcam)
+
+## 2022-06-06
+- ~~Golang~~ Keyboard Maestro HTTP service for invoking notification from other clients in VPN
+- Writes simple API to call macOS clients with Tailscale assigned URLs
+
+## 2022-06-08
+- !pomodoro post status change on twitch chat
+- !doing [message]
+- Registered Twitter Developer Program 
+
+## 2022-06-10 & 2022-06-12
+- Pokdeng overlay
+
+## 2022-06-13
+- Pokdeng overlay improvements
+  - [x] Debug mode toggle with keyboard and/or querystring
+    - `?debug=1`
+  - [x] Dealer draw 3rd card with rate `Math.random() < (10 - score) / 10`
+  - [x] Text/bg color
+  - Fix player cards overflow on screen
+    - [ ] Add auto scroll on overflow
+  - [ ] Dealer's stat
+  - [ ] More chat messages (State change, more result)
+
+## 2022-06-15
+- [Anya Shirt Tracker](https://github.com/narze/anya-shirt-tracker)
+  - Track [Uniqlo TH](https://www.uniqlo.com/th/en/products/E451868-000?colorCode=COL41) for changes
+  - Use Playwright, node-cron-cli, Discord webhook
+
+## 2022-06-18
+- Random things
+  - Setup Remote SSH for Linux on DigitalOcean
+    - [ ] Fix Chezmoi gpg key does not work (key mismatched?)
+  - Basic Svelte talk preparation
+    - Web render
+      - Compiling svelte code is not basic task, maybe use API to save file & use vite to re-render the iframe?
+    - https://gitpkg.vercel.app 
+      - `pnpm add https://gitpkg.now.sh/sveltejs/sites/package/repl`
+
+## 2022-06-20
+- Add tailwind to Astro `npx astro add tailwind`
+
+## 2022-06-22
+- Update styles to codegen, start adding components to Svelte Presentation
+- Github token for packages is expired (got denied error on image pull)
+  - Create new PAT `PAT=ghp_xxxxxxxxxxxxxxxx` (with read:packages)
+    - Login with docker to test `echo $PAT | docker login ghcr.io --username narze --password-stdin`
+  - `export AUTH=$(echo -n narze:$PAT | base64)
+  - `export DOCKERCONFIGJSON=$(echo -n '{"auths":{"ghcr.io":{"auth":"'$AUTH'"}}}' | base64)`
+  - `echo $DOCKERCONFIGJSON | pbcopy`
+  - Update secret-values.enc.yaml (with sops)
+
+## 2022-06-27
+- Try Meteor with Svelte
+  - `meteor mongo`: Runs mongo shell
+  - `$m:` reactive statement with Mongo https://github.com/zodern/melte#tracker-statements
+  - Mongo methods are not Promise based (all synchronous) :+1:
+  - Arrow function don't have `this` keyword
+
+## 2022-07-13
+- Installing `cert-manager` in home-cluster
+  - Better click "+ New App" on argocd UI then copy yaml output
+    - ![](Pasted%20image%2020220713215148.png) Error will be seen in UI if something went wrong 
+  - Add namespace to destination in `argo-cd/values.yaml`
+  - Every argocd Application manifest must specify `namespace: argocd` or it won't work
+  - https://k3s.rocks
+ ---
+
+## Ideas / Todo
+ - [x] Queue !say
+ - [x] Build streamie docker on Github Actions
+ - [ ] SSL support for streamie-feed.narze.live & other domains
+ - [ ] Argocd deployment alert on Discord
+ - [x] !devmode bot to skip commands on production and use dev instead
+   - [x] !pause & !unpause (quick solution)
+ - [x] !farm to get coin every 5min
+   - [x] Get more when live
+   - [ ] Subbers get more
+ - [x] !give to give coin to other with 30% fee
+ - [x] argo.home-cluster.narze.live
+- [ ] Youtube mediashare
+ - [ ] 20 marbles game
+ - [ ] Inactive burn rate
+ - [ ] Resound redux
+ - [ ] !wordle
+ - [ ] Lumken : amඞgus mඞde
+ - [ ] Show market cap in Twitch
+ - [ ] Emotes
+ - [ ] Telegram bot
+ - [ ] Twitch bot
+   - [ ] Fix socket io not responding to !say
+   - [ ] !say support replies
+   - [ ] Command rate limit (5-10 seconds per command) use redis
+     - [ ] Rate limit by command
+   - [x] vitest
+   - [x] !farm when on live gets more than not live
+   - [x] Bit -> 3$ / bit
+   - [x] Sub -> 100$ + airdrop
+   - [x] Gift -> 100$ + airdrop
+   - [ ] Store twitch user id
+   - [ ] !rename oldusername
+   - [ ] !marketcap
+   - [x] !place x y hex
+   - [x] !olf
+   - [ ] Twitch plays ...
+   - [x] !github
+   - [ ] Custom ! commands (like streamelements)
+- [ ] Discord
+  - [ ] Connect with twitch id
+- [x] Keyboard cam
+  - [ ] Bit to change kb with roulette
+- [ ] argocd-image-updater.readthedocs.io/en/stable
+- [x] Angalung layer for streamlabs (no click required)
+- [ ] !ask (GPT-3)
+- [x] Try remotion
+- [ ] RasPi Zero 2 W + Paperang
+  - [ ] Needs PoC on Pi4 first
+- [ ] Raycast + http://www.subsonic.org/pages/api.jsp#setRating (Mini player **MPRIS** + Star rating shortcut) 
+  - [ ] https://developers.raycast.com/basics/create-your-first-extension
+  - [ ] Demo https://demo.navidrome.org/rest/ping.view?u=demo&v=1.16.1&c=myapp&p=demo&f=json
+- [ ] HabitsGarden clone with weighted score
+- [x] showdown.space - Code in the wind viewer
+- [ ] Smart home system - HomeAssistant
+  - [x] Initial setup
+  - [ ] Setup Let's Encrypt / Cloudflare Tunnel
+    - https://github.com/PanJ/hassio-addons
+    - https://github.com/w35l3y/hassio-addons/tree/main/cloudflare_tunnel
+    - https://github.com/brenner-tobias/addon-cloudflared
+  - [ ] Setup Google Assistant https://www.home-assistant.io/integrations/google_assistant (Requires SSL)
+  - [ ] Track Phone location as entity
+  - [ ] Install Homebridge on home-cluster
+  - [ ] Roborock integration
+  - [ ] QNAP https://www.home-assistant.io/integrations/qnap/
+- [ ] Generate m3u, m3u8 from list of files
+  - https://itsfoss.com/create-m3u-playlist-linux/ 
+  - `\ls -1v **/*.{flac,mp3,ogg,opus} > playlist.m3u`
+  - `[/share/homes/admin/music/...] # find * -type f \( -iname '*.flac' -o -iname '*.mp3' -o -iname '*.ogg' -o -iname '*.opus' \) > playlist.m3u8`
+- [x] Enable HTTPS in Tailscale https://tailscale.com/kb/1153/enabling-https
+  - [ ] `*.risk-in.ts.net` 
+  - [ ] [[Adding Tailscale to Rails App]]
+- [ ] Portfolio website
+  - [ ] port.narze.live
+- [ ] Sidebar overlay
+  - [ ] width 320 , max height 1080
+- [ ] Delayed read
+- [ ] Speech to text to speech (Speak -> !say)
+- [ ] Try meteor + svelte
+- [ ] Pomodoro timer
+  - [ ] Alert on macbook screen somehow (On screen / mac notification / etc.)
+- [ ] Keyboard keystroke sound simulator
+- [ ] `brew install --cask manoonchai`
+- [ ] Bot reply on !pomodoro commands
+- [ ] Try Google Cloud Run
+- [ ] `!doing` changes text on overlay
+- [ ] Mediashare with $OULONG
+- [ ] utilize vdo.ninja
+- [ ] `!project / !today`
+- [ ] Dotfiles on ubuntu
+- [ ] Re-structure yabai with rules
+  - Ref. https://github.com/peppy/dotfiles/blob/master/.yabairc
