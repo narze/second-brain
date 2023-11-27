@@ -1,5 +1,12 @@
 {
   "accentColor": "#ffaa33",
   "cssTheme": "Minimal",
-  "theme": "obsidian"
+  "theme": "system",
+  "enabledCssSnippets": [
+    "custom-checkbox"
+  ],
+  "monospaceFontFamily": "MonaspiceNe NFM",
+  "interfaceFontFamily": "MonaspiceNe NFP",
+  "textFontFamily": "MonaspiceNe NFP",
+  "translucency": true
 }
