@@ -3,7 +3,8 @@ title: Mikado Method
 date: 2023-10-25
 slug: mikado-method
 publish: true
-tags: 
+tags:
+  - notes
 draft: true
 no_feed: false
 ---
