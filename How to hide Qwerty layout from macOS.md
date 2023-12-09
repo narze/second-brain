@@ -10,7 +10,7 @@ draft: false
 no_feed: false
 ---
 
-![350](How%20to%20hide%20Qwerty%20layout%20from%20macOS.png)
+![350](attachments/How%20to%20hide%20Qwerty%20layout%20from%20macOS.png)
 
 If you add non standard English keyboard layout to macOS, the default one `ABC` aka. Qwerty cannot be removed in macOS settings as normally it will cause trouble if there are no English layouts left on the system.
 
@@ -26,8 +26,8 @@ code ~/Library/Preferences/com.apple.HIToolbox.plist
 
 Delete `<dict>...</dict>` which has layout name which you want to remove e.g. `ABC`
 
-![How to hide Qwerty layout from macOS-1|600](How%20to%20hide%20Qwerty%20layout%20from%20macOS-1.png)
+![How to hide Qwerty layout from macOS-1|600](attachments/How%20to%20hide%20Qwerty%20layout%20from%20macOS-1.png)
 
 Save the file, and restart the mac.
 
-![350](How%20to%20hide%20Qwerty%20layout%20from%20macOS-2.png)
+![350](attachments/How%20to%20hide%20Qwerty%20layout%20from%20macOS-2.png)
