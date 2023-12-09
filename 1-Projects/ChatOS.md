@@ -47,8 +47,8 @@ pnpm run dev
 
 [ChatOS.excalidraw](Excalidraw.priv/ChatOS.excalidraw.md)
 
-![[Excalidraw.priv/ChatOS.excalidraw.svg]]
-%%[[Excalidraw.priv/ChatOS.excalidraw.md|🖋 Edit in Excalidraw]], and the [[Excalidraw.priv/ChatOS.excalidraw.dark.svg|dark exported image]]%%
+![ChatOS.excalidraw](Excalidraw.priv/ChatOS.excalidraw.svg)
+%%[🖋 Edit in Excalidraw](Excalidraw.priv/ChatOS.excalidraw.md.md), and the [dark exported image](Excalidraw.priv/ChatOS.excalidraw.dark.svg.md)%%
 
 ---
 

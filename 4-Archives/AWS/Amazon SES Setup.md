@@ -8,7 +8,7 @@ title: "Amazon SES Setup"
 - Add **DomainKeys Identified Mail (DKIM)** DNS records
 	eg. CNAME xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx._domainkey.xxxxx-staging.opn.dev -> xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.dkim.amazonses.com 
 - Create IAM for _AmazonSESFullAccess_ (development only)
-- ![[Amazon-SES-request-production-access.png]] Request production mode to send actual emails (Sandbox mode cannot send emails)
+- ![Amazon-SES-request-production-access.png](Amazon-SES-request-production-access.png) Request production mode to send actual emails (Sandbox mode cannot send emails)
 
 ## Node.js development
 - `yarn add aws-sdk`

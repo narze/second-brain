@@ -282,7 +282,7 @@ title: "narzeLIVE twitch devlog"
   - `[/share/homes/admin/music/...] # find * -type f \( -iname '*.flac' -o -iname '*.mp3' -o -iname '*.ogg' -o -iname '*.opus' \) > playlist.m3u8`
 - [x] Enable HTTPS in Tailscale https://tailscale.com/kb/1153/enabling-https
   - [ ] `*.risk-in.ts.net` 
-  - [ ] [[Adding Tailscale to Rails App]]
+  - [ ] [Adding Tailscale to Rails App](Adding%20Tailscale%20to%20Rails%20App.md)
 - [ ] Portfolio website
   - [ ] port.narze.live
 - [ ] Sidebar overlay

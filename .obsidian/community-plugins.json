@@ -32,5 +32,6 @@
   "copy-url-in-preview",
   "obsidian-jira-issue",
   "editor-width-slider",
-  "password-protection"
+  "password-protection",
+  "obsidian-link-converter"
 ]

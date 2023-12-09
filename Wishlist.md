@@ -30,7 +30,7 @@ tags:
 				- https://www.youtube.com/watch?v=iX4Ra5H5eUU
 	- Wacaco Nanopresso
 		- ![](/Images/Wacaco%20Nanopresso.png)
-	- [[Wacaco Picopresso]]
+	- [Wacaco Picopresso](Wacaco%20Picopresso.md)
     - ![](Images/Wacaco%20Picopresso.png)
 	- Cafflano Kompresso
 		- ![](/Images/Cafflano%20Kompresso.png)

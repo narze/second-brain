@@ -2,7 +2,7 @@
 title: "Quartz"
 ---
 
-The [[Digital Garden]] engine behind https://garden.narze.live : https://quartz.jzhao.xyz
+The [Digital Garden](Digital%20Garden.md) engine behind https://garden.narze.live : https://quartz.jzhao.xyz
 
 ## Upgrading Quartz
 - `git remote add upstream git@github.com:jackyzha0/quartz.git`
