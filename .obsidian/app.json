@@ -1,3 +1,19 @@
 {
-  "attachmentFolderPath": "./attachments"
+  "attachmentFolderPath": "./attachments",
+  "useMarkdownLinks": true,
+  "legacyEditor": false,
+  "livePreview": true,
+  "promptDelete": false,
+  "alwaysUpdateLinks": true,
+  "newLinkFormat": "absolute",
+  "tabSize": 4,
+  "useTab": false,
+  "showFrontmatter": true,
+  "autoPairMarkdown": false,
+  "newFileLocation": "root",
+  "vimMode": true,
+  "propertiesInDocument": "visible",
+  "readableLineLength": true,
+  "strictLineBreaks": true,
+  "showLineNumber": false
 }
