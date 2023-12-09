@@ -28,4 +28,6 @@ Delete `<dict>...</dict>` which has layout name which you want to remove e.g. `A
 
 ![[How to hide Qwerty layout from macOS-1.png]]
 
-Save the file, restart, 
+Save the file, and restart the mac.
+
+![[How to hide Qwerty layout from macOS-2.png|350]]
