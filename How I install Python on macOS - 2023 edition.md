@@ -1,5 +1,5 @@
 ---
-title: How I install Python in 2023
+title: How I install Python on macOS - 2023 edition
 date: 2023-12-15
 slug: how-i-install-python-in-2023
 publish: true
