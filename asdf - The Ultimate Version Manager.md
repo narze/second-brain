@@ -1,7 +1,13 @@
 ---
 title: "asdf - The Ultimate Version Manager"
+date: 2023-12-15
+slug: asdf-the-ultimate-version-manager
+publish: true
+tags:
+- notes
+draft: false
+no_feed: true
 ---
-
 Due to the differences of the dependencies of your projects (and others on GitHub.) Now it's pretty normal to have multiple versions of programming languages like Python, Node.js, or even PHP, installed on your system. There're some tools like `pyenv`, `rbenv`, `nvm`, and many more, but most of them can work with only one language per tool, so you have to remember all of their commands if you work on multiple languages.
 
 Enter [`asdf`][https://asdf-vm.com], the universal version manager which works with most languages, and even cover some tools like [Vim][asdf-vim]!
