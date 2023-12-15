@@ -32,5 +32,7 @@ pipx install poetry
 - Start project with `poetry new`
 
 ```bash
-poetry new poetry-demo
+poetry new project-name
 ```
+
+(this is likely to change in the next year, since it's [Python](https://xkcd.com/1987))
