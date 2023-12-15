@@ -3,7 +3,8 @@ title: How I install Python in 2023
 date: 2023-12-15
 slug: how-i-install-python-in-2023
 publish: true
-tags: 
+tags:
+  - notes
 draft: false
 no_feed: false
 ---
