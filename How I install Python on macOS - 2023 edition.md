@@ -8,7 +8,7 @@ tags:
 draft: false
 no_feed: false
 ---
-Prerequisite: [`asdf`](asdf%20-%20The%20Ultimate%20Version%20Manager.md)
+Prerequisite: [asdf](./asdf%20-%20The%20Ultimate%20Version%20Manager.md)
 
 - Add python plugin & install [`miniforge3`](https://conda-forge.org/miniforge) (as of writing it includes python 3.10.12)
 
@@ -18,7 +18,7 @@ asdf install python miniforge3-latest
 asdf global python miniforge3-latest
 ```
 
-- Install [`pipx`](pipx.pypa.io)
+- Install [pipx](https://pipx.pypa.io)
 
 ```bash
 python -m pip install --user pipx
@@ -36,4 +36,4 @@ pipx install poetry
 poetry new project-name
 ```
 
-this is likely to change in the next year, since it's [Python](https://xkcd.com/1987)r
+this is likely to change in the next year, since it's [Python](https://xkcd.com/1987)
