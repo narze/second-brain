@@ -35,4 +35,4 @@ pipx install poetry
 poetry new project-name
 ```
 
-(this is likely to change in the next year, since it's [Python](https://xkcd.com/1987))
+this is likely to change in the next year, since it's [Python](https://xkcd.com/1987)r
