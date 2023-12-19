@@ -84,3 +84,5 @@ tags:
     - https://www.425degree.com/catalogsearch/result/?q=TOMTOC+URBAN+SLING+BAG+WITH+8-INCH
     - [https://425.ee/35gd7Ft](https://425.ee/35gd7Ft?fbclid=IwAR0Xp8wusy1zUWLqHWoYBdUGc6F7blW71pAl372vx_f_5yiFzzPPpcRUUS0)
 - Steins;Gate Steam Bundle
+- [Electric bike 9 shocks 400w 12Ah](https://www.lazada.co.th/products/electric-bike-14-48v-40-200km-25-40kmh-250kg-7-i4525227270-s19742133786.html) ([review](https://www.youtube.com/watch?v=U82wt4PRF_k))
+    - ![](attachments/Wishlist.png)
