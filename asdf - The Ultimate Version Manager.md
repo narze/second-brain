@@ -52,7 +52,7 @@ scenery                       https://github.com/skyzyx/asdf-scenery.git
 ...
 ```
 
-I want to use [Rust][rust-for-rubyist]! So add Rust plugin.
+I want to use Rust! So add Rust plugin.
 
 ```shell
 asdf plugin add rust
