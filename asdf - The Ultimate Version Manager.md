@@ -1,10 +1,9 @@
 ---
-title: "asdf - The Ultimate Version Manager"
-date: 2023-12-15
+title: asdf - The Ultimate Version Manager
 slug: asdf-the-ultimate-version-manager
 publish: true
 tags:
-- notes
+  - notes
 draft: false
 no_feed: true
 ---
@@ -52,7 +51,7 @@ scenery                       https://github.com/skyzyx/asdf-scenery.git
 ...
 ```
 
-I want to use [Rust][rust-for-rubyist]! So add Rust plugin.
+I want to use Rust! So add Rust plugin.
 
 ```shell
 asdf plugin add rust
