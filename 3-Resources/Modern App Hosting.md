@@ -1,0 +1,5 @@
+- Railway.app
+- Render.com
+- fly.io
+- Koyeb
+- https://github.com/DmitryScaletta/free-heroku-alternatives
