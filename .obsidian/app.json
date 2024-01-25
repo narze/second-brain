@@ -10,10 +10,11 @@
   "useTab": false,
   "showFrontmatter": true,
   "autoPairMarkdown": false,
-  "newFileLocation": "root",
+  "newFileLocation": "folder",
   "vimMode": true,
   "propertiesInDocument": "visible",
   "readableLineLength": true,
   "strictLineBreaks": true,
-  "showLineNumber": false
+  "showLineNumber": false,
+  "newFileFolderPath": "0-Inbox"
 }
