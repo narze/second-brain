@@ -1,4 +1,5 @@
 - Dev tool example (auto complete order form)
 - [ ] Buy keycaps for keychron k6
-- [ ] Buy ไก่สับ
+- [-] Buy ไก่สับ
 - [ ] Project listing
+- https://www.getkisi.com/blog/how-to-copy-access-cards-and-keyfobs
