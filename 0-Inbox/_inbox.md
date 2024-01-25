@@ -1,1 +1,4 @@
 - Dev tool example (auto complete order form)
+- [ ] Buy keycaps for keychron k6
+- [ ] Buy ไก่สับ
+- [ ] Project listing
