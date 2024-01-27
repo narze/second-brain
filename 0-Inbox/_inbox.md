@@ -1,7 +1,8 @@
 - Dev tool example (auto complete order form)
 - [x] Buy keycaps for keychron k6 ✅ 2024-01-27
 - [-] Buy ไก่สับ
-- [ ] Project listing
+- [ ] [[Project listing]]
 - https://www.getkisi.com/blog/how-to-copy-access-cards-and-keyfobs
 - [MisChief Mini C40](https://shopee.co.th/Mischief-MINI-%E0%B9%80%E0%B8%84%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B8%9A%E0%B8%94%E0%B9%80%E0%B8%A1%E0%B8%A5%E0%B9%87%E0%B8%94%E0%B8%81%E0%B8%B2%E0%B9%81%E0%B8%9F%E0%B9%84%E0%B8%9F%E0%B8%9F%E0%B9%89%E0%B8%B2%E0%B8%82%E0%B8%99%E0%B8%B2%E0%B8%94%E0%B9%80%E0%B8%A5%E0%B9%87%E0%B8%81-c40-%E0%B8%88%E0%B8%B2%E0%B8%81%E0%B8%95%E0%B8%B1%E0%B8%A7%E0%B9%80%E0%B9%80%E0%B8%97%E0%B8%99%E0%B8%88%E0%B8%B3%E0%B8%AB%E0%B8%99%E0%B9%88%E0%B8%B2%E0%B8%A2%E0%B9%82%E0%B8%94%E0%B8%A2%E0%B8%95%E0%B8%A3%E0%B8%87-%E0%B8%97%E0%B8%B8%E0%B8%81%E0%B8%AD%E0%B8%A2%E0%B9%88%E0%B8%B2%E0%B8%87%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%88%E0%B8%9A%E0%B8%97%E0%B8%B5%E0%B9%88-finite-coffee-i.21166021.23380583808?sp_atk=24b841f8-a45f-4888-9272-f4cefc733737&xptdk=24b841f8-a45f-4888-9272-f4cefc733737)
 - Try Decaf coffee
+- VHS package (record terminal)
