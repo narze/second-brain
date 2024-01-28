@@ -1,3 +1,4 @@
+
 - Dev tool example (auto complete order form)
 - [x] Buy keycaps for keychron k6 ✅ 2024-01-27
 - [-] Buy ไก่สับ
@@ -8,3 +9,5 @@
 - VHS package (record terminal)
 - Meme T-shirt
     - Text can be customized with tape & marker!
+- Todo app
+- [ ] Buy Rosa ketchup
