@@ -12,3 +12,4 @@
 - Todo app
 - [ ] Buy Rosa ketchup
 - [[Violence is never the answer. Violence is the question, and the answer is yes.]]
+- [ ] Arc boosts for automating form fill
