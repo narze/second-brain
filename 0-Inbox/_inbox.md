@@ -1,4 +1,5 @@
 
+#todo 
 - Dev tool example (auto complete order form)
 - [x] Buy keycaps for keychron k6 ✅ 2024-01-27
 - [-] Buy ไก่สับ
@@ -10,6 +11,7 @@
 - Meme T-shirt
     - Text can be customized with tape & marker!
 - Todo app
-- [ ] Buy Rosa ketchup
+- [x] Buy Rosa ketchup ✅ 2024-02-03
 - [[Violence is never the answer. Violence is the question, and the answer is yes.]]
 - [ ] Arc boosts for automating form fill
+- [ ] Wash bicycle 🔁 every month
