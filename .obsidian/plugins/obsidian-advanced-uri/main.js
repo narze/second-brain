@@ -3295,10 +3295,10 @@ var import_obsidian_daily_notes_interface2 = __toESM(require_main());
 // src/block_utils.ts
 var import_obsidian2 = require("obsidian");
 var BlockUtils = class _BlockUtils {
-  static getBlock(editor, file) {
+  static getBlock(app2, editor, file) {
     var _a, _b;
     const cursor = editor.getCursor("to");
-    const fileCache = app.metadataCache.getFileCache(file);
+    const fileCache = app2.metadataCache.getFileCache(file);
     let currentBlock = (_a = fileCache == null ? void 0 : fileCache.sections) == null ? void 0 : _a.find(
       (section) => section.position.start.line <= cursor.line && section.position.end.line >= cursor.line
     );
@@ -3338,12 +3338,12 @@ var BlockUtils = class _BlockUtils {
       ].includes(block.type);
     }
   }
-  static getBlockId() {
-    const view = app.workspace.getActiveViewOfType(import_obsidian2.MarkdownView);
+  static getBlockId(app2) {
+    const view = app2.workspace.getActiveViewOfType(import_obsidian2.MarkdownView);
     if (view) {
       const editor = view.editor;
       const file = view.file;
-      const block = this.getBlock(editor, file);
+      const block = this.getBlock(app2, editor, file);
       if (block)
         return this.getIdOfBlock(editor, block);
     }
@@ -3526,7 +3526,7 @@ function getViewStateFromMode(parameters) {
 function copyText(text) {
   return navigator.clipboard.writeText(text);
 }
-function getAlternativeFilePath(file) {
+function getAlternativeFilePath(app2, file) {
   var _a;
   const dir = (_a = file.parent) == null ? void 0 : _a.path;
   const formattedDir = dir === "/" ? "" : dir;
@@ -3534,14 +3534,14 @@ function getAlternativeFilePath(file) {
   for (let index = 1; index < 100; index++) {
     const base = stripMD(name);
     const alternative = formattedDir + (formattedDir == "" ? "" : "/") + base + ` ${index}.md`;
-    const exists = app.vault.getAbstractFileByPath(alternative) !== null;
+    const exists = app2.vault.getAbstractFileByPath(alternative) !== null;
     if (!exists) {
       return alternative;
     }
   }
 }
-function getFileUri(file) {
-  const url = new URL(app.vault.getResourcePath(file));
+function getFileUri(app2, file) {
+  const url = new URL(app2.vault.getResourcePath(file));
   url.host = "localhosthostlocal";
   url.protocol = "file";
   url.search = "";
@@ -3549,9 +3549,9 @@ function getFileUri(file) {
   const res = url.toString().replace("/localhosthostlocal/", "/");
   return res;
 }
-function getEndAndBeginningOfHeading(file, heading) {
+function getEndAndBeginningOfHeading(app2, file, heading) {
   var _a, _b;
-  const cache = app.metadataCache.getFileCache(file);
+  const cache = app2.metadataCache.getFileCache(file);
   const sections = cache.sections;
   const foundHeading = (_a = cache.headings) == null ? void 0 : _a.find((e) => e.heading === heading);
   if (foundHeading) {
@@ -3577,6 +3577,7 @@ function getEndAndBeginningOfHeading(file, heading) {
 var Handlers = class {
   constructor(plugin) {
     this.plugin = plugin;
+    this.app = this.plugin.app;
   }
   get tools() {
     return this.plugin.tools;
@@ -3584,20 +3585,20 @@ var Handlers = class {
   handlePluginManagement(parameters) {
     if (parameters["enable-plugin"]) {
       const pluginId = parameters["enable-plugin"];
-      if (app.plugins.getPlugin(pluginId)) {
-        app.plugins.enablePluginAndSave(pluginId);
+      if (this.app.plugins.getPlugin(pluginId)) {
+        this.app.plugins.enablePluginAndSave(pluginId);
         new import_obsidian7.Notice(`Enabled ${pluginId}`);
-      } else if (app.internalPlugins.plugins[pluginId]) {
-        app.internalPlugins.plugins[pluginId].enable(true);
+      } else if (this.app.internalPlugins.plugins[pluginId]) {
+        this.app.internalPlugins.plugins[pluginId].enable(true);
         new import_obsidian7.Notice(`Enabled ${pluginId}`);
       }
     } else if (parameters["disable-plugin"]) {
       const pluginId = parameters["disable-plugin"];
-      if (app.plugins.getPlugin(pluginId)) {
-        app.plugins.disablePluginAndSave(pluginId);
+      if (this.app.plugins.getPlugin(pluginId)) {
+        this.app.plugins.disablePluginAndSave(pluginId);
         new import_obsidian7.Notice(`Disabled ${pluginId}`);
-      } else if (app.internalPlugins.plugins[pluginId]) {
-        app.internalPlugins.plugins[pluginId].disable(true);
+      } else if (this.app.internalPlugins.plugins[pluginId]) {
+        this.app.internalPlugins.plugins[pluginId].disable(true);
         new import_obsidian7.Notice(`Disabled ${pluginId}`);
       }
     }
@@ -3605,32 +3606,74 @@ var Handlers = class {
   handleFrontmatterKey(parameters) {
     var _a;
     const key = parameters.frontmatterkey;
-    const frontmatter = app.metadataCache.getCache(
-      (_a = parameters.filepath) != null ? _a : app.workspace.getActiveFile().path
-    ).frontmatter;
-    let res;
-    if (key.startsWith("[") && key.endsWith("]")) {
-      const list = key.substring(1, key.length - 1).split(",");
-      let cache = frontmatter;
-      for (const item of list) {
-        if (cache instanceof Array) {
-          const index = parseInt(item);
-          if (Number.isNaN(index)) {
-            cache = cache.find((e) => e == item);
-          }
-          cache = cache[parseInt(item)];
-        } else {
-          cache = cache[item];
-        }
-      }
-      res = cache;
-    } else {
-      res = frontmatter[key];
+    const file = this.app.vault.getAbstractFileByPath(
+      (_a = parameters.filepath) != null ? _a : this.app.workspace.getActiveFile().path
+    );
+    if (!(file instanceof import_obsidian7.TFile)) {
+      return;
     }
-    copyText(res);
+    const frontmatter = this.app.metadataCache.getFileCache(file).frontmatter;
+    if (parameters.data) {
+      let data = parameters.data;
+      try {
+        data = JSON.parse(data);
+      } catch (e) {
+        data = `"${data}"`;
+        data = JSON.parse(data);
+      }
+      this.app.fileManager.processFrontMatter(file, (frontmatter2) => {
+        if (key.startsWith("[") && key.endsWith("]")) {
+          const list = key.substring(1, key.length - 1).split(",");
+          let cache = frontmatter2;
+          for (let i = 0; i < list.length; i++) {
+            const item = list[i];
+            if (cache instanceof Array) {
+              const index = parseInt(item);
+              if (Number.isNaN(index)) {
+                cache = cache.find((e) => e == item);
+              }
+              if (i == list.length - 1) {
+                cache[parseInt(item)] = data;
+              } else {
+                cache = cache[parseInt(item)];
+              }
+            } else {
+              if (i == list.length - 1) {
+                cache[item] = data;
+              } else {
+                cache = cache[item];
+              }
+            }
+          }
+        } else {
+          frontmatter2[key] = data;
+        }
+      });
+    } else {
+      let res;
+      if (key.startsWith("[") && key.endsWith("]")) {
+        const list = key.substring(1, key.length - 1).split(",");
+        let cache = frontmatter;
+        for (const item of list) {
+          if (cache instanceof Array) {
+            const index = parseInt(item);
+            if (Number.isNaN(index)) {
+              cache = cache.find((e) => e == item);
+            }
+            cache = cache[parseInt(item)];
+          } else {
+            cache = cache[item];
+          }
+        }
+        res = cache;
+      } else {
+        res = frontmatter[key];
+      }
+      copyText(res);
+    }
   }
   handleWorkspace(parameters) {
-    const workspaces = app.internalPlugins.getEnabledPluginById("workspaces");
+    const workspaces = this.app.internalPlugins.getEnabledPluginById("workspaces");
     if (!workspaces) {
       new import_obsidian7.Notice("Workspaces plugin is not enabled");
       this.plugin.failure(parameters);
@@ -3650,12 +3693,15 @@ var Handlers = class {
     if (parameters.filepath) {
       if (parameters.mode) {
         if (parameters.mode == "new") {
-          const file = app.metadataCache.getFirstLinkpathDest(
+          const file = this.app.metadataCache.getFirstLinkpathDest(
             parameters.filepath,
             "/"
           );
           if (file instanceof import_obsidian7.TFile) {
-            parameters.filepath = getAlternativeFilePath(file);
+            parameters.filepath = getAlternativeFilePath(
+              this.app,
+              file
+            );
           }
         }
         await this.plugin.open({
@@ -3663,7 +3709,7 @@ var Handlers = class {
           mode: "source",
           parameters
         });
-        const view = app.workspace.getActiveViewOfType(import_obsidian7.MarkdownView);
+        const view = this.app.workspace.getActiveViewOfType(import_obsidian7.MarkdownView);
         if (view) {
           const editor = view.editor;
           const data = editor.getValue();
@@ -3694,9 +3740,9 @@ var Handlers = class {
       }
     }
     if (parameters.commandid) {
-      app.commands.executeCommandById(parameters.commandid);
+      this.app.commands.executeCommandById(parameters.commandid);
     } else if (parameters.commandname) {
-      const rawCommands = app.commands.commands;
+      const rawCommands = this.app.commands.commands;
       for (const command in rawCommands) {
         if (rawCommands[command].name === parameters.commandname) {
           if (rawCommands[command].callback) {
@@ -3714,12 +3760,15 @@ var Handlers = class {
     if (parameters.filepath) {
       if (parameters.mode) {
         if (parameters.mode == "new") {
-          const file = app.metadataCache.getFirstLinkpathDest(
+          const file = this.app.metadataCache.getFirstLinkpathDest(
             parameters.filepath,
             "/"
           );
           if (file instanceof import_obsidian7.TFile) {
-            parameters.filepath = getAlternativeFilePath(file);
+            parameters.filepath = getAlternativeFilePath(
+              this.app,
+              file
+            );
           }
         }
         await this.plugin.open({
@@ -3727,7 +3776,7 @@ var Handlers = class {
           mode: "source",
           parameters
         });
-        const view = app.workspace.getActiveViewOfType(import_obsidian7.MarkdownView);
+        const view = this.app.workspace.getActiveViewOfType(import_obsidian7.MarkdownView);
         if (view) {
           const editor = view.editor;
           const data = editor.getValue();
@@ -3769,24 +3818,24 @@ var Handlers = class {
     }
   }
   async handleDoesFileExist(parameters) {
-    const exists = await app.vault.adapter.exists(parameters.filepath);
+    const exists = await this.app.vault.adapter.exists(parameters.filepath);
     copyText((exists ? 1 : 0).toString());
     this.plugin.success(parameters);
   }
   async handleSearchAndReplace(parameters) {
     let file;
     if (parameters.filepath) {
-      const abstractFile = app.vault.getAbstractFileByPath(
+      const abstractFile = this.app.vault.getAbstractFileByPath(
         parameters.filepath
       );
       if (abstractFile instanceof import_obsidian7.TFile) {
         file = abstractFile;
       }
     } else {
-      file = app.workspace.getActiveFile();
+      file = this.app.workspace.getActiveFile();
     }
     if (file) {
-      let data = await app.vault.read(file);
+      let data = await this.app.vault.read(file);
       if (parameters.searchregex) {
         try {
           const [, , pattern, flags] = parameters.searchregex.match(/(\/?)(.+)\1([a-z]*)/i);
@@ -3816,7 +3865,7 @@ var Handlers = class {
         parameters
       });
     }
-    const view = app.workspace.getActiveViewOfType(import_obsidian7.FileView);
+    const view = this.app.workspace.getActiveViewOfType(import_obsidian7.FileView);
     view.currentMode.showSearch();
     const search = view.currentMode.search;
     search.searchInputEl.value = parameters.search;
@@ -3826,9 +3875,9 @@ var Handlers = class {
     var _a;
     let file;
     if (parameters.filepath) {
-      file = app.vault.getAbstractFileByPath(parameters.filepath);
+      file = this.app.vault.getAbstractFileByPath(parameters.filepath);
     } else {
-      file = app.workspace.getActiveFile();
+      file = this.app.workspace.getActiveFile();
     }
     if (parameters.filepath || file) {
       let outFile;
@@ -3857,7 +3906,7 @@ var Handlers = class {
       } else if (parameters.mode === "new") {
         if (file instanceof import_obsidian7.TFile) {
           outFile = await this.plugin.writeAndOpenFile(
-            getAlternativeFilePath(file),
+            getAlternativeFilePath(this.app, file),
             parameters.data,
             parameters
           );
@@ -3897,10 +3946,10 @@ var Handlers = class {
         setting: this.plugin.settings.openFileWithoutWriteInNewPane,
         parameters
       });
-      const view = app.workspace.getActiveViewOfType(import_obsidian7.MarkdownView);
+      const view = this.app.workspace.getActiveViewOfType(import_obsidian7.MarkdownView);
       if (!view)
         return;
-      const cache = app.metadataCache.getFileCache(view.file);
+      const cache = this.app.metadataCache.getFileCache(view.file);
       const heading = cache.headings.find(
         (e) => e.heading === parameters.heading
       );
@@ -3915,10 +3964,10 @@ var Handlers = class {
         setting: this.plugin.settings.openFileWithoutWriteInNewPane,
         parameters
       });
-      const view = app.workspace.getActiveViewOfType(import_obsidian7.MarkdownView);
+      const view = this.app.workspace.getActiveViewOfType(import_obsidian7.MarkdownView);
       if (!view)
         return;
-      const cache = app.metadataCache.getFileCache(view.file);
+      const cache = this.app.metadataCache.getFileCache(view.file);
       const block = cache.blocks[parameters.block];
       view.editor.focus();
       view.editor.setCursor({ line: block.position.start.line, ch: 0 });
@@ -3936,7 +3985,7 @@ var Handlers = class {
       await this.plugin.setCursor(parameters);
     }
     if (parameters.uid) {
-      const view = app.workspace.getActiveViewOfType(import_obsidian7.MarkdownView);
+      const view = this.app.workspace.getActiveViewOfType(import_obsidian7.MarkdownView);
       this.tools.writeUIDToFile(view.file, parameters.uid);
     }
     this.plugin.success(parameters);
@@ -3954,12 +4003,12 @@ var Handlers = class {
     }
   }
   handleCopyFileURI(withoutData, file) {
-    const view = app.workspace.getActiveViewOfType(import_obsidian7.FileView);
+    const view = this.app.workspace.getActiveViewOfType(import_obsidian7.FileView);
     if (!view && !file)
       return;
     if (view instanceof import_obsidian7.MarkdownView) {
       const pos = view.editor.getCursor();
-      const cache = app.metadataCache.getFileCache(view.file);
+      const cache = this.app.metadataCache.getFileCache(view.file);
       if (cache.headings) {
         for (const heading of cache.headings) {
           if (heading.position.start.line <= pos.line && heading.position.end.line >= pos.line) {
@@ -3985,7 +4034,7 @@ var Handlers = class {
       }
     }
     if (withoutData) {
-      const file2 = file != null ? file : app.workspace.getActiveFile();
+      const file2 = file != null ? file : this.app.workspace.getActiveFile();
       if (!file2) {
         new import_obsidian7.Notice("No file opened");
         return;
@@ -4006,20 +4055,20 @@ var Handlers = class {
     }
   }
   handleOpenSettings(parameters) {
-    if (app.setting.containerEl.parentElement === null) {
-      app.setting.open();
+    if (this.app.setting.containerEl.parentElement === null) {
+      this.app.setting.open();
     }
     if (parameters.settingid == "plugin-browser") {
-      app.setting.openTabById("community-plugins");
-      app.setting.activeTab.containerEl.find(".mod-cta").click();
+      this.app.setting.openTabById("community-plugins");
+      this.app.setting.activeTab.containerEl.find(".mod-cta").click();
     } else if (parameters.settingid == "theme-browser") {
-      app.setting.openTabById("appearance");
-      app.setting.activeTab.containerEl.find(".mod-cta").click();
+      this.app.setting.openTabById("appearance");
+      this.app.setting.activeTab.containerEl.find(".mod-cta").click();
     } else {
-      app.setting.openTabById(parameters.settingid);
+      this.app.setting.openTabById(parameters.settingid);
     }
     if (parameters.settingsection) {
-      const elements = app.setting.tabContentContainer.querySelectorAll("*");
+      const elements = this.app.setting.tabContentContainer.querySelectorAll("*");
       const heading = Array.prototype.find.call(
         elements,
         (e) => e.textContent == parameters.settingsection
@@ -4033,16 +4082,16 @@ var Handlers = class {
   async handleUpdatePlugins(parameters) {
     parameters.settingid = "community-plugins";
     this.handleOpenSettings(parameters);
-    app.setting.activeTab.containerEl.findAll(".mod-cta").last().click();
+    this.app.setting.activeTab.containerEl.findAll(".mod-cta").last().click();
     new import_obsidian7.Notice("Waiting 10 seconds");
     await new Promise((resolve) => setTimeout(resolve, 10 * 1e3));
-    if (Object.keys(app.plugins.updates).length !== 0) {
-      app.setting.activeTab.containerEl.findAll(".mod-cta").last().click();
+    if (Object.keys(this.app.plugins.updates).length !== 0) {
+      this.app.setting.activeTab.containerEl.findAll(".mod-cta").last().click();
     }
     this.plugin.success(parameters);
   }
   async handleBookmarks(parameters) {
-    const bookmarksPlugin = app.internalPlugins.getEnabledPluginById("bookmarks");
+    const bookmarksPlugin = this.app.internalPlugins.getEnabledPluginById("bookmarks");
     const bookmarks = bookmarksPlugin.getBookmarks();
     const bookmark = bookmarks.find((b) => b.title == parameters.bookmark);
     let openMode;
@@ -4310,17 +4359,15 @@ var v4_default = v4;
 var Tools = class {
   constructor(plugin) {
     this.plugin = plugin;
+    this.app = this.plugin.app;
   }
   get settings() {
     return this.plugin.settings;
   }
-  get app() {
-    return this.plugin.app;
-  }
   async writeUIDToFile(file, uid) {
     var _a;
-    const frontmatter = (_a = app.metadataCache.getFileCache(file)) == null ? void 0 : _a.frontmatter;
-    const fileContent = await app.vault.read(file);
+    const frontmatter = (_a = this.app.metadataCache.getFileCache(file)) == null ? void 0 : _a.frontmatter;
+    const fileContent = await this.app.vault.read(file);
     const isYamlEmpty = (!frontmatter || frontmatter.length === 0) && !fileContent.match(/^-{3}\s*\n*\r*-{3}/);
     let splitContent = fileContent.split("\n");
     const key = `${this.plugin.settings.idField}:`;
@@ -4339,16 +4386,16 @@ var Tools = class {
       }
     }
     const newFileContent = splitContent.join("\n");
-    await app.vault.modify(file, newFileContent);
+    await this.app.vault.modify(file, newFileContent);
     return uid;
   }
   async getUIDFromFile(file) {
     var _a;
-    const cache = (_a = app.metadataCache.getFileCache(file)) != null ? _a : await new Promise((resolve) => {
-      const ref = app.metadataCache.on("changed", (metaFile) => {
+    const cache = (_a = this.app.metadataCache.getFileCache(file)) != null ? _a : await new Promise((resolve) => {
+      const ref = this.app.metadataCache.on("changed", (metaFile) => {
         if (metaFile.path == file.path) {
-          const cache2 = app.metadataCache.getFileCache(file);
-          app.metadataCache.offref(ref);
+          const cache2 = this.app.metadataCache.getFileCache(file);
+          this.app.metadataCache.offref(ref);
           resolve(cache2);
         }
       });
@@ -4369,13 +4416,13 @@ var Tools = class {
   async generateURI(parameters, doubleEncode) {
     const prefix = "obsidian://advanced-uri";
     let suffix = "";
-    const file = app.vault.getAbstractFileByPath(parameters.filepath);
+    const file = this.app.vault.getAbstractFileByPath(parameters.filepath);
     if (this.settings.includeVaultName) {
       suffix += "?vault=";
-      if (this.settings.vaultParam == "id" && app.appId) {
-        suffix += app.appId;
+      if (this.settings.vaultParam == "id" && this.app.appId) {
+        suffix += this.app.appId;
       } else {
-        suffix += app.vault.getName();
+        suffix += this.app.vault.getName();
       }
     }
     if (this.settings.useUID && file instanceof import_obsidian12.TFile && file.extension == "md") {
@@ -4495,7 +4542,7 @@ var AdvancedURI = class extends import_obsidian13.Plugin {
         const view = this.app.workspace.getActiveViewOfType(import_obsidian13.MarkdownView);
         if (checking)
           return view != void 0;
-        const id = BlockUtils.getBlockId();
+        const id = BlockUtils.getBlockId(this.app);
         if (id) {
           this.tools.copyURI({
             filepath: view.file.path,
@@ -4536,7 +4583,7 @@ var AdvancedURI = class extends import_obsidian13.Plugin {
           );
         }
         const parentFolder = this.app.fileManager.getNewFileParent(
-          (_b = this.app.workspace.activeLeaf.view.file) == null ? void 0 : _b.path
+          (_b = this.app.workspace.getActiveFile()) == null ? void 0 : _b.path
         );
         const parentFolderPath = parentFolder.isRoot() ? "" : parentFolder.path + "/";
         parameters.filepath = (_c = file == null ? void 0 : file.path) != null ? _c : parentFolderPath + (0, import_obsidian13.normalizePath)(parameters.filename);
@@ -4585,9 +4632,8 @@ var AdvancedURI = class extends import_obsidian13.Plugin {
             parameters[parameter]
           );
         }
-        const activeLeaf = this.app.workspace.activeLeaf;
-        const file = activeLeaf.view.file;
-        if (activeLeaf && file) {
+        const file = this.app.workspace.getActiveFile();
+        if (file) {
           this.hookSuccess(parameters, file);
         } else {
           this.failure(parameters, {
@@ -4664,7 +4710,7 @@ var AdvancedURI = class extends import_obsidian13.Plugin {
         false
       ),
       urlkey: "advanceduri",
-      fileuri: getFileUri(file)
+      fileuri: getFileUri(this.app, file)
     };
     this.success(parameters, options);
   }
@@ -4694,6 +4740,7 @@ var AdvancedURI = class extends import_obsidian13.Plugin {
       if (file instanceof import_obsidian13.TFile) {
         path = file.path;
         const line = (_a = getEndAndBeginningOfHeading(
+          this.app,
           file,
           parameters.heading
         )) == null ? void 0 : _a.lastLine;
@@ -4725,6 +4772,7 @@ var AdvancedURI = class extends import_obsidian13.Plugin {
       if (file instanceof import_obsidian13.TFile) {
         path = file.path;
         const line = (_a = getEndAndBeginningOfHeading(
+          this.app,
           file,
           parameters.heading
         )) == null ? void 0 : _a.firstLine;
@@ -4838,13 +4886,13 @@ var AdvancedURI = class extends import_obsidian13.Plugin {
       }
       let fileIsAlreadyOpened = false;
       if (isBoolean(openMode)) {
-        app.workspace.iterateAllLeaves((leaf) => {
+        this.app.workspace.iterateAllLeaves((leaf) => {
           var _a;
           if (((_a = leaf.view.file) == null ? void 0 : _a.path) === parameters.filepath) {
             if (fileIsAlreadyOpened && leaf.width == 0)
               return;
             fileIsAlreadyOpened = true;
-            app.workspace.setActiveLeaf(leaf, { focus: true });
+            this.app.workspace.setActiveLeaf(leaf, { focus: true });
           }
         });
       }
