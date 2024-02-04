@@ -1,3 +1,7 @@
 {
-  "accentColor": ""
+  "accentColor": "#f08000",
+  "enabledCssSnippets": [
+    "custom-checkbox"
+  ],
+  "cssTheme": "Minimal"
 }

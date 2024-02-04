@@ -11,6 +11,7 @@ root does not include private/
 
 # Hide date after emojis
 short mode
+hide task count
 ```
 
 ## Yesterday
@@ -24,6 +25,7 @@ root does not include private/
 
 # Hide date after emojis
 short mode
+hide task count
 ```
 
 ## Tasks
@@ -37,6 +39,7 @@ root does not include private/
 
 # Hide date after emojis
 short mode
+hide task count
 ```
 
 #todo
