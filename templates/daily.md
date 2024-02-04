@@ -1,6 +1,14 @@
 <%* if (tp.date.now("ddd") == "Mon") { %>
 [[Daily.priv/<% tp.date.now("YYYY-MM/YYYY-MM-DD", -3, tp.file.title, "YYYY-MM-DD") %>|Last Friday]] | <%* } %>[[Daily.priv/<% tp.date.now("YYYY-MM/YYYY-MM-DD", -1, tp.file.title, "YYYY-MM-DD") %>|Yesterday]] | [[Daily.priv/<% tp.date.now("YYYY-MM/YYYY-MM-DD", 1, tp.file.title, "YYYY-MM-DD") %>|Tomorrow]]
 
+#todo
+
+<% tp.file.cursor() %>
+
+# Notes
+
+---
+# Tasks
 ## Today
 ```<%* if (tp.file.title != "daily") { %>tasks<%* } %>
 # Happens or done today
@@ -41,10 +49,6 @@ root does not include private/
 short mode
 hide task count
 ```
-
-#todo
-
-<% tp.file.cursor() %>
 
 <%_* if (false) { %>
 # Here's the comment section
