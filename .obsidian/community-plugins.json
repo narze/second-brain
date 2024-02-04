@@ -16,10 +16,5 @@
   "calendar",
   "buttons",
   "obsidian-advanced-uri",
-  "obsidian-git",
-  "mousewheel-image-zoom",
-  "obsidian-style-settings",
-  "obsidian-reminder-plugin",
-  "obsidian-meta-bind-plugin",
-  "obsidian-global-hotkeys"
+  "obsidian-meta-bind-plugin"
 ]
