@@ -15,5 +15,7 @@
   "obsidian-checklist-plugin",
   "calendar",
   "buttons",
-  "obsidian-advanced-uri"
+  "obsidian-advanced-uri",
+  "obsidian-git",
+  "mousewheel-image-zoom"
 ]

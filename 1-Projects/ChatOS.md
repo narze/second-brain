@@ -30,7 +30,7 @@ draft: true
 - [ ] bookmark (detect url)
 - [ ] QR (detect url)
 - [ ] Random string, uuid
-- [ ] Delete message ⏫ 
+- [ ] Delete message
 - [ ] PWA
 - [ ] say command
 - [ ] Temporary message mode (Remove messages older than 7 - 30 days)
