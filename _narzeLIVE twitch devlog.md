@@ -3,7 +3,7 @@ date: 2023-01-17
 draft: true
 title: "narzeLIVE twitch devlog"
 ---
-
+# #excluded from tasks
 ## 2022-04-04
 - Deploy new streamie version to home-cluster
 - Prisma is broken since can't run `prisma migrate` on arm64 arch
@@ -163,9 +163,9 @@ title: "narzeLIVE twitch devlog"
   - [x] Dealer draw 3rd card with rate `Math.random() < (10 - score) / 10`
   - [x] Text/bg color
   - Fix player cards overflow on screen
-    - [ ] Add auto scroll on overflow
-  - [ ] Dealer's stat
-  - [ ] More chat messages (State change, more result)
+    - [-] Add auto scroll on overflow
+  - [-] Dealer's stat
+  - [-] More chat messages (State change, more result)
 
 ## 2022-06-15
 - [Anya Shirt Tracker](https://github.com/narze/anya-shirt-tracker)
@@ -175,7 +175,7 @@ title: "narzeLIVE twitch devlog"
 ## 2022-06-18
 - Random things
   - Setup Remote SSH for Linux on DigitalOcean
-    - [ ] Fix Chezmoi gpg key does not work (key mismatched?)
+    - [-] Fix Chezmoi gpg key does not work (key mismatched?)
   - Basic Svelte talk preparation
     - Web render
       - Compiling svelte code is not basic task, maybe use API to save file & use vite to re-render the iframe?
@@ -211,7 +211,7 @@ title: "narzeLIVE twitch devlog"
   - https://k3s.rocks
  ---
 
-## Ideas / Todo
+## Ideas / Todo #excluded
  - [x] Queue !say
  - [x] Build streamie docker on Github Actions
  - [ ] SSL support for streamie-feed.narze.live & other domains

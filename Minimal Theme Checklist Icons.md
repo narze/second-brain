@@ -4,6 +4,7 @@ title: "Minimal Theme Checklist Icons"
 
 https://minimal.guide/Block+types/Checklists
 
+# #excluded
 - [ ] to-do `[ ]`
 - [/] incomplete `[/]`
 - [x] done `[x]`
