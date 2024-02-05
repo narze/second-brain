@@ -3,5 +3,6 @@
   "enabledCssSnippets": [
     "custom-checkbox"
   ],
-  "cssTheme": "Minimal"
+  "cssTheme": "Minimal",
+  "translucency": true
 }
