@@ -35,5 +35,6 @@
   "obsidian-link-converter",
   "homepage",
   "obsidian-git",
-  "obsidian-meta-bind-plugin"
+  "obsidian-meta-bind-plugin",
+  "obsidian-global-hotkeys"
 ]
