@@ -4,5 +4,6 @@
     "custom-checkbox"
   ],
   "cssTheme": "Minimal",
-  "translucency": true
+  "translucency": true,
+  "baseFontSize": 24
 }
