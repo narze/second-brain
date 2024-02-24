@@ -7,7 +7,7 @@ tags:
 - 
 draft: true
 ---
-
+#excluded 
 # TODOs & Ideas
 - https://arc.net/p/8F97E451-856E-472E-ABAB-C68E386E696B
 - [i] Command parser (Typed)
