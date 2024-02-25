@@ -24,7 +24,6 @@
   "url-into-selection",
   "obsidian-linter",
   "cm-editor-syntax-highlight-obsidian",
-  "cmdr",
   "obsidian-kanban",
   "quickadd",
   "buttons",
@@ -36,5 +35,6 @@
   "homepage",
   "obsidian-git",
   "obsidian-meta-bind-plugin",
-  "obsidian-global-hotkeys"
+  "obsidian-global-hotkeys",
+  "cmdr"
 ]
