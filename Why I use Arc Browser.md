@@ -1,7 +1,8 @@
 ---
-title: "Why I use Arc Browser"
+title: Why I use Arc Browser
 created: 2023-01-16 15:35
 date: 2023-01-20
+publish: true
 ---
 
 I plan to write details in a blog post later
