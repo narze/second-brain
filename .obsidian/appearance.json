@@ -1,8 +1,6 @@
 {
   "accentColor": "#f08000",
-  "enabledCssSnippets": [
-    "custom-checkbox"
-  ],
+  "enabledCssSnippets": [],
   "cssTheme": "Minimal",
   "translucency": true,
   "baseFontSize": 16,

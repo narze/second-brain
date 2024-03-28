@@ -36,5 +36,6 @@
   "obsidian-git",
   "obsidian-meta-bind-plugin",
   "obsidian-global-hotkeys",
-  "cmdr"
+  "cmdr",
+  "obsidian-style-settings"
 ]
