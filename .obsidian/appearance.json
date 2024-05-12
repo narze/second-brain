@@ -1,8 +1,4 @@
 {
-  "accentColor": "#f08000",
-  "enabledCssSnippets": [],
-  "cssTheme": "Minimal",
-  "translucency": true,
-  "baseFontSize": 16,
-  "textFontFamily": "FantasqueSansM Nerd Font"
+  "accentColor": "#ff6a00",
+  "cssTheme": "Minimal"
 }
