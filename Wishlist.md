@@ -78,6 +78,8 @@ tags:
   - [NuPhy Air75 v2](https://nuphy.com/products/air75-v2)
 
 ## Misc
+- Android TV Box
+    - [Mecool KM2+ Deluxe](https://th.aliexpress.com/item/1005006244498690.html?spm=a2g0o.productlist.main.1.4edfUDjKUDjK8f&algo_pvid=b82dd236-8064-405a-9177-f4de5a267cbc&algo_exp_id=b82dd236-8064-405a-9177-f4de5a267cbc-0&pdp_npi=4%40dis%21EUR%21206.20%21114.91%21%21%21219.67%21122.41%21%402101c5bf17175106802368145eaaac%2112000036450770828%21sea%21DE%210%21AB&curPageLogUid=qSFDpOh129O7&utparam-url=scene%3Asearch%7Cquery_from%3A&gatewayAdapt=glo2tha)
 - Sling bag
   - Korideer
   - 425 degree

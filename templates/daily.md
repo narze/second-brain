@@ -1,9 +1,37 @@
 <%* if (tp.date.now("ddd") == "Mon") { %>
 [[Daily.priv/<% tp.date.now("YYYY-MM/YYYY-MM-DD", -3, tp.file.title, "YYYY-MM-DD") %>|Last Friday]] | <%* } %>[[Daily.priv/<% tp.date.now("YYYY-MM/YYYY-MM-DD", -1, tp.file.title, "YYYY-MM-DD") %>|Yesterday]] | [[Daily.priv/<% tp.date.now("YYYY-MM/YYYY-MM-DD", 1, tp.file.title, "YYYY-MM-DD") %>|Tomorrow]]
 
-#todo
+---
+# Journal
 
-<% tp.file.cursor() %>
+### Priorities
+- [ ] <% tp.file.cursor() %>
+- [ ] 
+- [ ] 
+
+### Checklist
+- Water
+- Health/Exercise
+- Knowledge
+- Happiness
+- Reading
+- Writing
+- Drawing
+- Sleep
+- <= 1 hr gaming
+
+### Highlights
+- 
+
+### Today I Learned
+- 
+
+### Score 
+
+`VIEW[{score}]` / 10
+0 `INPUT[slider(minValue(0), maxValue(10)):score]` 10
+
+---
 
 # Notes
 
