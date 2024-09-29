@@ -1,5 +1,4 @@
-name: Trigger Garden Astro Fetch
-
+name: Trigger Second Brain Fetch
 on:
   push:
     branches: [main]
@@ -11,8 +10,18 @@ jobs:
     steps:
       - name: Trigger garden-astro workflow
         run: |
-          curl -X POST \
-            -H "Authorization: token ${{ secrets.GH_TOKEN }}" \
+          response=$(curl -X POST \
+            -H "Authorization: token ${{ secrets.PAT }}" \
             -H "Accept: application/vnd.github.v3+json" \
+            -w "%{http_code}" \
+            -o /dev/null \
+            -s \
             https://api.github.com/repos/narze/garden-astro/dispatches \
-            -d '{"event_type": "fetch_second_brain"}'
+            -d '{"event_type": "fetch_second_brain"}')
+          
+          if [[ "$response" =~ ^2[0-9]{2}$ ]]; then
+            echo "Successfully triggered workflow"
+          else
+            echo "Failed to trigger workflow. HTTP status code: $response"
+            exit 1
+          fi
