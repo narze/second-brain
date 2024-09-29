@@ -24,5 +24,5 @@ Architecture
 [🖋 Edit in Excalidraw](1-Projects/attachments/10k%20Planner%202023-08-25%2012.18.17.excalidraw.md.md), and the [dark exported image](1-Projects/attachments/10k%20Planner%202023-08-25%2012.18.17.excalidraw.dark.svg)
 
 # Mobile Design
-![10k Planner.excalidraw](Excalidraw.priv/10k%20Planner.excalidraw.svg)
+![10k Planner.excalidraw](Excalidraw/10k%20Planner.excalidraw.svg)
 [10k Planner.excalidraw](Excalidraw.priv/10k%20Planner.excalidraw.md)
