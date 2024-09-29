@@ -23,6 +23,8 @@
     "excalidraw-autoexport": "text",
     "excalidraw-iframe-theme": "text",
     "excalidraw-open-md": "checkbox",
-    "excalidraw-embeddable-theme": "text"
+    "excalidraw-embeddable-theme": "text",
+    "dg-publish": "checkbox",
+    "db-home": "checkbox"
   }
 }
