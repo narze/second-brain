@@ -1,4 +1,10 @@
+# Workflow
 
+- Write notes in Obsidian app
+- Non-private notes will be synced to Github `narze/second-brain` via Obsidian Git plugin
+- On update, `narze/second-brain` will trigger another repo `narze/garden-astro` via Github Actions
+- `narze/garden-astro` runs another Github Actions to fetch notes from `narze/second-brain`, filter only notes marked to be published, post-process, then commit changes
+- Vercel then picks up committed changes and deploy to https://garden.narze.live
 # TODOs
 - [ ] Fix slow Github fetching (Maybe optional or async fetch after server started?)
 - [x] Add reaction button

@@ -75,7 +75,6 @@
       "key": "T"
     }
   ],
-  "workspace:new-tab": [],
   "file-explorer:reveal-active-file": [
     {
       "modifiers": [
@@ -83,6 +82,15 @@
         "Shift"
       ],
       "key": "E"
+    }
+  ],
+  "file-explorer:new-file": [],
+  "workspace:new-tab": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "N"
     }
   ]
 }
