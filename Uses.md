@@ -39,25 +39,26 @@ Everything I use.
 - [Mas](https://github.com/mas-cli/mas) - Install apps from Mac App Store
 - [Neovim](https://neovim.io) with [LunarVim](https://lunarvim.org)
 - [mpd](https://www.musicpd.org) with [ncmpcpp](https://rybczak.net/ncmpcpp) as music player
-- [tmux](https://github.com/tmux/tmux) with [tmuxinator](https://github.com/tmuxinator/tmuxinator)
 - [zoxide](https://github.com/ajeetdsouza/zoxide) - Jump around directories
 - [zsh4humans](https://github.com/romkatv/zsh4humans) - Zsh plugin manager & great plugins that works out of the box.
+- [zellij](https://zellij.dev) - tmux alternative
 
 ## Apps & Utilities
-- [2Do](https://www.2doapp.com) - Todo app, available on Mac, iOS, Android.
-- [Alfred](https://www.alfredapp.com) - Replaces Spotlight
-- [Arq](https://www.arqbackup.com) - Backup files to Google Cloud Storage (Nearline)
 - [1password](https://1password.com)
+- [2Do](https://www.2doapp.com) - Todo app, available on Mac, iOS, Android.
+- [Anki](https://ankiweb.net) - Flashcards
+- [Arq](https://www.arqbackup.com) - Backup files to Google Cloud Storage (Nearline)
+- [Hammerspoon](https://www.hammerspoon.org) - Windows management
 - [Karabiner Elements](https://github.com/pqrs-org/Karabi,ner-Elements) with [Goku](https://github.com/yqrashawn/GokuRakuJoudo) enables my [(S)uper(D)uper Mode](https://github.com/jasonrudolph/keyboard/#super-duper-mode) and Hyper Key
 - [Keyboard Maestro](https://www.keyboardmaestro.com) - Launch apps with Hyper Key
 - Web Browser
   - [Arc](https://arc.net) For everything, I have 10+ profiles separated by projects & workspaces
 - [Obsidian](https://obsidian.md) - My current [Second Brain](/Second%20Brain.md) system
+- [Raycast](https://www.raycast.com) - Spotlight, Alfred alternative
 - [Setapp](https://setapp.com) - App bundles, saved money since I already use tons of apps.
   - [Bartender](https://setapp.com/apps/bartender) - Hide excessive menu bar icons
-  - [Sessions](https://setapp.com/apps/session) - Pomodoro timer
 - [Syncthing](https://syncthing.net) - Sync things.
-- [Hammerspoon](https://www.hammerspoon.org) - Windows management
+- [Time Out](https://setapp.com/apps/time-out) - Pomodoro timer
 - [Tailscale](https://tailscale.com) - Private VPN for connecting to my NAS and listen to my music.
 
 ## SaaS
@@ -117,7 +118,8 @@ aka. Honorable mentions, and why I don't use them anymore
 - [Yabai](https://github.com/koekeishiya/yabai) (macOS tiling window manager) - Migrated to Hammerspoon since it's does not update for quite a while
 - [Baseus Magnetic USB Type-C Adapter](https://www.aliexpress.com/item/32924186463.html?spm=a2g0s.9042311.0.0.31684c4dQKyJRk). Replaced with Twitch USB Adapter
 - [Timing](https://setapp.com/apps/timing) - Time tracking app. It eats Gigabytes of space when I use it for 2-3 years.
-- [Time Out](https://setapp.com/apps/time-out) - Hooks with Sessions to block screen on Pomodoro breaks. I can control myself now to screen blocking is not necessary anymore.
 - [Notion](https://notion.so) - Too slow to use, and my current team switched to Jira.
+- [Alfred](https://www.alfredapp.com) - Replaces Spotlight
+- [tmux](https://github.com/tmux/tmux) with [tmuxinator](https://github.com/tmuxinator/tmuxinator)
 
-(Updated: 20240929-172914)
+(Updated: 20240929-195500)
