@@ -6,6 +6,7 @@ tags:
   - vscode
 draft: false
 publish: true
+slug: review-code-diff-in-vscode-with-continue
 ---
 ![](attachments/Arc%202024-09-29%2022.00.13.png)
 
