@@ -5,13 +5,15 @@ publish: true
 date: 2024-10-05
 ---
 I wanted to setup a new Raspberry Pi machine with pre-configured Wifi & SSH. I also wanted to install Docker. I found a way to do this using [cloud-init](https://cloud-init.io) which is pre-installed on Ubuntu.
+
 To do this, I used the Ubuntu for Raspberry Pi image and cloud-init. I also used the flash tool to flash the image to the Micro SD card.
+
 To configure cloud-init, I created a `user-data` file with the following content:
 
 ```yaml
 #cloud-config
 
-hostname: narzepi
+hostname: pi # it will be overridden via `flash -n`
 locale: en_US.UTF-8
 manage_etc_hosts: true
 timezone: Asia/Bangkok
@@ -96,7 +98,7 @@ Both files are to be placed after flashing the image to the Micro SD card. I use
 
 ```shell
 flash -u ./user-data \
-  -n my-hostname \
+  -n narzepi \
   -F ./network-config \
   ./path/to/ubuntu-24.04.1-preinstalled-server-arm64+raspi.img.xz
 
@@ -116,7 +118,7 @@ Mounting Disk
 Mounting /dev/disk4 to customize...
 Copying cloud-init ./user-data to /Volumes/system-boot/user-data ...
 Copying file ./network-config to /Volumes/system-boot/ ...
-Set hostname=my-hostname
+Set hostname=narzepi
 Unmounting /dev/disk4 ...
 "disk4" ejected.
 Finished.
@@ -125,5 +127,5 @@ Finished.
 When it's done, insert the Micro SD card to the Raspberry Pi and power it on. It will automatically connect to the Wifi and setup, this will take 5-10 minutes. After that, you can SSH to the Raspberry Pi with `[hostname].local` that you created.
 
 ```shell
-ssh narze@my-hostname.local
+ssh narze@narzepi.local
 ```
