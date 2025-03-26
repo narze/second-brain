@@ -2,6 +2,8 @@
 no_feed: true
 publish: true
 date: 2025-03-26
+title: Holykeebs Group Buy - Batch 1
+slug: holykeebs-group-buy-batch-1
 ---
 
 Source ของทั้งหมดจาก Holykeebs, ไม่คิดค่า Build
