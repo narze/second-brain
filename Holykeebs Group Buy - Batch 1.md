@@ -8,6 +8,8 @@ slug: holykeebs-group-buy-batch-1
 Source ของทั้งหมดจาก Holykeebs, ไม่คิดค่า Build
 # Instructions
 - เลือก Keyboard kit จาก https://holykeebs.com/collections/keyboards
+    - อ่าน [Buyer Guide](https://docs.holykeebs.com/guides/buyers-guide) ดูรายละเอียดของแต่ละรุ่น ประกอบการตัดสินใจ
+    - มือใหม่หัด Split จะแนะนำเป็นรุ่น Lily58 หรือ Keyball61 ที่เป็น keyboard ห้าแถว
 - Build service ให้เลือก `Kit`, Controlller เลือก `RP2040`
 ![](attachments/holykeebs-group-buy-batch-1-image-1.png)
 - เลือกออปชั่นอื่นๆ
