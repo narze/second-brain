@@ -6,6 +6,7 @@ title: Holykeebs Group Buy - Batch 1
 slug: holykeebs-group-buy-batch-1
 ---
 Source ของทั้งหมดจาก Holykeebs, ไม่คิดค่า Build
+Confirm ก่อนตัดรอบ group buy ภายในวันศุกร์ที่ 28 มี.ค. เวลา 18:00น.
 # Instructions
 - เลือก Keyboard kit จาก https://holykeebs.com/collections/keyboards
     - อ่าน [Buyer Guide](https://docs.holykeebs.com/guides/buyers-guide) ดูรายละเอียดของแต่ละรุ่น ประกอบการตัดสินใจ
