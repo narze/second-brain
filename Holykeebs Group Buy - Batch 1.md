@@ -8,7 +8,7 @@ slug: holykeebs-group-buy-batch-1
 # Notes
 
 - Source ของทั้งหมดจาก Holykeebs, ไม่คิดค่า Build
-- ตัดรอบ Group buy วันพฤหัสที่ 27 มี.ค. เวลา 18:00น. หรือเมื่อ group เต็ม
+- ตัดรอบรับ Group buy วันพฤหัสที่ 27 มี.ค. เวลา 18:00น. หรือเมื่อ group เต็ม
 - เลือก Keyboard + Confirm + โอนมัดจำ ภายในวันอาทิตย์ที่ 30 มี.ค. เวลา 18:00น.
 
 # Instructions
