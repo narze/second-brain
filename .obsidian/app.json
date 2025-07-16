@@ -6,7 +6,7 @@
   "promptDelete": false,
   "alwaysUpdateLinks": true,
   "newLinkFormat": "absolute",
-  "tabSize": 4,
+  "tabSize": 2,
   "useTab": false,
   "showFrontmatter": true,
   "autoPairMarkdown": false,
